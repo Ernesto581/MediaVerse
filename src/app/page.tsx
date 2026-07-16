@@ -30,6 +30,7 @@ function HomeContent() {
   const handleTypeChange = useCallback((t: string) => {
     setSelectedType(t)
     setDisplayCount(ITEMS_PER_PAGE)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [])
 
   useEffect(() => { setDisplayCount(ITEMS_PER_PAGE) }, [query, selectedType])
