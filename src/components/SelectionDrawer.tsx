@@ -1,14 +1,26 @@
 'use client'
 
 import { useSelection } from '@/context/SelectionContext'
-import { X, HardDrive, Trash2, ChevronUp, ChevronDown } from 'lucide-react'
+import { X, HardDrive, Trash2, ChevronUp, ChevronDown, Clipboard, Check } from 'lucide-react'
 import { useState, useCallback } from 'react'
 
 export default function SelectionDrawer() {
   const { selected, totalFormatted, remove, clear } = useSelection()
   const [expanded, setExpanded] = useState(false)
+  const [copied, setCopied] = useState(false)
 
   const toggleExpand = useCallback(() => setExpanded((p) => !p), [])
+
+  const handleCopy = useCallback(async () => {
+    const formatSize = (item: typeof selected[0]) => {
+      return item.sizeFormatted || (item.sizeBytes ? (item.sizeBytes / (1024 * 1024 * 1024)).toFixed(1) + ' GB' : '—')
+    }
+    const lines = selected.map((item) => `${item.title}  •  ${formatSize(item)}`)
+    const text = `📀 MediaVerse — Lista de copia\n${'─'.repeat(40)}\n${lines.join('\n')}\n${'─'.repeat(40)}\nTotal: ${totalFormatted}`
+    await navigator.clipboard.writeText(text)
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
+  }, [selected, totalFormatted])
 
   if (selected.length === 0) return null
 
@@ -32,6 +44,14 @@ export default function SelectionDrawer() {
               <span className="text-sm font-bold text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded-md">
                 {totalFormatted}
               </span>
+
+              <button
+                onClick={handleCopy}
+                className="flex items-center gap-1.5 text-xs text-gray-500 hover:text-indigo-400 transition-colors px-2 py-1 rounded-md hover:bg-indigo-500/10"
+              >
+                {copied ? <Check className="h-3.5 w-3.5 text-emerald-400" /> : <Clipboard className="h-3.5 w-3.5" />}
+                {copied ? 'Copiado!' : 'Copiar'}
+              </button>
             </div>
 
             <button
