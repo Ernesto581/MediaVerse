@@ -117,6 +117,20 @@ export default function HomePage() {
         )}
       </main>
 
+      <footer className="border-t border-gray-800/50 py-4">
+        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 text-center text-xs text-gray-600">
+          &copy; 2026 MediaVerse &middot; Hecho por{' '}
+          <a
+            href="https://github.com/Ernesto581"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-400 hover:text-indigo-300 transition-colors"
+          >
+            Ernesto
+          </a>
+        </div>
+      </footer>
+
       {selectedItem && (
         <MediaDetail
           item={selectedItem}
