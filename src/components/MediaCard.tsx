@@ -1,7 +1,8 @@
 'use client'
 
 import { MediaItem } from '@/lib/types'
-import { Film, Tv, Clapperboard, Play, HardDrive } from 'lucide-react'
+import { Film, Tv, Clapperboard, Play, HardDrive, Plus, Check } from 'lucide-react'
+import { useSelection } from '@/context/SelectionContext'
 
 interface MediaCardProps {
   item: MediaItem
@@ -48,6 +49,8 @@ function isMovieType(item: MediaItem): boolean {
 }
 
 export default function MediaCard({ item, onClick, compact }: MediaCardProps) {
+  const { isSelected, toggle } = useSelection()
+  const selected = isSelected(item.id)
   const Icon = typeIcons[item.type] || Film
   const gradient = typeColors[item.type] || typeColors.movie
   const movieLike = isMovieType(item)
@@ -117,6 +120,16 @@ export default function MediaCard({ item, onClick, compact }: MediaCardProps) {
                   {formatBytes(totalSize)}
                 </span>
               )}
+              <button
+                onClick={(e) => { e.stopPropagation(); toggle(item) }}
+                className={`p-1 rounded-md transition-all duration-200 ${
+                  selected
+                    ? 'bg-indigo-500/30 text-indigo-400'
+                    : 'bg-gray-800/50 text-gray-500 hover:bg-indigo-500/20 hover:text-indigo-400'
+                }`}
+              >
+                {selected ? <Check className="h-3.5 w-3.5" /> : <Plus className="h-3.5 w-3.5" />}
+              </button>
             </div>
           </div>
         </div>
@@ -201,6 +214,19 @@ export default function MediaCard({ item, onClick, compact }: MediaCardProps) {
             {formatBytes(totalSize)}
           </div>
         )}
+
+        <div className="absolute bottom-3 right-3">
+          <button
+            onClick={(e) => { e.stopPropagation(); toggle(item) }}
+            className={`p-1.5 rounded-full transition-all duration-200 ${
+              selected
+                ? 'bg-indigo-500/30 text-indigo-400 hover:bg-indigo-500/50'
+                : 'bg-gray-800/50 text-gray-500 hover:bg-indigo-500/20 hover:text-indigo-400 opacity-0 group-hover:opacity-100'
+            }`}
+          >
+            {selected ? <Check className="h-3.5 w-3.5" /> : <Plus className="h-3.5 w-3.5" />}
+          </button>
+        </div>
       </div>
     </button>
   )

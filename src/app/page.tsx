@@ -10,10 +10,12 @@ import FilterBar from '@/components/FilterBar'
 import Pagination from '@/components/Pagination'
 import RequestForm from '@/components/RequestForm'
 import { Zap, LayoutGrid, List } from 'lucide-react'
+import { SelectionProvider } from '@/context/SelectionContext'
+import SelectionDrawer from '@/components/SelectionDrawer'
 
 const ITEMS_PER_PAGE = 24
 
-export default function HomePage() {
+function HomeContent() {
   const [query, setQuery] = useState('')
   const [selectedType, setSelectedType] = useState('')
   const [selectedItem, setSelectedItem] = useState<MediaItem | null>(null)
@@ -161,5 +163,14 @@ export default function HomePage() {
         />
       )}
     </div>
+  )
+}
+
+export default function HomePage() {
+  return (
+    <SelectionProvider>
+      <HomeContent />
+      <SelectionDrawer />
+    </SelectionProvider>
   )
 }
