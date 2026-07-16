@@ -1,15 +1,14 @@
 'use client'
 
-import { useState, useCallback, useMemo, useEffect } from 'react'
+import { useState, useCallback, useMemo, useEffect, useRef } from 'react'
 import { allMedia, searchMedia } from '@/lib/data'
 import { MediaItem } from '@/lib/types'
 import SearchBar from '@/components/SearchBar'
 import MediaCard from '@/components/MediaCard'
 import MediaDetail from '@/components/MediaDetail'
 import FilterBar from '@/components/FilterBar'
-import Pagination from '@/components/Pagination'
 import RequestForm from '@/components/RequestForm'
-import { Zap, LayoutGrid, List } from 'lucide-react'
+import { Zap, LayoutGrid, List, Loader2 } from 'lucide-react'
 import { SelectionProvider } from '@/context/SelectionContext'
 import SelectionDrawer from '@/components/SelectionDrawer'
 
@@ -19,20 +18,21 @@ function HomeContent() {
   const [query, setQuery] = useState('')
   const [selectedType, setSelectedType] = useState('')
   const [selectedItem, setSelectedItem] = useState<MediaItem | null>(null)
-  const [page, setPage] = useState(1)
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
+  const [displayCount, setDisplayCount] = useState(ITEMS_PER_PAGE)
+  const observerRef = useRef<HTMLDivElement | null>(null)
 
   const handleSearch = useCallback((q: string) => {
     setQuery(q)
-    setPage(1)
+    setDisplayCount(ITEMS_PER_PAGE)
   }, [])
 
   const handleTypeChange = useCallback((t: string) => {
     setSelectedType(t)
-    setPage(1)
+    setDisplayCount(ITEMS_PER_PAGE)
   }, [])
 
-  useEffect(() => { setPage(1) }, [query, selectedType])
+  useEffect(() => { setDisplayCount(ITEMS_PER_PAGE) }, [query, selectedType])
 
   const filtered = useMemo(() => {
     let items = query ? searchMedia(query) : allMedia
@@ -42,11 +42,28 @@ function HomeContent() {
     return items
   }, [query, selectedType])
 
-  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
-  const paginated = useMemo(() => {
-    const start = (page - 1) * ITEMS_PER_PAGE
-    return filtered.slice(start, start + ITEMS_PER_PAGE)
-  }, [filtered, page])
+  const displayed = useMemo(() => {
+    return filtered.slice(0, displayCount)
+  }, [filtered, displayCount])
+
+  const hasMore = displayCount < filtered.length
+
+  useEffect(() => {
+    const el = observerRef.current
+    if (!el || !hasMore) return
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setDisplayCount((prev) => prev + ITEMS_PER_PAGE)
+        }
+      },
+      { rootMargin: '200px' }
+    )
+
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [hasMore, filtered.length])
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -114,17 +131,15 @@ function HomeContent() {
                   Resultados para &quot;<span className="text-white">{query}</span>&quot;
                 </span>
               )}
-              {totalPages > 1 && (
-                <span className="text-xs text-gray-600 ml-auto">
-                  Pág {page} de {totalPages}
-                </span>
-              )}
+              <span className="text-xs text-gray-600 ml-auto">
+                {displayed.length} de {filtered.length} mostrados
+              </span>
             </div>
             <div className={viewMode === 'grid'
               ? 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'
               : 'flex flex-col gap-2'
             }>
-              {paginated.map((item) => (
+              {displayed.map((item) => (
                 <MediaCard
                   key={item.id}
                   item={item}
@@ -133,11 +148,12 @@ function HomeContent() {
                 />
               ))}
             </div>
-            <Pagination
-              currentPage={page}
-              totalPages={totalPages}
-              onPageChange={setPage}
-            />
+
+            <div ref={observerRef} className="flex justify-center py-8">
+              {hasMore && (
+                <Loader2 className="h-6 w-6 text-indigo-400 animate-spin" />
+              )}
+            </div>
           </>
         )}
       </main>
