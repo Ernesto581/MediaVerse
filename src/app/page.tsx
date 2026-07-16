@@ -61,7 +61,7 @@ export default function HomePage() {
             </span>
           </div>
           <p className="text-sm text-gray-400/70 text-center mb-3 -mt-1">
-            Más de <span className="text-indigo-400 font-semibold">2.8 TB</span> en tus series y películas favoritas
+            Más de <span className="text-indigo-400 font-semibold">4 TB</span> en tus series y películas favoritas
           </p>
           <SearchBar onSearch={handleSearch} />
           <div className="mt-4">
