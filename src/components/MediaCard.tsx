@@ -221,7 +221,7 @@ export default function MediaCard({ item, onClick, compact }: MediaCardProps) {
             className={`p-1.5 rounded-full transition-all duration-200 ${
               selected
                 ? 'bg-indigo-500/30 text-indigo-400 hover:bg-indigo-500/50'
-                : 'bg-gray-800/50 text-gray-500 hover:bg-indigo-500/20 hover:text-indigo-400 opacity-0 group-hover:opacity-100'
+                : 'bg-gray-800/50 text-gray-500 hover:bg-indigo-500/20 hover:text-indigo-400'
             }`}
           >
             {selected ? <Check className="h-3.5 w-3.5" /> : <Plus className="h-3.5 w-3.5" />}
