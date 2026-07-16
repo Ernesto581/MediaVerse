@@ -9,7 +9,7 @@ import MediaDetail from '@/components/MediaDetail'
 import FilterBar from '@/components/FilterBar'
 import Pagination from '@/components/Pagination'
 import RequestForm from '@/components/RequestForm'
-import { Zap } from 'lucide-react'
+import { Zap, LayoutGrid, List } from 'lucide-react'
 
 const ITEMS_PER_PAGE = 24
 
@@ -18,6 +18,7 @@ export default function HomePage() {
   const [selectedType, setSelectedType] = useState('')
   const [selectedItem, setSelectedItem] = useState<MediaItem | null>(null)
   const [page, setPage] = useState(1)
+  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
 
   const handleSearch = useCallback((q: string) => {
     setQuery(q)
@@ -56,9 +57,27 @@ export default function HomePage() {
                 <span className="gradient-text">MediaVerse</span>
               </h1>
             </div>
-            <span className="text-xs text-gray-600">
-              {filtered.length} de {allMedia.length} títulos
-            </span>
+            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-0.5 bg-gray-800/50 rounded-lg p-0.5 border border-gray-700/30">
+                <button
+                  onClick={() => setViewMode('grid')}
+                  className={`p-1.5 rounded-md transition-all ${viewMode === 'grid' ? 'bg-indigo-500/30 text-indigo-400' : 'text-gray-500 hover:text-gray-400'}`}
+                  title="Vista en cuadrícula"
+                >
+                  <LayoutGrid className="h-3.5 w-3.5" />
+                </button>
+                <button
+                  onClick={() => setViewMode('list')}
+                  className={`p-1.5 rounded-md transition-all ${viewMode === 'list' ? 'bg-indigo-500/30 text-indigo-400' : 'text-gray-500 hover:text-gray-400'}`}
+                  title="Vista en lista"
+                >
+                  <List className="h-3.5 w-3.5" />
+                </button>
+              </div>
+              <span className="text-xs text-gray-600">
+                {filtered.length} de {allMedia.length} títulos
+              </span>
+            </div>
           </div>
           <p className="text-sm text-gray-400/70 text-center mb-3 -mt-1">
             Más de <span className="text-indigo-400 font-semibold">4 TB</span> en tus series y películas favoritas
@@ -99,12 +118,16 @@ export default function HomePage() {
                 </span>
               )}
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <div className={viewMode === 'grid'
+              ? 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'
+              : 'flex flex-col gap-2'
+            }>
               {paginated.map((item) => (
                 <MediaCard
                   key={item.id}
                   item={item}
                   onClick={setSelectedItem}
+                  compact={viewMode === 'list'}
                 />
               ))}
             </div>

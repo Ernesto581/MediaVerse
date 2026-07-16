@@ -6,6 +6,7 @@ import { Film, Tv, Clapperboard, Play, HardDrive } from 'lucide-react'
 interface MediaCardProps {
   item: MediaItem
   onClick: (item: MediaItem) => void
+  compact?: boolean
 }
 
 const typeIcons: Record<string, typeof Film> = {
@@ -46,7 +47,7 @@ function isMovieType(item: MediaItem): boolean {
   return item.type === 'movie' || item.type === 'anime-movie'
 }
 
-export default function MediaCard({ item, onClick }: MediaCardProps) {
+export default function MediaCard({ item, onClick, compact }: MediaCardProps) {
   const Icon = typeIcons[item.type] || Film
   const gradient = typeColors[item.type] || typeColors.movie
   const movieLike = isMovieType(item)
@@ -60,8 +61,68 @@ export default function MediaCard({ item, onClick }: MediaCardProps) {
     ? [...new Set(item.seasons.flatMap((s) => s.formats))]
     : item.format ? [item.format] : []
 
+  const newCategories = ['anime-series-new', 'incomplete']
+  const isNew = newCategories.includes(item.category)
+
   const totalSize = item.sizeBytes
     || (item.seasons ? item.seasons.reduce((sum, s) => sum + (s.sizeBytes || 0), 0) : undefined)
+
+  if (compact) {
+    return (
+      <button
+        onClick={() => onClick(item)}
+        className="text-left group relative w-full"
+      >
+        <div className={`relative bg-gradient-to-r ${gradient} border rounded-xl p-3
+          hover:bg-gray-800/40 transition-all duration-200
+          backdrop-blur-sm bg-gray-900/60 cursor-pointer flex items-center gap-4`}
+        >
+          <div className="p-2 rounded-lg bg-gray-800/50 shrink-0">
+            <Icon className="h-4 w-4 text-gray-300" />
+          </div>
+
+          <div className="flex-1 min-w-0 flex items-center gap-3">
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2">
+                <h3 className="font-medium text-white text-sm truncate group-hover:text-indigo-300 transition-colors">
+                  {item.title}
+                </h3>
+                {isNew && (
+                  <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 animate-pulse shrink-0">
+                    NUEVO
+                  </span>
+                )}
+              </div>
+              <div className="flex items-center gap-2 mt-0.5">
+                <span className="text-[11px] text-gray-500">{typeLabels[item.type] || item.type}</span>
+                {item.year && <span className="text-[11px] text-gray-600">{item.year}</span>}
+                {totalEpisodes > 0 && !movieLike && (
+                  <span className="text-[11px] text-gray-600">{totalEpisodes} ep</span>
+                )}
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3 shrink-0">
+              {formats.length > 0 && (
+                <span className="text-[10px] px-1.5 py-0.5 rounded bg-gray-800/40 text-gray-500 font-mono uppercase">
+                  {formats[0]}{formats.length > 1 ? ` +${formats.length - 1}` : ''}
+                </span>
+              )}
+              {item.resolution && (
+                <span className="text-[10px] text-indigo-400/70 font-mono">{item.resolution}</span>
+              )}
+              {totalSize && (
+                <span className="text-[10px] text-gray-600 flex items-center gap-1">
+                  <HardDrive className="h-3 w-3" />
+                  {formatBytes(totalSize)}
+                </span>
+              )}
+            </div>
+          </div>
+        </div>
+      </button>
+    )
+  }
 
   return (
     <button
@@ -76,9 +137,16 @@ export default function MediaCard({ item, onClick }: MediaCardProps) {
           <div className="p-2.5 rounded-xl bg-gray-800/50 group-hover:bg-gray-800/80 transition-colors">
             <Icon className="h-5 w-5 text-gray-300" />
           </div>
-          <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-gray-800/60 text-gray-400 border border-gray-700/30">
-            {typeLabels[item.type] || item.type}
-          </span>
+          <div className="flex items-center gap-1.5">
+            {isNew && (
+              <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 animate-pulse">
+                NUEVO
+              </span>
+            )}
+            <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-gray-800/60 text-gray-400 border border-gray-700/30">
+              {typeLabels[item.type] || item.type}
+            </span>
+          </div>
         </div>
 
         <h3 className="font-semibold text-white text-base mb-2 line-clamp-2 group-hover:text-indigo-300 transition-colors">
