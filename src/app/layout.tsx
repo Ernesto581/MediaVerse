@@ -7,7 +7,16 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'MediaVerse',
   description: 'Catálogo de Series, Películas y Anime',
-  icons: {},
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-96x96.png',
+    apple: '/apple-touch-icon.png',
+    other: {
+      rel: 'mask-icon',
+      url: '/favicon.svg',
+    },
+  },
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({
