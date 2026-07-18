@@ -1129,29 +1129,98 @@ export const movies: MediaItem[] = [
   // ============================================================
   // E:\PELICULAS
   // ============================================================
-  { id: 'a-quiet-place-day-one', title: 'A Quiet Place Day One', type: 'movie', category: 'movie', year: 2024, format: 'AVI', resolution: '1080p', path: 'E://Peliculas//A Quiet Place Day One [1080p][2024] copia mejorada.avi' },
-  { id: 'amenaza-en-el-aire', title: 'Amenaza En El Aire', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E://Peliculas//Amenaza En El Aire [2025] Supervivencia Esp ok.avi' },
-  { id: 'amor-explosivo', title: 'Amor Explosivo (Love Hurts)', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E://Peliculas//Amor Explosivo (Love Hurts)[2025] Acc Esp ok.avi' },
-  { id: 'before-dawn', title: 'Before Dawn', type: 'movie', category: 'movie', year: 2024, format: 'AVI', resolution: '1080p', audio: 'Dual Audio', path: 'E://Peliculas//Before Dawn [2024] [1080p] [Dual Audio].avi' },
-  { id: 'bonus-trip', title: 'Bonus Trip', type: 'movie', category: 'movie', year: 2024, format: 'AVI', resolution: '1080p', path: 'E://Peliculas//Bonus Trip [2024] [1080p].avi' },
-  { id: 'boston-strangler', title: 'Boston Strangler', type: 'movie', category: 'movie', year: 2023, format: 'AVI', resolution: '1080p', audio: 'Dual Audio', path: 'E://Peliculas//Boston Strangler [2023] [1080p] [Dual Audio].avi' },
-  { id: 'daaku-maharaaj', title: 'Daaku Maharaaj', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E://Peliculas//Daaku Maharaaj [2025] India Acc.avi' },
-  { id: 'dead-money', title: 'Dead Money', type: 'movie', category: 'movie', year: 2024, format: 'AVI', path: 'E://Peliculas//Dead Money [2024] Acc.avi' },
-  { id: 'die-alone', title: 'Die Alone', type: 'movie', category: 'movie', year: 2024, format: 'AVI', path: 'E://Peliculas//Die Alone [2024] Esp.avi' },
-  { id: 'dungeons-and-dragons-2023', title: 'Dungeons and Dragons', type: 'movie', category: 'movie', year: 2023, format: 'AVI', path: 'E://Peliculas//Dungeons and Dragons [2023] Ave Esp.avi' },
-  { id: 'el-hilo-rojo', title: 'El Hilo Rojo', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E://Peliculas//El Hilo Rojo [2025] Romantica Esp ok.avi' },
-  { id: 'el-jardinero', title: 'El Jardinero', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E://Peliculas//El Jardinero [2025] Acc Comedia Jean C Van Dam Esp.avi' },
-  { id: 'el-payaso-del-mal', title: 'El Payaso del Mal', type: 'movie', category: 'movie', year: 2015, format: 'AVI', resolution: '1080p', path: 'E://Peliculas//El Payaso del Mal [2015] [1080p].avi' },
-  { id: 'el-practicante', title: 'El Practicante', type: 'movie', category: 'movie', year: 2020, format: 'AVI', path: 'E://Peliculas//El Practicante [2020] Espaola Mario Casas.avi' },
-  { id: 'exodus-gods-and-kings', title: 'Exodus Gods And Kings', type: 'movie', category: 'movie', year: 2015, format: 'AVI', path: 'E://Peliculas//Exodus Gods And Kings [2015] Ave.avi' },
-  { id: 'fuga-de-cerebros', title: 'Fuga de Cerebros', type: 'movie', category: 'movie', year: 2009, format: 'AVI', path: 'E://Peliculas//Fuga de Cerebros [2009] Comedia Mario Casas.avi' },
-  { id: 'lies-and-ilusions', title: 'Lies and Ilusions', type: 'movie', category: 'movie', year: 2009, format: 'AVI', path: 'E://Peliculas//Lies and Ilusions [2009] Policiaco.avi' },
-  { id: 'operacion-rescate', title: 'Operacion Rescate', type: 'movie', category: 'movie', year: 2018, format: 'AVI', path: 'E://Peliculas//Operacion Rescate (2018) Acc Dolf Laundred Esp.avi' },
-  { id: 'river-of-blood', title: 'River Of Blood', type: 'movie', category: 'movie', year: 2024, format: 'AVI', path: 'E://Peliculas//River Of Blood [2024] Supervivencia.avi' },
-  { id: 'star-trek-section-31', title: 'Star Trek Section 31', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E://Peliculas//Star Trek Section 31 [2025] Ci fi Esp.avi' },
-  { id: 'the-bayou', title: 'The Bayou', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E://Peliculas//The Bayou [2025] Supervivencia.avi' },
-  { id: 'the-weapon', title: 'The Weapon', type: 'movie', category: 'movie', year: 2023, format: 'AVI', path: 'E://Peliculas//The Weapon [2023] Policiaco.avi' },
-  { id: 'ticking-clock', title: 'Ticking Clock', type: 'movie', category: 'movie', year: 2010, format: 'AVI', path: 'E://Peliculas//Ticking Clock [2010] Policiaco.avi' },
-  { id: 'war-of-the-worlds-extinction', title: 'War Of The Worlds Extinction', type: 'movie', category: 'movie', year: 2024, format: 'AVI', path: 'E://Peliculas//War Of The Worlds Extinction [2024] Ci fi.avi' },
-  { id: 'we-kill-them-all', title: 'We Kill Them All', type: 'movie', category: 'movie', year: 2025, format: 'AVI', resolution: '1080p', path: 'E://Peliculas//We Kill Them All [2025] [1080p]~1.avi' },
+  { id: 'a-quiet-place-day-one', title: 'A Quiet Place Day One', type: 'movie', category: 'movie', year: 2024, format: 'AVI', resolution: '1080p', path: 'E:\\Peliculas\\A Quiet Place Day One [1080p][2024] copia mejorada.avi',
+    sizeBytes: 416168262,
+    sizeFormatted: "0.39 GB"
+  },
+  { id: 'amenaza-en-el-aire', title: 'Amenaza En El Aire', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E:\\Peliculas\\Amenaza En El Aire [2025] Supervivencia Esp ok.avi',
+    sizeBytes: 471655098,
+    sizeFormatted: "0.44 GB"
+  },
+  { id: 'amor-explosivo', title: 'Amor Explosivo (Love Hurts)', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E:\\Peliculas\\Amor Explosivo (Love Hurts)[2025] Acc Esp ok.avi',
+    sizeBytes: 430713520,
+    sizeFormatted: "0.40 GB"
+  },
+  { id: 'before-dawn', title: 'Before Dawn', type: 'movie', category: 'movie', year: 2024, format: 'AVI', resolution: '1080p', audio: 'Dual Audio', path: 'E:\\Peliculas\\Before Dawn [2024] [1080p] [Dual Audio].avi',
+    sizeBytes: 520369370,
+    sizeFormatted: "0.48 GB"
+  },
+  { id: 'bonus-trip', title: 'Bonus Trip', type: 'movie', category: 'movie', year: 2024, format: 'AVI', resolution: '1080p', path: 'E:\\Peliculas\\Bonus Trip [2024] [1080p].avi',
+    sizeBytes: 590800628,
+    sizeFormatted: "0.55 GB"
+  },
+  { id: 'boston-strangler', title: 'Boston Strangler', type: 'movie', category: 'movie', year: 2023, format: 'AVI', resolution: '1080p', audio: 'Dual Audio', path: 'E:\\Peliculas\\Boston Strangler [2023] [1080p] [Dual Audio].avi',
+    sizeBytes: 569509418,
+    sizeFormatted: "0.53 GB"
+  },
+  { id: 'daaku-maharaaj', title: 'Daaku Maharaaj', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E:\\Peliculas\\Daaku Maharaaj [2025] India Acc.avi',
+    sizeBytes: 741773614,
+    sizeFormatted: "0.69 GB"
+  },
+  { id: 'dead-money', title: 'Dead Money', type: 'movie', category: 'movie', year: 2024, format: 'AVI', path: 'E:\\Peliculas\\Dead Money [2024] Acc.avi',
+    sizeBytes: 522321486,
+    sizeFormatted: "0.49 GB"
+  },
+  { id: 'die-alone', title: 'Die Alone', type: 'movie', category: 'movie', year: 2024, format: 'AVI', path: 'E:\\Peliculas\\Die Alone [2024] Esp.avi',
+    sizeBytes: 461730456,
+    sizeFormatted: "0.43 GB"
+  },
+  { id: 'dungeons-and-dragons-2023', title: 'Dungeons and Dragons', type: 'movie', category: 'movie', year: 2023, format: 'AVI', path: 'E:\\Peliculas\\Dungeons and Dragons [2023] Ave Esp.avi',
+    sizeBytes: 698896764,
+    sizeFormatted: "0.65 GB"
+  },
+  { id: 'el-hilo-rojo', title: 'El Hilo Rojo', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E:\\Peliculas\\El Hilo Rojo [2025] Romantica Esp ok.avi',
+    sizeBytes: 286689638,
+    sizeFormatted: "0.27 GB"
+  },
+  { id: 'el-jardinero', title: 'El Jardinero', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E:\\Peliculas\\El Jardinero [2025] Acc Comedia Jean C Van Dam Esp.avi',
+    sizeBytes: 1370220872,
+    sizeFormatted: "1.28 GB"
+  },
+  { id: 'el-payaso-del-mal', title: 'El Payaso del Mal', type: 'movie', category: 'movie', year: 2015, format: 'AVI', resolution: '1080p', path: 'E:\\Peliculas\\El Payaso del Mal [2015] [1080p].avi',
+    sizeBytes: 514626674,
+    sizeFormatted: "0.48 GB"
+  },
+  { id: 'el-practicante', title: 'El Practicante', type: 'movie', category: 'movie', year: 2020, format: 'AVI', path: 'E:\\\\Peliculas\\\\El Practicante [2020] Espaola Mario Casas.avi' },
+  { id: 'exodus-gods-and-kings', title: 'Exodus Gods And Kings', type: 'movie', category: 'movie', year: 2015, format: 'AVI', path: 'E:\\Peliculas\\Exodus Gods And Kings [2015] Ave.avi',
+    sizeBytes: 779274422,
+    sizeFormatted: "0.73 GB"
+  },
+  { id: 'fuga-de-cerebros', title: 'Fuga de Cerebros', type: 'movie', category: 'movie', year: 2009, format: 'AVI', path: 'E:\\Peliculas\\Fuga de Cerebros [2009] Comedia Mario Casas.avi',
+    sizeBytes: 536544100,
+    sizeFormatted: "0.50 GB"
+  },
+  { id: 'lies-and-ilusions', title: 'Lies and Ilusions', type: 'movie', category: 'movie', year: 2009, format: 'AVI', path: 'E:\\Peliculas\\Lies and Ilusions [2009] Policiaco.avi',
+    sizeBytes: 490228012,
+    sizeFormatted: "0.46 GB"
+  },
+  { id: 'operacion-rescate', title: 'Operacion Rescate', type: 'movie', category: 'movie', year: 2018, format: 'AVI', path: 'E:\\\\Peliculas\\\\Operacion Rescate (2018) Acc Dolf Laundred Esp.avi' },
+  { id: 'river-of-blood', title: 'River Of Blood', type: 'movie', category: 'movie', year: 2024, format: 'AVI', path: 'E:\\Peliculas\\River Of Blood [2024] Supervivencia.avi',
+    sizeBytes: 446970426,
+    sizeFormatted: "0.42 GB"
+  },
+  { id: 'star-trek-section-31', title: 'Star Trek Section 31', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E:\\Peliculas\\Star Trek Section 31 [2025] Ci fi Esp.avi',
+    sizeBytes: 492989412,
+    sizeFormatted: "0.46 GB"
+  },
+  { id: 'the-bayou', title: 'The Bayou', type: 'movie', category: 'movie', year: 2025, format: 'AVI', path: 'E:\\Peliculas\\The Bayou [2025] Supervivencia.avi',
+    sizeBytes: 451156654,
+    sizeFormatted: "0.42 GB"
+  },
+  { id: 'the-weapon', title: 'The Weapon', type: 'movie', category: 'movie', year: 2023, format: 'AVI', path: 'E:\\Peliculas\\The Weapon [2023] Policiaco.avi',
+    sizeBytes: 439892652,
+    sizeFormatted: "0.41 GB"
+  },
+  { id: 'ticking-clock', title: 'Ticking Clock', type: 'movie', category: 'movie', year: 2010, format: 'AVI', path: 'E:\\Peliculas\\Ticking Clock [2010] Policiaco.avi',
+    sizeBytes: 522745422,
+    sizeFormatted: "0.49 GB"
+  },
+  { id: 'war-of-the-worlds-extinction', title: 'War Of The Worlds Extinction', type: 'movie', category: 'movie', year: 2024, format: 'AVI', path: 'E:\\Peliculas\\War Of The Worlds Extinction [2024] Ci fi.avi',
+    sizeBytes: 434613138,
+    sizeFormatted: "0.40 GB"
+  },
+  { id: 'we-kill-them-all', title: 'We Kill Them All', type: 'movie', category: 'movie', year: 2025, format: 'AVI', resolution: '1080p', path: 'E:\\Peliculas\\We Kill Them All [2025] [1080p]~1.avi',
+    sizeBytes: 482772552,
+    sizeFormatted: "0.45 GB"
+  },
 ]

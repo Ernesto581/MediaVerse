@@ -1,0 +1,2850 @@
+{
+  "summary": {
+    "total": 467,
+    "ok": 117,
+    "notFound": 253,
+    "mismatch": 97
+  },
+  "notFound": [
+    {
+      "id": "step-up-saga",
+      "title": "Step Up Saga",
+      "type": "movie",
+      "path": "D:\\Step Up Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "american-pie-saga",
+      "title": "American Pie Saga",
+      "type": "movie",
+      "path": "D:\\American Pie Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "fast-and-furious-saga",
+      "title": "Fast and Furious Saga",
+      "type": "movie",
+      "path": "D:\\Fast and Furious Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "harry-potter-complete",
+      "title": "Harry Potter Complete",
+      "type": "movie",
+      "path": "D:\\Harry Potter",
+      "dataEps": 1
+    },
+    {
+      "id": "hannibal-lecter-saga",
+      "title": "Hannibal Lecter Saga",
+      "type": "movie",
+      "path": "D:\\Hannibal Lecter Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "jeepers-creepers-saga",
+      "title": "Jeepers Creepers Saga",
+      "type": "movie",
+      "path": "D:\\Jeepers Creepers Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "john-wick-saga",
+      "title": "John Wick Saga",
+      "type": "movie",
+      "path": "D:\\John Wick Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "pirates-of-the-caribbean-saga",
+      "title": "Pirates of the Caribbean Saga",
+      "type": "movie",
+      "path": "D:\\Pirates of the Caribbean Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "resident-evil-saga",
+      "title": "Resident Evil Saga",
+      "type": "movie",
+      "path": "D:\\Resident Evil Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "the-exorcist-saga",
+      "title": "The Exorcist Saga",
+      "type": "movie",
+      "path": "D:\\The Exorcist Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "friday-the-13th-saga",
+      "title": "Friday the 13th Saga",
+      "type": "movie",
+      "path": "D:\\Friday the 13th Saga",
+      "dataEps": 1
+    },
+    {
+      "id": "the-lord-of-the-rings",
+      "title": "The Lord of the Rings",
+      "type": "movie",
+      "path": "D:\\The Lord of the Rings",
+      "dataEps": 1
+    },
+    {
+      "id": "the-hobbit",
+      "title": "The Hobbit",
+      "type": "movie",
+      "path": "D:\\The Hobbit",
+      "dataEps": 1
+    },
+    {
+      "id": "percy-jackson",
+      "title": "Percy Jackson",
+      "type": "movie",
+      "path": "D:\\Percy Jackson",
+      "dataEps": 1
+    },
+    {
+      "id": "marvel-cinematic-universe",
+      "title": "Marvel Cinematic Universe",
+      "type": "movie",
+      "path": "D:\\Marvel Cinematic Universe",
+      "dataEps": 1
+    },
+    {
+      "id": "star-wars-complete",
+      "title": "Star Wars Complete",
+      "type": "movie",
+      "path": "D:\\Star Wars",
+      "dataEps": 1
+    },
+    {
+      "id": "transformers-complete",
+      "title": "Transformers Complete",
+      "type": "movie",
+      "path": "D:\\Transformers",
+      "dataEps": 1
+    },
+    {
+      "id": "saw-series",
+      "title": "Saw Series",
+      "type": "movie",
+      "path": "D:\\Saw",
+      "dataEps": 1
+    },
+    {
+      "id": "divergent-series",
+      "title": "Divergent Series",
+      "type": "movie",
+      "path": "D:\\Divergent",
+      "dataEps": 1
+    },
+    {
+      "id": "spider-man-raimi-trilogy",
+      "title": "Spider-Man Raimi Trilogy",
+      "type": "movie",
+      "path": "D:\\Spider-Man Raimi Trilogy",
+      "dataEps": 1
+    },
+    {
+      "id": "fifty-shades",
+      "title": "Fifty Shades",
+      "type": "movie",
+      "path": "D:\\Fifty Shades",
+      "dataEps": 1
+    },
+    {
+      "id": "to-all-the-boys",
+      "title": "To All the Boys",
+      "type": "movie",
+      "path": "D:\\To All the Boys",
+      "dataEps": 1
+    },
+    {
+      "id": "escape-room",
+      "title": "Escape Room",
+      "type": "movie",
+      "path": "D:\\Escape Room",
+      "dataEps": 1
+    },
+    {
+      "id": "scary-movie",
+      "title": "Scary Movie",
+      "type": "movie",
+      "path": "D:\\Scary Movie",
+      "dataEps": 1
+    },
+    {
+      "id": "how-to-train-your-dragon",
+      "title": "How to Train Your Dragon",
+      "type": "movie",
+      "path": "D:\\How to Train Your Dragon",
+      "dataEps": 1
+    },
+    {
+      "id": "damsel",
+      "title": "Damsel",
+      "type": "movie",
+      "path": "D:\\DAMISELA (2024)",
+      "dataEps": 0
+    },
+    {
+      "id": "dragons-dawn-of-the-dragon-racers",
+      "title": "Dragons: Dawn of the Dragon Racers",
+      "type": "movie",
+      "path": "D:\\Dragons - Dawn of the Dragon Racers (2014)",
+      "dataEps": 0
+    },
+    {
+      "id": "101-dalmatians",
+      "title": "101 Dalmatians",
+      "type": "movie",
+      "path": "D:\\101 Dalmatians (1961)",
+      "dataEps": 0
+    },
+    {
+      "id": "the-spongebob-movie-sponge-on-the-run",
+      "title": "The SpongeBob Movie: Sponge on the Run",
+      "type": "movie",
+      "path": "D:\\The SpongeBob Movie - Sponge on the Run (2020)",
+      "dataEps": 0
+    },
+    {
+      "id": "over-the-moon",
+      "title": "Over the Moon",
+      "type": "movie",
+      "path": "D:\\Over the Moon (2020)",
+      "dataEps": 0
+    },
+    {
+      "id": "scoob",
+      "title": "Scoob!",
+      "type": "movie",
+      "path": "D:\\Scoob! (2020)",
+      "dataEps": 0
+    },
+    {
+      "id": "trolls-world-tour",
+      "title": "Trolls World Tour",
+      "type": "movie",
+      "path": "D:\\Trolls World Tour (2020)",
+      "dataEps": 0
+    },
+    {
+      "id": "elemental",
+      "title": "Elemental",
+      "type": "movie",
+      "path": "D:\\Elemental (2023)",
+      "dataEps": 0
+    },
+    {
+      "id": "go-go-cory-carson-halloween",
+      "title": "Go! Go! Cory Carson Halloween",
+      "type": "movie",
+      "path": "D:\\Go Go Cory Carson Halloween (2020)",
+      "dataEps": 0
+    },
+    {
+      "id": "ainbo",
+      "title": "Ainbo",
+      "type": "movie",
+      "path": "D:\\Ainbo (2021)",
+      "dataEps": 0
+    },
+    {
+      "id": "atlantis-the-lost-empire",
+      "title": "Atlantis: The Lost Empire",
+      "type": "movie",
+      "path": "D:\\Atlantis - The Lost Empire (2001)",
+      "dataEps": 0
+    },
+    {
+      "id": "atlantis-milos-return",
+      "title": "Atlantis: Milo\\",
+      "type": "movie",
+      "path": "D:\\Atlantis - Milos Return (2003)",
+      "dataEps": 0
+    },
+    {
+      "id": "ballerina",
+      "title": "Ballerina",
+      "type": "movie",
+      "path": "D:\\Ballerina (2016)",
+      "dataEps": 0
+    },
+    {
+      "id": "bao",
+      "title": "Bao",
+      "type": "movie",
+      "path": "D:\\Bao (2018)",
+      "dataEps": 0
+    },
+    {
+      "id": "barbie-and-chelsea",
+      "title": "Barbie and Chelsea",
+      "type": "movie",
+      "path": "D:\\Barbie and Chelsea (2021)",
+      "dataEps": 0
+    },
+    {
+      "id": "barbie-star-light-adventure",
+      "title": "Barbie: Star Light Adventure",
+      "type": "movie",
+      "path": "D:\\Barbie - Star Light Adventure (2016)",
+      "dataEps": 0
+    },
+    {
+      "id": "batman-soul-of-the-dragon",
+      "title": "Batman: Soul of the Dragon",
+      "type": "movie",
+      "path": "D:\\Batman - Soul of the Dragon (2021)",
+      "dataEps": 0
+    },
+    {
+      "id": "batman-the-long-halloween-pt-2",
+      "title": "Batman: The Long Halloween Pt 2",
+      "type": "movie",
+      "path": "D:\\Batman - The Long Halloween Pt 2 (2021)",
+      "dataEps": 0
+    },
+    {
+      "id": "beyond-beyond",
+      "title": "Beyond Beyond",
+      "type": "movie",
+      "path": "D:\\Beyond Beyond (2016)",
+      "dataEps": 0
+    },
+    {
+      "id": "bilal-a-new-breed-of-hero",
+      "title": "Bilal: A New Breed of Hero",
+      "type": "movie",
+      "path": "D:\\Bilal - A New Breed of Hero (2018)",
+      "dataEps": 0
+    },
+    {
+      "id": "spongebob-patricio-esponja",
+      "title": "SpongeBob (Patricio Esponja)",
+      "type": "movie",
+      "path": "D:\\Patricio Esponja",
+      "dataEps": 0
+    },
+    {
+      "id": "cars-2",
+      "title": "Cars 2",
+      "type": "movie",
+      "path": "D:\\Cars 2 (2011)",
+      "dataEps": 0
+    },
+    {
+      "id": "cars-3",
+      "title": "Cars 3",
+      "type": "movie",
+      "path": "D:\\Cars 3 (2017)",
+      "dataEps": 0
+    },
+    {
+      "id": "chicken-run",
+      "title": "Chicken Run",
+      "type": "movie",
+      "path": "D:\\Chicken Run (2000)",
+      "dataEps": 0
+    },
+    {
+      "id": "chicken-run-dawn-of-the-nugget",
+      "title": "Chicken Run: Dawn of the Nugget",
+      "type": "movie",
+      "path": "D:\\Chicken Run - Dawn of the Nugget (2023)",
+      "dataEps": 0
+    },
+    {
+      "id": "coco",
+      "title": "Coco",
+      "type": "movie",
+      "path": "D:\\Coco (2017)",
+      "dataEps": 0
+    },
+    {
+      "id": "open-season-2",
+      "title": "Open Season 2 (Colegas en el Bosque 2)",
+      "type": "movie",
+      "path": "D:\\Colegas en el Bosque 2 (2010)",
+      "dataEps": 0
+    },
+    {
+      "id": "curious-george-royal-monkey",
+      "title": "Curious George: Royal Monkey",
+      "type": "movie",
+      "path": "D:\\Curious George - Royal Monkey (2019)",
+      "dataEps": 0
+    },
+    {
+      "id": "earwig-and-the-witch",
+      "title": "Earwig and the Witch",
+      "type": "movie",
+      "path": "D:\\Earwig and the Witch (2020)",
+      "dataEps": 0
+    },
+    {
+      "id": "the-iron-giant",
+      "title": "The Iron Giant",
+      "type": "movie",
+      "path": "D:\\The Iron Giant (1999)",
+      "dataEps": 0
+    },
+    {
+      "id": "the-lion-king",
+      "title": "The Lion King",
+      "type": "movie",
+      "path": "D:\\The Lion King (1994)",
+      "dataEps": 0
+    },
+    {
+      "id": "the-lion-king-2",
+      "title": "The Lion King 2",
+      "type": "movie",
+      "path": "D:\\The Lion King 2 (1998)",
+      "dataEps": 0
+    },
+    {
+      "id": "the-lion-king-3",
+      "title": "The Lion King 3",
+      "type": "movie",
+      "path": "D:\\The Lion King 3 (2004)",
+      "dataEps": 0
+    },
+    {
+      "id": "the-good-dinosaur",
+      "title": "The Good Dinosaur (El Viaje de Arlo)",
+      "type": "movie",
+      "path": "D:\\El Viaje de Arlo (2015)",
+      "dataEps": 0
+    },
+    {
+      "id": "elcano-and-magellan",
+      "title": "Elcano & Magellan",
+      "type": "movie",
+      "path": "D:\\Elcano y Magallanes",
+      "dataEps": 0
+    },
+    {
+      "id": "the-emoji-movie",
+      "title": "The Emoji Movie",
+      "type": "movie",
+      "path": "D:\\The Emoji Movie (2017)",
+      "dataEps": 0
+    },
+    {
+      "id": "fantastic-mr-fox",
+      "title": "Fantastic Mr. Fox",
+      "type": "movie",
+      "path": "D:\\Fantastic Mr Fox (2009)",
+      "dataEps": 0
+    },
+    {
+      "id": "finding-dory",
+      "title": "Finding Dory",
+      "type": "movie",
+      "path": "D:\\Finding Dory (2016)",
+      "dataEps": 0
+    },
+    {
+      "id": "finding-nemo",
+      "title": "Finding Nemo",
+      "type": "movie",
+      "path": "D:\\Finding Nemo (2003)",
+      "dataEps": 0
+    },
+    {
+      "id": "brother-bear",
+      "title": "Brother Bear",
+      "type": "movie",
+      "path": "D:\\Brother Bear (2003)",
+      "dataEps": 0
+    },
+    {
+      "id": "hoodwinked",
+      "title": "Hoodwinked!",
+      "type": "movie",
+      "path": "D:\\Hoodwinked (2005)",
+      "dataEps": 0
+    },
+    {
+      "id": "inside-out",
+      "title": "Inside Out",
+      "type": "movie",
+      "path": "D:\\Inside Out (2015)",
+      "dataEps": 0
+    },
+    {
+      "id": "paw-patrol",
+      "title": "PAW Patrol (La Patrulla Canina)",
+      "type": "movie",
+      "path": "D:\\La Patrulla Canina (2015)",
+      "dataEps": 0
+    },
+    {
+      "id": "the-little-mermaid",
+      "title": "The Little Mermaid",
+      "type": "movie",
+      "path": "D:\\The Little Mermaid (1989)",
+      "dataEps": 0
+    },
+    {
+      "id": "the-little-mermaid-2",
+      "title": "The Little Mermaid II",
+      "type": "movie",
+      "path": "D:\\The Little Mermaid II (2000)",
+      "dataEps": 0
+    },
+    {
+      "id": "a-turtles-tale",
+      "title": "A Turtle\\",
+      "type": "movie",
+      "path": "D:\\A Turtles Tale - Sammys Adventures (2010)",
+      "dataEps": 0
+    },
+    {
+      "id": "grave-of-the-fireflies",
+      "title": "Grave of the Fireflies",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\1. Ghibli\\La tumba de las luciernagas",
+      "dataEps": 0
+    },
+    {
+      "id": "5-centimeters-per-second",
+      "title": "5 Centimeters Per Second",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\2. Makoto Shinkai\\5 Centimetros por Segundo",
+      "dataEps": 0
+    },
+    {
+      "id": "the-garden-of-words",
+      "title": "The Garden of Words",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\2. Makoto Shinkai\\El Jardin de las Palabras",
+      "dataEps": 0
+    },
+    {
+      "id": "sing-a-bit-of-harmony",
+      "title": "Sing a Bit of Harmony",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Sing a Bit of Harmony",
+      "dataEps": 0
+    },
+    {
+      "id": "a-whisker-away",
+      "title": "A Whisker Away",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\A Whisker Away",
+      "dataEps": 0
+    },
+    {
+      "id": "anohana-movie",
+      "title": "Anohana Movie",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Anohana Movie",
+      "dataEps": 0
+    },
+    {
+      "id": "josee-the-tiger-and-the-fish",
+      "title": "Josee, the Tiger and the Fish",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Josee, the Tiger and the Fish",
+      "dataEps": 0
+    },
+    {
+      "id": "the-tunnel-to-summer-the-exit-of-goodbyes",
+      "title": "The Tunnel to Summer, the Exit of Goodbyes",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\The Tunnel to Summer, the Exit of Goodbyes",
+      "dataEps": 0
+    },
+    {
+      "id": "maquia-when-the-promised-flower-blooms",
+      "title": "Maquia: When the Promised Flower Blooms",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Maquia",
+      "dataEps": 0
+    },
+    {
+      "id": "the-stranger-by-the-shore",
+      "title": "The Stranger by the Shore",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Umibe no Etranger",
+      "dataEps": 0
+    },
+    {
+      "id": "evangelion-1-11",
+      "title": "Evangelion 1.11: You Are (Not) Alone",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Evangelion 1.11",
+      "dataEps": 0
+    },
+    {
+      "id": "evangelion-2-22",
+      "title": "Evangelion 2.22: You Can (Not) Advance",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Evangelion 2.22",
+      "dataEps": 0
+    },
+    {
+      "id": "evangelion-3-0-1-0",
+      "title": "Evangelion 3.0+1.0: Thrice Upon a Time",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Evangelion 3.0+1.0",
+      "dataEps": 0
+    },
+    {
+      "id": "evangelion-3-33",
+      "title": "Evangelion 3.33: You Can (Not) Redo",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Evangelion 3.33",
+      "dataEps": 0
+    },
+    {
+      "id": "hunter-x-hunter-phantom-rouge",
+      "title": "Hunter x Hunter: Phantom Rouge",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Hunter x Hunter Phantom Rouge",
+      "dataEps": 0
+    },
+    {
+      "id": "hunter-x-hunter-the-last-mission",
+      "title": "Hunter x Hunter: The Last Mission",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Hunter x Hunter The Last Mission",
+      "dataEps": 0
+    },
+    {
+      "id": "nerawareta-gakuen",
+      "title": "Nerawareta Gakuen",
+      "type": "anime-movie",
+      "path": "F:\\Pelis\\Nerawareta Gakuen",
+      "dataEps": 0
+    },
+    {
+      "id": "akagami-no-shirayuki-hime",
+      "title": "Akagami No Shirayuki Hime",
+      "type": "anime",
+      "path": "F:\\Akagami No Shirayuki Hime T1\\ ; F:\\Akagami No Shirayuki Hime T2",
+      "dataEps": 12
+    },
+    {
+      "id": "dagashi-kashi",
+      "title": "Dagashi Kashi",
+      "type": "anime",
+      "path": "F:\\Dagashi Kashi 1TP\\ ; F:\\Dagashi Kashi 2TP",
+      "dataEps": 12
+    },
+    {
+      "id": "dream-festival",
+      "title": "Dream Festival",
+      "type": "anime",
+      "path": "F:\\Dream Festival\\1TP\\ ; F:\\Dream Festival\\2TP",
+      "dataEps": 12
+    },
+    {
+      "id": "neon-genesis-evangelion",
+      "title": "Neon Genesis Evangelion",
+      "type": "anime",
+      "path": "F:\\Evangelion (Episodios)\\ ; F:\\Neon Genesis Evangelion",
+      "dataEps": 26
+    },
+    {
+      "id": "japan-sinks",
+      "title": "Japan Sinks",
+      "type": "anime",
+      "path": "F:\\JapÃƒÂ³n se hunde",
+      "dataEps": 10
+    },
+    {
+      "id": "nanatsu-no-taizai",
+      "title": "Nanatsu no Taizai",
+      "type": "anime",
+      "path": "F:\\Nanatsu no taizai\\ ; F:\\Nanatsu no Taizai- Kamigami no Gekirin",
+      "dataEps": 24
+    },
+    {
+      "id": "adventure-time",
+      "title": "Adventure Time",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Adventure Time",
+      "dataEps": 286
+    },
+    {
+      "id": "arcane",
+      "title": "Arcane",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Arcane",
+      "dataEps": 18
+    },
+    {
+      "id": "big-mouth",
+      "title": "Big Mouth",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Big Mouth",
+      "dataEps": 41
+    },
+    {
+      "id": "bojack-horseman",
+      "title": "BoJack Horseman",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\BoJack Horseman",
+      "dataEps": 76
+    },
+    {
+      "id": "common-side-effects",
+      "title": "Common Side Effects",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Common side effects",
+      "dataEps": 10
+    },
+    {
+      "id": "disenchantment",
+      "title": "Disenchantment",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Desencanto",
+      "dataEps": 37
+    },
+    {
+      "id": "final-space",
+      "title": "Final Space",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Final Space",
+      "dataEps": 34
+    },
+    {
+      "id": "futurama",
+      "title": "Futurama",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Futurama",
+      "dataEps": 95
+    },
+    {
+      "id": "gary-and-his-demons",
+      "title": "Gary And His Demons",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Gary And His Demons",
+      "dataEps": 16
+    },
+    {
+      "id": "gravity-falls",
+      "title": "Gravity Falls",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Gravity Falls",
+      "dataEps": 39
+    },
+    {
+      "id": "halo",
+      "title": "Halo",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Halo",
+      "dataEps": 13
+    },
+    {
+      "id": "harley-quinn",
+      "title": "Harley Quinn",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Harley Queen The Series",
+      "dataEps": 25
+    },
+    {
+      "id": "hazbin-hotel",
+      "title": "Hazbin Hotel",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Hazbin Hotel",
+      "dataEps": 16
+    },
+    {
+      "id": "helluva-boss",
+      "title": "Helluva Boss",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Helluva Boss",
+      "dataEps": 15
+    },
+    {
+      "id": "i-am-groot",
+      "title": "I Am Groot",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\I Am Groot",
+      "dataEps": 5
+    },
+    {
+      "id": "inside-job",
+      "title": "Inside Job",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Inside Job",
+      "dataEps": 10
+    },
+    {
+      "id": "kofi",
+      "title": "Kofi",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Kofi",
+      "dataEps": 30
+    },
+    {
+      "id": "dug-days",
+      "title": "Dug Days",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\La Vida de Dug",
+      "dataEps": 5
+    },
+    {
+      "id": "love-death-and-robots",
+      "title": "Love Death & Robots",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Love Death & Robots",
+      "dataEps": 43
+    },
+    {
+      "id": "over-the-garden-wall",
+      "title": "Over the Garden Wall",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Over the Garden Wall",
+      "dataEps": 10
+    },
+    {
+      "id": "paradise-pd",
+      "title": "Paradise PD",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Paradise PD",
+      "dataEps": 29
+    },
+    {
+      "id": "q-force",
+      "title": "Q-Force",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Q-Force",
+      "dataEps": 10
+    },
+    {
+      "id": "rick-and-morty",
+      "title": "Rick and Morty",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Rick y Morty",
+      "dataEps": 69
+    },
+    {
+      "id": "secret-level",
+      "title": "Secret Level",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Secret Level",
+      "dataEps": 15
+    },
+    {
+      "id": "smiling-friends",
+      "title": "Smiling Friends",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Smiling Friends",
+      "dataEps": 8
+    },
+    {
+      "id": "solar-opposites",
+      "title": "Solar Opposites",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Solar Opposites",
+      "dataEps": 16
+    },
+    {
+      "id": "star-wars-the-bad-batch",
+      "title": "Star Wars: The Bad Batch",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Star Wars The Bad Batch",
+      "dataEps": 16
+    },
+    {
+      "id": "star-wars-visions",
+      "title": "Star Wars: Visions",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Star Wars Visions",
+      "dataEps": 9
+    },
+    {
+      "id": "the-amazing-world-of-gumball",
+      "title": "The Amazing World of Gumball",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\The Amazing World of Gumball",
+      "dataEps": 5
+    },
+    {
+      "id": "the-croods-family-tree",
+      "title": "The Croods: Family Tree",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\The Croods Family Tree",
+      "dataEps": 6
+    },
+    {
+      "id": "avatar-the-last-airbender",
+      "title": "Avatar: The Last Airbender",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\The Last Airbender",
+      "dataEps": 59
+    },
+    {
+      "id": "the-midnight-gospel",
+      "title": "The Midnight Gospel",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\The Midnight Gospel",
+      "dataEps": 8
+    },
+    {
+      "id": "the-simpsons",
+      "title": "The Simpsons",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\The Simpsons",
+      "dataEps": 334
+    },
+    {
+      "id": "ugly-americans",
+      "title": "Ugly Americans",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Ugly Americans",
+      "dataEps": 14
+    },
+    {
+      "id": "vermin",
+      "title": "Vermin",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Vermin",
+      "dataEps": 10
+    },
+    {
+      "id": "what-if",
+      "title": "What If...?",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\What If",
+      "dataEps": 9
+    },
+    {
+      "id": "winx-club",
+      "title": "Winx Club",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\Winx Club",
+      "dataEps": 34
+    },
+    {
+      "id": "the-legend-of-korra",
+      "title": "The Legend of Korra",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\[Serie] Avatar (Legend of Korra)",
+      "dataEps": 53
+    },
+    {
+      "id": "duncanville",
+      "title": "Duncanville",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\[Serie] Duncanville",
+      "dataEps": 11
+    },
+    {
+      "id": "miraculous-tales-of-ladybug-and-cat-noir",
+      "title": "Miraculous: Tales of Ladybug & Cat Noir",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\[Serie] MIRACULOUS",
+      "dataEps": 44
+    },
+    {
+      "id": "trollhunters-tales-of-arcadia",
+      "title": "Trollhunters: Tales of Arcadia",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\[Serie] Trollhunters",
+      "dataEps": 26
+    },
+    {
+      "id": "wizards-tales-of-arcadia",
+      "title": "Wizards: Tales of Arcadia",
+      "type": "animated-series",
+      "path": "H:\\SERIES\\[Serie] Wizards",
+      "dataEps": 10
+    },
+    {
+      "id": "10-lxs",
+      "title": "10 LXS",
+      "type": "series",
+      "path": "H:\\SERIES\\10 LXS",
+      "dataEps": 17
+    },
+    {
+      "id": "13-reasons-why",
+      "title": "13 Reasons Why",
+      "type": "series",
+      "path": "H:\\SERIES\\13 Reasons Why",
+      "dataEps": 49
+    },
+    {
+      "id": "1899",
+      "title": "1899",
+      "type": "series",
+      "path": "H:\\SERIES\\1899",
+      "dataEps": 8
+    },
+    {
+      "id": "hawkeye",
+      "title": "Hawkeye",
+      "type": "series",
+      "path": "H:\\SERIES\\30-Hawkeye (Serie)(2021)",
+      "dataEps": 6
+    },
+    {
+      "id": "ms-marvel",
+      "title": "Ms. Marvel",
+      "type": "series",
+      "path": "H:\\SERIES\\34-Ms Marvel (Serie)(2022)",
+      "dataEps": 6
+    },
+    {
+      "id": "she-hulk",
+      "title": "She-Hulk",
+      "type": "series",
+      "path": "H:\\SERIES\\36-She-Hulk Attorney at Law (Serie)(2022)",
+      "dataEps": 9
+    },
+    {
+      "id": "lockwood-and-co",
+      "title": "Lockwood & Co.",
+      "type": "series",
+      "path": "H:\\SERIES\\Agencia Lockwood Temporada 1 (2023) HD 720p Latino 5.1 Dual",
+      "dataEps": 8
+    },
+    {
+      "id": "aida",
+      "title": "Aida",
+      "type": "series",
+      "path": "H:\\SERIES\\Aida",
+      "dataEps": 228
+    },
+    {
+      "id": "alice-in-borderland",
+      "title": "Alice in Borderland",
+      "type": "series",
+      "path": "H:\\SERIES\\Alice in Borderland",
+      "dataEps": 8
+    },
+    {
+      "id": "almost-human",
+      "title": "Almost Human",
+      "type": "series",
+      "path": "H:\\SERIES\\Almost Human",
+      "dataEps": 13
+    },
+    {
+      "id": "american-horror-story",
+      "title": "American Horror Story",
+      "type": "series",
+      "path": "H:\\SERIES\\American Horror Story",
+      "dataEps": 123
+    },
+    {
+      "id": "anne-with-an-e",
+      "title": "Anne with an E",
+      "type": "series",
+      "path": "H:\\SERIES\\Anne with an E",
+      "dataEps": 27
+    },
+    {
+      "id": "avatar-the-last-airbender-live",
+      "title": "Avatar: The Last Airbender",
+      "type": "series",
+      "path": "H:\\SERIES\\Avatar the Last Airbender S01",
+      "dataEps": 8
+    },
+    {
+      "id": "baby",
+      "title": "Baby",
+      "type": "series",
+      "path": "H:\\SERIES\\Baby",
+      "dataEps": 18
+    },
+    {
+      "id": "bajo-sospecha",
+      "title": "Bajo Sospecha",
+      "type": "series",
+      "path": "H:\\SERIES\\Bajo Sospecha",
+      "dataEps": 8
+    },
+    {
+      "id": "better-call-saul",
+      "title": "Better Call Saul",
+      "type": "series",
+      "path": "H:\\SERIES\\Better Call Saul",
+      "dataEps": 50
+    },
+    {
+      "id": "black-mirror",
+      "title": "Black Mirror",
+      "type": "series",
+      "path": "H:\\SERIES\\Black Mirror",
+      "dataEps": 27
+    },
+    {
+      "id": "breaking-bad",
+      "title": "Breaking Bad",
+      "type": "series",
+      "path": "H:\\SERIES\\Breaking Bad",
+      "dataEps": 62
+    },
+    {
+      "id": "bridgerton",
+      "title": "Bridgerton",
+      "type": "series",
+      "path": "H:\\SERIES\\Bridgerton",
+      "dataEps": 16
+    },
+    {
+      "id": "carnival-row",
+      "title": "Carnival Row",
+      "type": "series",
+      "path": "H:\\SERIES\\Carnival Row",
+      "dataEps": 8
+    },
+    {
+      "id": "chernobyl",
+      "title": "Chernobyl",
+      "type": "series",
+      "path": "H:\\SERIES\\Chernobyl",
+      "dataEps": 5
+    },
+    {
+      "id": "connect",
+      "title": "Connect",
+      "type": "series",
+      "path": "H:\\SERIES\\Connect",
+      "dataEps": 6
+    },
+    {
+      "id": "constantine",
+      "title": "Constantine",
+      "type": "series",
+      "path": "H:\\SERIES\\Constantine",
+      "dataEps": 13
+    },
+    {
+      "id": "control-z",
+      "title": "Control Z",
+      "type": "series",
+      "path": "H:\\SERIES\\Control Z",
+      "dataEps": 16
+    },
+    {
+      "id": "daredevil",
+      "title": "Daredevil",
+      "type": "series",
+      "path": "H:\\SERIES\\Daredevil",
+      "dataEps": 39
+    },
+    {
+      "id": "dark",
+      "title": "Dark",
+      "type": "series",
+      "path": "H:\\SERIES\\Dark",
+      "dataEps": 7
+    },
+    {
+      "id": "deadhouse-dark",
+      "title": "Deadhouse Dark",
+      "type": "series",
+      "path": "H:\\SERIES\\Deadhouse Dark",
+      "dataEps": 6
+    },
+    {
+      "id": "dr-house",
+      "title": "Dr. House",
+      "type": "series",
+      "path": "H:\\SERIES\\Dr. House",
+      "dataEps": 181
+    },
+    {
+      "id": "dracula-2020",
+      "title": "Dracula",
+      "type": "series",
+      "path": "H:\\SERIES\\Dracula",
+      "dataEps": 3
+    },
+    {
+      "id": "el-barco",
+      "title": "El Barco",
+      "type": "series",
+      "path": "H:\\SERIES\\El Barco",
+      "dataEps": 43
+    },
+    {
+      "id": "el-inocente",
+      "title": "El Inocente",
+      "type": "series",
+      "path": "H:\\SERIES\\El Inocente",
+      "dataEps": 8
+    },
+    {
+      "id": "el-internado",
+      "title": "El Internado",
+      "type": "series",
+      "path": "H:\\SERIES\\El internado",
+      "dataEps": 51
+    },
+    {
+      "id": "el-internado-las-cumbres",
+      "title": "El Internado: Las Cumbres",
+      "type": "series",
+      "path": "H:\\SERIES\\El INTERNADO LAS CUMBRES",
+      "dataEps": 22
+    },
+    {
+      "id": "el-juego-de-las-llaves",
+      "title": "El Juego de las Llaves",
+      "type": "series",
+      "path": "H:\\SERIES\\El Juego de las Llaves",
+      "dataEps": 16
+    },
+    {
+      "id": "elite",
+      "title": "Elite",
+      "type": "series",
+      "path": "H:\\SERIES\\Elite",
+      "dataEps": 32
+    },
+    {
+      "id": "emily-in-paris",
+      "title": "Emily in Paris",
+      "type": "series",
+      "path": "H:\\SERIES\\Emily in Paris",
+      "dataEps": 10
+    },
+    {
+      "id": "euphoria",
+      "title": "Euphoria",
+      "type": "series",
+      "path": "H:\\SERIES\\Euphoria",
+      "dataEps": 16
+    },
+    {
+      "id": "falcon-and-the-winter-soldier",
+      "title": "Falcon and the Winter Soldier",
+      "type": "series",
+      "path": "H:\\SERIES\\Falcon y el soldado de invierno",
+      "dataEps": 1
+    },
+    {
+      "id": "fallout",
+      "title": "Fallout",
+      "type": "series",
+      "path": "H:\\SERIES\\Fallout",
+      "dataEps": 16
+    },
+    {
+      "id": "friends",
+      "title": "Friends",
+      "type": "series",
+      "path": "H:\\SERIES\\Friends",
+      "dataEps": 235
+    },
+    {
+      "id": "from",
+      "title": "From",
+      "type": "series",
+      "path": "H:\\SERIES\\From",
+      "dataEps": 41
+    },
+    {
+      "id": "game-of-thrones",
+      "title": "Game of Thrones",
+      "type": "series",
+      "path": "H:\\SERIES\\Game Of Thrones",
+      "dataEps": 65
+    },
+    {
+      "id": "ginny-and-georgia",
+      "title": "Ginny and Georgia",
+      "type": "series",
+      "path": "H:\\SERIES\\Ginny and Georgia",
+      "dataEps": 10
+    },
+    {
+      "id": "gossip-girl",
+      "title": "Gossip Girl",
+      "type": "series",
+      "path": "H:\\SERIES\\GOSSIP GIRL",
+      "dataEps": 121
+    },
+    {
+      "id": "heartstopper",
+      "title": "Heartstopper",
+      "type": "series",
+      "path": "H:\\SERIES\\Heartstopper",
+      "dataEps": 3
+    },
+    {
+      "id": "how-i-met-your-mother",
+      "title": "How I Met Your Mother",
+      "type": "series",
+      "path": "H:\\SERIES\\How I Met Your Mother",
+      "dataEps": 164
+    },
+    {
+      "id": "iron-fist",
+      "title": "Iron Fist",
+      "type": "series",
+      "path": "H:\\SERIES\\Iron Fist",
+      "dataEps": 23
+    },
+    {
+      "id": "jessica-jones",
+      "title": "Jessica Jones",
+      "type": "series",
+      "path": "H:\\SERIES\\Jessica Jones",
+      "dataEps": 39
+    },
+    {
+      "id": "kaleidoscope",
+      "title": "Kaleidoscope",
+      "type": "series",
+      "path": "H:\\SERIES\\Kaleidoscope",
+      "dataEps": 9
+    },
+    {
+      "id": "la-casa-de-papel",
+      "title": "La Casa de Papel",
+      "type": "series",
+      "path": "H:\\SERIES\\La Casa de Papel",
+      "dataEps": 43
+    },
+    {
+      "id": "house-of-the-dragon",
+      "title": "House of the Dragon",
+      "type": "series",
+      "path": "H:\\SERIES\\LA CASA DEL DRAGON",
+      "dataEps": 10
+    },
+    {
+      "id": "la-guardia",
+      "title": "La Guardia",
+      "type": "series",
+      "path": "H:\\SERIES\\La Guardia",
+      "dataEps": 8
+    },
+    {
+      "id": "la-unidad",
+      "title": "La Unidad",
+      "type": "series",
+      "path": "H:\\SERIES\\La Unidad",
+      "dataEps": 12
+    },
+    {
+      "id": "cable-girls",
+      "title": "Cable Girls",
+      "type": "series",
+      "path": "H:\\SERIES\\Las Chicas del cable",
+      "dataEps": 42
+    },
+    {
+      "id": "legacies",
+      "title": "Legacies",
+      "type": "series",
+      "path": "H:\\SERIES\\Legacies",
+      "dataEps": 66
+    },
+    {
+      "id": "loki",
+      "title": "Loki",
+      "type": "series",
+      "path": "H:\\SERIES\\Loki",
+      "dataEps": 6
+    },
+    {
+      "id": "the-100",
+      "title": "The 100",
+      "type": "series",
+      "path": "H:\\SERIES\\Los 100",
+      "dataEps": 92
+    },
+    {
+      "id": "lqsa",
+      "title": "LQSA",
+      "type": "series",
+      "path": "H:\\SERIES\\LQSA",
+      "dataEps": 157
+    },
+    {
+      "id": "luke-cage",
+      "title": "Luke Cage",
+      "type": "series",
+      "path": "H:\\SERIES\\Luke Cage",
+      "dataEps": 26
+    },
+    {
+      "id": "luna-el-misterio-en-calenda",
+      "title": "Luna: El Misterio en Calenda",
+      "type": "series",
+      "path": "H:\\SERIES\\Luna el Misterio en Calenda",
+      "dataEps": 12
+    },
+    {
+      "id": "lupin",
+      "title": "Lupin",
+      "type": "series",
+      "path": "H:\\SERIES\\Lupin",
+      "dataEps": 17
+    },
+    {
+      "id": "midnight-mass",
+      "title": "Midnight Mass",
+      "type": "series",
+      "path": "H:\\SERIES\\Midnight Mass",
+      "dataEps": 7
+    },
+    {
+      "id": "moon-knight",
+      "title": "Moon Knight",
+      "type": "series",
+      "path": "H:\\SERIES\\Moon_Knight",
+      "dataEps": 6
+    },
+    {
+      "id": "nancy-drew",
+      "title": "Nancy Drew",
+      "type": "series",
+      "path": "H:\\SERIES\\Nancy-Drew",
+      "dataEps": 17
+    },
+    {
+      "id": "narcos-mexico",
+      "title": "Narcos: Mexico",
+      "type": "series",
+      "path": "H:\\SERIES\\Narcos Mex",
+      "dataEps": 15
+    },
+    {
+      "id": "obi-wan-kenobi",
+      "title": "Obi-Wan Kenobi",
+      "type": "series",
+      "path": "H:\\SERIES\\Obi Wan Kenobi",
+      "dataEps": 3
+    },
+    {
+      "id": "one-piece-live",
+      "title": "One Piece",
+      "type": "series",
+      "path": "H:\\SERIES\\One Piece",
+      "dataEps": 8
+    },
+    {
+      "id": "only-murders-in-the-building",
+      "title": "Only Murders in the Building",
+      "type": "series",
+      "path": "H:\\SERIES\\Only Murders in the Building",
+      "dataEps": 7
+    },
+    {
+      "id": "outer-banks",
+      "title": "Outer Banks",
+      "type": "series",
+      "path": "H:\\SERIES\\Outer Banks",
+      "dataEps": 20
+    },
+    {
+      "id": "ozark",
+      "title": "Ozark",
+      "type": "series",
+      "path": "H:\\SERIES\\Ozark",
+      "dataEps": 30
+    },
+    {
+      "id": "peaky-blinders",
+      "title": "Peaky Blinders",
+      "type": "series",
+      "path": "H:\\SERIES\\Peaky Blinders",
+      "dataEps": 30
+    },
+    {
+      "id": "pretty-little-liars",
+      "title": "Pretty Little Liars",
+      "type": "series",
+      "path": "H:\\SERIES\\Pretty Little Liars",
+      "dataEps": 93
+    },
+    {
+      "id": "prison-break",
+      "title": "Prison Break",
+      "type": "series",
+      "path": "H:\\SERIES\\Prison Break",
+      "dataEps": 91
+    },
+    {
+      "id": "prodigal-son",
+      "title": "Prodigal Son",
+      "type": "series",
+      "path": "H:\\SERIES\\Prodigal Son",
+      "dataEps": 20
+    },
+    {
+      "id": "ragnarok",
+      "title": "Ragnarok",
+      "type": "series",
+      "path": "H:\\SERIES\\Ragnarok",
+      "dataEps": 12
+    },
+    {
+      "id": "resident-alien",
+      "title": "Resident Alien",
+      "type": "series",
+      "path": "H:\\SERIES\\Resident Alien",
+      "dataEps": 10
+    },
+    {
+      "id": "sex-education",
+      "title": "Sex Education",
+      "type": "series",
+      "path": "H:\\SERIES\\Sex Education",
+      "dataEps": 32
+    },
+    {
+      "id": "sex-life",
+      "title": "Sex/Life",
+      "type": "series",
+      "path": "H:\\SERIES\\Sex Life",
+      "dataEps": 8
+    },
+    {
+      "id": "squid-game",
+      "title": "Squid Game",
+      "type": "series",
+      "path": "H:\\SERIES\\Squid Game",
+      "dataEps": 9
+    },
+    {
+      "id": "stranger-things",
+      "title": "Stranger Things",
+      "type": "series",
+      "path": "H:\\SERIES\\Stranger Things",
+      "dataEps": 35
+    },
+    {
+      "id": "submission",
+      "title": "Submission",
+      "type": "series",
+      "path": "H:\\SERIES\\Submission",
+      "dataEps": 6
+    },
+    {
+      "id": "teen-wolf",
+      "title": "Teen Wolf",
+      "type": "series",
+      "path": "H:\\SERIES\\Teen Wolf",
+      "dataEps": 85
+    },
+    {
+      "id": "the-big-bang-theory",
+      "title": "The Big Bang Theory",
+      "type": "series",
+      "path": "H:\\SERIES\\The Big Bang Theory",
+      "dataEps": 272
+    },
+    {
+      "id": "the-boys",
+      "title": "The Boys",
+      "type": "series",
+      "path": "H:\\SERIES\\The Boys",
+      "dataEps": 32
+    },
+    {
+      "id": "the-crown",
+      "title": "The Crown",
+      "type": "series",
+      "path": "H:\\SERIES\\The Crown",
+      "dataEps": 50
+    },
+    {
+      "id": "the-defenders",
+      "title": "The Defenders",
+      "type": "series",
+      "path": "H:\\SERIES\\The Defenders",
+      "dataEps": 8
+    },
+    {
+      "id": "the-end-of-the-fucking-world",
+      "title": "The End of the F***ing World",
+      "type": "series",
+      "path": "H:\\SERIES\\The End of the Fucking World",
+      "dataEps": 16
+    },
+    {
+      "id": "the-eternaut",
+      "title": "The Eternaut",
+      "type": "series",
+      "path": "H:\\SERIES\\The Eternaut",
+      "dataEps": 6
+    },
+    {
+      "id": "the-haunting-of-hill-house",
+      "title": "The Haunting of Hill House",
+      "type": "series",
+      "path": "H:\\SERIES\\The Haunting of Hill House",
+      "dataEps": 5
+    },
+    {
+      "id": "the-last-of-us",
+      "title": "The Last of Us",
+      "type": "series",
+      "path": "H:\\SERIES\\The Last of Us",
+      "dataEps": 12
+    },
+    {
+      "id": "the-mist",
+      "title": "The Mist",
+      "type": "series",
+      "path": "H:\\SERIES\\The Mist",
+      "dataEps": 2
+    },
+    {
+      "id": "the-originals",
+      "title": "The Originals",
+      "type": "series",
+      "path": "H:\\SERIES\\The Originals",
+      "dataEps": 94
+    },
+    {
+      "id": "the-punisher",
+      "title": "The Punisher",
+      "type": "series",
+      "path": "H:\\SERIES\\The Punisher",
+      "dataEps": 26
+    },
+    {
+      "id": "the-sandman",
+      "title": "The Sandman",
+      "type": "series",
+      "path": "H:\\SERIES\\The Sandman",
+      "dataEps": 10
+    },
+    {
+      "id": "the-vampire-diaries",
+      "title": "The Vampire Diaries",
+      "type": "series",
+      "path": "H:\\SERIES\\The Vampire Diares",
+      "dataEps": 170
+    },
+    {
+      "id": "fate-the-winx-saga",
+      "title": "Fate: The Winx Saga",
+      "type": "series",
+      "path": "H:\\SERIES\\The Winx Saga",
+      "dataEps": 6
+    },
+    {
+      "id": "the-witcher",
+      "title": "The Witcher",
+      "type": "series",
+      "path": "H:\\SERIES\\The Witcher",
+      "dataEps": 24
+    },
+    {
+      "id": "vikings",
+      "title": "Vikings",
+      "type": "series",
+      "path": "H:\\SERIES\\VIKINGOS",
+      "dataEps": 88
+    },
+    {
+      "id": "wandavision",
+      "title": "WandaVision",
+      "type": "series",
+      "path": "H:\\SERIES\\WANDAVISION",
+      "dataEps": 9
+    },
+    {
+      "id": "watchmen",
+      "title": "Watchmen",
+      "type": "series",
+      "path": "H:\\SERIES\\Watchmen",
+      "dataEps": 9
+    },
+    {
+      "id": "wayne",
+      "title": "Wayne",
+      "type": "series",
+      "path": "H:\\SERIES\\Wayne",
+      "dataEps": 10
+    },
+    {
+      "id": "wednesday",
+      "title": "Wednesday",
+      "type": "series",
+      "path": "H:\\SERIES\\Wednesday",
+      "dataEps": 8
+    },
+    {
+      "id": "y-the-last-man",
+      "title": "Y: The Last Man",
+      "type": "series",
+      "path": "H:\\SERIES\\Y The Last Man",
+      "dataEps": 3
+    },
+    {
+      "id": "chucky",
+      "title": "Chucky",
+      "type": "series",
+      "path": "H:\\SERIES\\Chucky Season 1",
+      "dataEps": 1
+    },
+    {
+      "id": "dawsons-creek",
+      "title": "Dawson\\",
+      "type": "series",
+      "path": "H:\\SERIES\\Dawsons Creek",
+      "dataEps": 3
+    },
+    {
+      "id": "lucifer",
+      "title": "Lucifer",
+      "type": "series",
+      "path": "H:\\SERIES\\Lucifer",
+      "dataEps": 23
+    },
+    {
+      "id": "criminal-minds",
+      "title": "Criminal Minds",
+      "type": "series",
+      "path": "H:\\SERIES\\Mentes Criminales",
+      "dataEps": 256
+    },
+    {
+      "id": "narcos",
+      "title": "Narcos",
+      "type": "series",
+      "path": "H:\\SERIES\\Narcos",
+      "dataEps": 24
+    },
+    {
+      "id": "riverdale",
+      "title": "Riverdale",
+      "type": "series",
+      "path": "H:\\SERIES\\Riverdale",
+      "dataEps": 74
+    },
+    {
+      "id": "see",
+      "title": "See",
+      "type": "series",
+      "path": "H:\\SERIES\\See",
+      "dataEps": 24
+    },
+    {
+      "id": "sherlock",
+      "title": "Sherlock",
+      "type": "series",
+      "path": "H:\\SERIES\\Sherlock",
+      "dataEps": 9
+    },
+    {
+      "id": "the-walking-dead",
+      "title": "The Walking Dead",
+      "type": "series",
+      "path": "H:\\SERIES\\The Walking Dead",
+      "dataEps": 88
+    },
+    {
+      "id": "vikings-valhalla",
+      "title": "Vikings: Valhalla",
+      "type": "series",
+      "path": "H:\\SERIES\\Vikings Valhalla",
+      "dataEps": 8
+    },
+    {
+      "id": "young-sheldon",
+      "title": "Young Sheldon",
+      "type": "series",
+      "path": "H:\\SERIES\\Young Sheldon",
+      "dataEps": 82
+    },
+    {
+      "id": "legacies-incomplete",
+      "title": "Legacies",
+      "type": "series",
+      "path": "H:\\SERIES\\Legacies",
+      "dataEps": 46
+    },
+    {
+      "id": "its-ok-its-love",
+      "title": "It",
+      "type": "kdrama",
+      "path": "E:\\Doramas\\IT",
+      "dataEps": 16
+    },
+    {
+      "id": "velvet",
+      "title": "Velvet",
+      "type": "series",
+      "path": "H:\\SERIES\\Velvet 1",
+      "dataEps": 53
+    }
+  ],
+  "mismatch": [
+    {
+      "id": "the-hunger-games-saga",
+      "title": "The Hunger Games Saga",
+      "type": "movie",
+      "path": "D:\\The Hunger Games",
+      "dataEps": 1,
+      "diskEps": 4,
+      "diff": 3,
+      "diskSize": 4034694066,
+      "diskSizeFormatted": "3.76 GB"
+    },
+    {
+      "id": "final-destination-series",
+      "title": "Final Destination Series",
+      "type": "movie",
+      "path": "D:\\Final Destination",
+      "dataEps": 1,
+      "diskEps": 5,
+      "diff": 4,
+      "diskSize": 8745090375,
+      "diskSizeFormatted": "8.14 GB"
+    },
+    {
+      "id": "maze-runner-series",
+      "title": "Maze Runner Series",
+      "type": "movie",
+      "path": "D:\\Maze Runner",
+      "dataEps": 1,
+      "diskEps": 3,
+      "diff": 2,
+      "diskSize": 9825921015,
+      "diskSizeFormatted": "9.15 GB"
+    },
+    {
+      "id": "pitch-perfect-series",
+      "title": "Pitch Perfect Series",
+      "type": "movie",
+      "path": "D:\\Pitch Perfect",
+      "dataEps": 1,
+      "diskEps": 4,
+      "diff": 3,
+      "diskSize": 3983753995,
+      "diskSizeFormatted": "3.71 GB"
+    },
+    {
+      "id": "suicide-squad",
+      "title": "Suicide Squad",
+      "type": "movie",
+      "path": "D:\\Suicide Squad",
+      "dataEps": 1,
+      "diskEps": 2,
+      "diff": 1,
+      "diskSize": 2987367876,
+      "diskSizeFormatted": "2.78 GB"
+    },
+    {
+      "id": "indiana-jones",
+      "title": "Indiana Jones",
+      "type": "movie",
+      "path": "D:\\Indiana Jones",
+      "dataEps": 1,
+      "diskEps": 4,
+      "diff": 3,
+      "diskSize": 2114247601,
+      "diskSizeFormatted": "1.97 GB"
+    },
+    {
+      "id": "hellboy-series",
+      "title": "HellBoy Series",
+      "type": "movie",
+      "path": "D:\\HellBoy",
+      "dataEps": 1,
+      "diskEps": 3,
+      "diff": 2,
+      "diskSize": 4593799940,
+      "diskSizeFormatted": "4.28 GB"
+    },
+    {
+      "id": "the-kissing-booth",
+      "title": "The Kissing Booth",
+      "type": "movie",
+      "path": "D:\\The Kissing Booth",
+      "dataEps": 1,
+      "diskEps": 3,
+      "diff": 2,
+      "diskSize": 8536407420,
+      "diskSizeFormatted": "7.95 GB"
+    },
+    {
+      "id": "fear-street",
+      "title": "Fear Street",
+      "type": "movie",
+      "path": "D:\\Fear Street",
+      "dataEps": 1,
+      "diskEps": 3,
+      "diff": 2,
+      "diskSize": 5369412632,
+      "diskSizeFormatted": "5.00 GB"
+    },
+    {
+      "id": "sherlock-holmes",
+      "title": "Sherlock Holmes",
+      "type": "movie",
+      "path": "D:\\Sherlock Holmes",
+      "dataEps": 1,
+      "diskEps": 3,
+      "diff": 2,
+      "diskSize": 4029967410,
+      "diskSizeFormatted": "3.75 GB"
+    },
+    {
+      "id": "accel-world",
+      "title": "Accel World",
+      "type": "anime",
+      "path": "F:\\Accel World [26 cap]",
+      "dataEps": 26,
+      "diskEps": 25,
+      "diff": -1,
+      "diskSize": 2380939838,
+      "diskSizeFormatted": "2.22 GB"
+    },
+    {
+      "id": "ansatsu-kyoushitsu",
+      "title": "Ansatsu Kyoushitsu",
+      "type": "anime",
+      "path": "F:\\Ansatsu Kyoushitsu",
+      "dataEps": 23,
+      "diskEps": 48,
+      "diff": 25,
+      "diskSize": 7895880522,
+      "diskSizeFormatted": "7.35 GB"
+    },
+    {
+      "id": "arifureta-shokugyou-de-sekai-saikyou",
+      "title": "Arifureta Shokugyou de Sekai Saikyou",
+      "type": "anime",
+      "path": "F:\\Arifureta Shokugyou de Sekai Saikyou",
+      "dataEps": 15,
+      "diskEps": 30,
+      "diff": 15,
+      "diskSize": 5215136502,
+      "diskSizeFormatted": "4.86 GB"
+    },
+    {
+      "id": "boku-no-hero-academia",
+      "title": "Boku no Hero Academia",
+      "type": "anime",
+      "path": "F:\\Boku no hero",
+      "dataEps": 13,
+      "diskEps": 150,
+      "diff": 137,
+      "diskSize": 32362856786,
+      "diskSizeFormatted": "30.14 GB"
+    },
+    {
+      "id": "castlevania",
+      "title": "Castlevania",
+      "type": "anime",
+      "path": "F:\\Castlevania",
+      "dataEps": 4,
+      "diskEps": 22,
+      "diff": 18,
+      "diskSize": 8729792952,
+      "diskSizeFormatted": "8.13 GB"
+    },
+    {
+      "id": "chainsaw-man",
+      "title": "Chainsaw Man",
+      "type": "anime",
+      "path": "F:\\Chainsaw Man",
+      "dataEps": 12,
+      "diskEps": 13,
+      "diff": 1,
+      "diskSize": 2734778824,
+      "diskSizeFormatted": "2.55 GB"
+    },
+    {
+      "id": "daitoshokan-no-hitsujikai",
+      "title": "Daitoshokan no Hitsujikai",
+      "type": "anime",
+      "path": "F:\\Daitoshokan no Hitsujikai",
+      "dataEps": 12,
+      "diskEps": 15,
+      "diff": 3,
+      "diskSize": 1791701191,
+      "diskSizeFormatted": "1.67 GB"
+    },
+    {
+      "id": "death-note",
+      "title": "Death Note",
+      "type": "anime",
+      "path": "F:\\Death Note",
+      "dataEps": 37,
+      "diskEps": 8,
+      "diff": -29,
+      "diskSize": 1427271486,
+      "diskSizeFormatted": "1.33 GB"
+    },
+    {
+      "id": "dimension-w",
+      "title": "Dimension W",
+      "type": "anime",
+      "path": "F:\\Dimension W",
+      "dataEps": 12,
+      "diskEps": 13,
+      "diff": 1,
+      "diskSize": 2033481404,
+      "diskSizeFormatted": "1.89 GB"
+    },
+    {
+      "id": "dr-stone",
+      "title": "Dr. Stone",
+      "type": "anime",
+      "path": "F:\\Dr. Stone",
+      "dataEps": 24,
+      "diskEps": 59,
+      "diff": 35,
+      "diskSize": 13516371253,
+      "diskSizeFormatted": "12.59 GB"
+    },
+    {
+      "id": "dungeon-ni-deai-wo-motomeru",
+      "title": "Dungeon ni Deai wo Motomeru",
+      "type": "anime",
+      "path": "F:\\Dungeon ni Deai wo Motomeru",
+      "dataEps": 13,
+      "diskEps": 62,
+      "diff": 49,
+      "diskSize": 11572162878,
+      "diskSizeFormatted": "10.78 GB"
+    },
+    {
+      "id": "en-en-no-shouboutai",
+      "title": "En en no Shouboutai",
+      "type": "anime",
+      "path": "F:\\En en no Shouboutai",
+      "dataEps": 24,
+      "diskEps": 48,
+      "diff": 24,
+      "diskSize": 8428927820,
+      "diskSizeFormatted": "7.85 GB"
+    },
+    {
+      "id": "fairy-tail",
+      "title": "Fairy Tail",
+      "type": "anime",
+      "path": "F:\\Fairy Tail",
+      "dataEps": 175,
+      "diskEps": 205,
+      "diff": 30,
+      "diskSize": 25217131202,
+      "diskSizeFormatted": "23.49 GB"
+    },
+    {
+      "id": "fullmetal-alchemist",
+      "title": "Fullmetal Alchemist",
+      "type": "anime",
+      "path": "F:\\FMA",
+      "dataEps": 51,
+      "diskEps": 69,
+      "diff": 18,
+      "diskSize": 6681560903,
+      "diskSizeFormatted": "6.22 GB"
+    },
+    {
+      "id": "fugou-keiji-balance-unlimited",
+      "title": "Fugou Keiji Balance Unlimited",
+      "type": "anime",
+      "path": "F:\\Fugou Keiji Balance Unlimited",
+      "dataEps": 11,
+      "diskEps": 10,
+      "diff": -1,
+      "diskSize": 1602835816,
+      "diskSizeFormatted": "1.49 GB"
+    },
+    {
+      "id": "fukumenkei-noise",
+      "title": "Fukumenkei Noise",
+      "type": "anime",
+      "path": "F:\\Fukumenkei Noise",
+      "dataEps": 12,
+      "diskEps": 10,
+      "diff": -2,
+      "diskSize": 1831728585,
+      "diskSizeFormatted": "1.71 GB"
+    },
+    {
+      "id": "fumetsu-no-anata-e-main",
+      "title": "Fumetsu no Anata e",
+      "type": "anime",
+      "path": "F:\\Fumetsu no Anata e",
+      "dataEps": 20,
+      "diskEps": 5,
+      "diff": -15,
+      "diskSize": 974679034,
+      "diskSizeFormatted": "929.5 MB"
+    },
+    {
+      "id": "fumikiri-jikan",
+      "title": "Fumikiri Jikan",
+      "type": "anime",
+      "path": "F:\\Fumikiri Jikan",
+      "dataEps": 12,
+      "diskEps": 11,
+      "diff": -1,
+      "diskSize": 344397871,
+      "diskSizeFormatted": "328.4 MB"
+    },
+    {
+      "id": "golden-kamuy",
+      "title": "Golden Kamuy",
+      "type": "anime",
+      "path": "F:\\Golden Kamuy (nuevo)",
+      "dataEps": 12,
+      "diskEps": 36,
+      "diff": 24,
+      "diskSize": 4866414033,
+      "diskSizeFormatted": "4.53 GB"
+    },
+    {
+      "id": "gundam-evolve",
+      "title": "Gundam Evolve",
+      "type": "anime",
+      "path": "F:\\Gundam Evolve [14]",
+      "dataEps": 14,
+      "diskEps": 15,
+      "diff": 1,
+      "diskSize": 1703948039,
+      "diskSizeFormatted": "1.59 GB"
+    },
+    {
+      "id": "hunter-x-hunter-2011",
+      "title": "Hunter x Hunter (2011)",
+      "type": "anime",
+      "path": "F:\\Hunter x Hunter",
+      "dataEps": 148,
+      "diskEps": 150,
+      "diff": 2,
+      "diskSize": 17440593137,
+      "diskSizeFormatted": "16.24 GB"
+    },
+    {
+      "id": "isekai-ojisan",
+      "title": "Isekai Ojisan",
+      "type": "anime",
+      "path": "F:\\Isekai Ojisan",
+      "dataEps": 13,
+      "diskEps": 7,
+      "diff": -6,
+      "diskSize": 1395790163,
+      "diskSizeFormatted": "1.30 GB"
+    },
+    {
+      "id": "isekai-quartet",
+      "title": "Isekai Quartet",
+      "type": "anime",
+      "path": "F:\\Isekai Quartet",
+      "dataEps": 12,
+      "diskEps": 24,
+      "diff": 12,
+      "diskSize": 2426110176,
+      "diskSizeFormatted": "2.26 GB"
+    },
+    {
+      "id": "ishuzoku-reviewers",
+      "title": "Ishuzoku Reviewers",
+      "type": "anime",
+      "path": "F:\\Ishuzoku Reviewers",
+      "dataEps": 12,
+      "diskEps": 7,
+      "diff": -5,
+      "diskSize": 1172778952,
+      "diskSizeFormatted": "1.09 GB"
+    },
+    {
+      "id": "jujutsu-kaisen",
+      "title": "Jujutsu Kaisen",
+      "type": "anime",
+      "path": "F:\\Jujutsu Kaisen",
+      "dataEps": 24,
+      "diskEps": 61,
+      "diff": 37,
+      "diskSize": 11493525083,
+      "diskSizeFormatted": "10.70 GB"
+    },
+    {
+      "id": "kami-no-tou",
+      "title": "Kami no Tou",
+      "type": "anime",
+      "path": "F:\\Kami no tou",
+      "dataEps": 13,
+      "diskEps": 25,
+      "diff": 12,
+      "diskSize": 3590726851,
+      "diskSizeFormatted": "3.34 GB"
+    },
+    {
+      "id": "kimetsu-no-yaiba",
+      "title": "Kimetsu No Yaiba",
+      "type": "anime",
+      "path": "F:\\Kimetsu No Yaiba",
+      "dataEps": 26,
+      "diskEps": 56,
+      "diff": 30,
+      "diskSize": 11552144429,
+      "diskSizeFormatted": "10.76 GB"
+    },
+    {
+      "id": "konosuba",
+      "title": "Kono Subarashii Sekai ni Shukufuku wo!",
+      "type": "anime",
+      "path": "F:\\Kono Subarashii Sekai ni Shukufuku wo(NUEVA)",
+      "dataEps": 10,
+      "diskEps": 23,
+      "diff": 13,
+      "diskSize": 3510783646,
+      "diskSizeFormatted": "3.27 GB"
+    },
+    {
+      "id": "nichijou",
+      "title": "Nichijou",
+      "type": "anime",
+      "path": "F:\\Nichijou",
+      "dataEps": 26,
+      "diskEps": 27,
+      "diff": 1,
+      "diskSize": 2468500314,
+      "diskSizeFormatted": "2.30 GB"
+    },
+    {
+      "id": "one-punch-man",
+      "title": "One-Punch Man",
+      "type": "anime",
+      "path": "F:\\One-Punch Man",
+      "dataEps": 12,
+      "diskEps": 19,
+      "diff": 7,
+      "diskSize": 3833158264,
+      "diskSizeFormatted": "3.57 GB"
+    },
+    {
+      "id": "overlord",
+      "title": "Overlord",
+      "type": "anime",
+      "path": "F:\\Overlod",
+      "dataEps": 13,
+      "diskEps": 60,
+      "diff": 47,
+      "diskSize": 10208431815,
+      "diskSizeFormatted": "9.51 GB"
+    },
+    {
+      "id": "platinum-end",
+      "title": "Platinum End",
+      "type": "anime",
+      "path": "F:\\Platinum End",
+      "dataEps": 24,
+      "diskEps": 22,
+      "diff": -2,
+      "diskSize": 4103422227,
+      "diskSizeFormatted": "3.82 GB"
+    },
+    {
+      "id": "shingeki-no-kyojin",
+      "title": "Shingeki no Kyojin",
+      "type": "anime",
+      "path": "F:\\Shingeki no Kyojin",
+      "dataEps": 25,
+      "diskEps": 102,
+      "diff": 77,
+      "diskSize": 19642436597,
+      "diskSizeFormatted": "18.29 GB"
+    },
+    {
+      "id": "shokugeki-no-soma",
+      "title": "Shokugeki no Soma",
+      "type": "anime",
+      "path": "F:\\Shokugeki no Soma",
+      "dataEps": 25,
+      "diskEps": 89,
+      "diff": 64,
+      "diskSize": 16623490523,
+      "diskSizeFormatted": "15.48 GB"
+    },
+    {
+      "id": "shuumatsu-no-valkyrie",
+      "title": "Shuumatsu No Valkyrie",
+      "type": "anime",
+      "path": "F:\\Shuumatsu No Valkyrie",
+      "dataEps": 12,
+      "diskEps": 22,
+      "diff": 10,
+      "diskSize": 4215243781,
+      "diskSizeFormatted": "3.93 GB"
+    },
+    {
+      "id": "soul-eater",
+      "title": "Soul Eater",
+      "type": "anime",
+      "path": "F:\\Soul Eater",
+      "dataEps": 12,
+      "diskEps": 51,
+      "diff": 39,
+      "diskSize": 3105286052,
+      "diskSizeFormatted": "2.89 GB"
+    },
+    {
+      "id": "spy-x-family",
+      "title": "Spy x Family",
+      "type": "anime",
+      "path": "F:\\Spy x Family",
+      "dataEps": 25,
+      "diskEps": 36,
+      "diff": 11,
+      "diskSize": 7126866596,
+      "diskSizeFormatted": "6.64 GB"
+    },
+    {
+      "id": "tengen-toppa-gurren-lagann",
+      "title": "Tengen Toppa Gurren-Lagann",
+      "type": "anime",
+      "path": "F:\\Tengen Toppa Gurren-Lagann",
+      "dataEps": 27,
+      "diskEps": 32,
+      "diff": 5,
+      "diskSize": 6796715958,
+      "diskSizeFormatted": "6.33 GB"
+    },
+    {
+      "id": "tensei-shitara-slime-datta-ken",
+      "title": "Tensei shitara Slime Datta Ken",
+      "type": "anime",
+      "path": "F:\\Tensei shitara Slime Datta Ken",
+      "dataEps": 29,
+      "diskEps": 82,
+      "diff": 53,
+      "diskSize": 14496637739,
+      "diskSizeFormatted": "13.50 GB"
+    },
+    {
+      "id": "tokyo-ghoul",
+      "title": "Tokyo Ghoul",
+      "type": "anime",
+      "path": "F:\\Tokyo Ghoul",
+      "dataEps": 12,
+      "diskEps": 48,
+      "diff": 36,
+      "diskSize": 5197613626,
+      "diskSizeFormatted": "4.84 GB"
+    },
+    {
+      "id": "tokyo-revengers",
+      "title": "Tokyo Revengers",
+      "type": "anime",
+      "path": "F:\\Tokyo Revengers",
+      "dataEps": 25,
+      "diskEps": 43,
+      "diff": 18,
+      "diskSize": 4907757272,
+      "diskSizeFormatted": "4.57 GB"
+    },
+    {
+      "id": "trinity-seven",
+      "title": "Trinity Seven",
+      "type": "anime",
+      "path": "F:\\Trinity Seven",
+      "dataEps": 12,
+      "diskEps": 14,
+      "diff": 2,
+      "diskSize": 2031516511,
+      "diskSizeFormatted": "1.89 GB"
+    },
+    {
+      "id": "yakusoku-no-neverland",
+      "title": "Yakusoku no Neverland",
+      "type": "anime",
+      "path": "F:\\Yakusoko no Neverland",
+      "dataEps": 12,
+      "diskEps": 23,
+      "diff": 11,
+      "diskSize": 3094440623,
+      "diskSizeFormatted": "2.88 GB"
+    },
+    {
+      "id": "youkoso-jitsuryoku",
+      "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+      "type": "anime",
+      "path": "F:\\Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+      "dataEps": 13,
+      "diskEps": 12,
+      "diff": -1,
+      "diskSize": 2391813398,
+      "diskSizeFormatted": "2.23 GB"
+    },
+    {
+      "id": "boku-no-kokoro-no-yabai-yatsu",
+      "title": "Boku no Kokoro no Yabai Yatsu",
+      "type": "anime",
+      "path": "F:\\Nuevos\\...Boku no Kokoro no Yabai Yatsu",
+      "dataEps": 12,
+      "diskEps": 15,
+      "diff": 3,
+      "diskSize": 2951885379,
+      "diskSizeFormatted": "2.75 GB"
+    },
+    {
+      "id": "dark-gathering",
+      "title": "Dark Gathering",
+      "type": "anime",
+      "path": "F:\\Nuevos\\...Dark Gathering",
+      "dataEps": 25,
+      "diskEps": 3,
+      "diff": -22,
+      "diskSize": 597633528,
+      "diskSizeFormatted": "569.9 MB"
+    },
+    {
+      "id": "kusuriya-no-hitorigoto",
+      "title": "Kusuriya no Hitorigoto",
+      "type": "anime",
+      "path": "F:\\Nuevos\\...Kusuriya no Hitorigoto",
+      "dataEps": 24,
+      "diskEps": 8,
+      "diff": -16,
+      "diskSize": 989657115,
+      "diskSizeFormatted": "943.8 MB"
+    },
+    {
+      "id": "link-click",
+      "title": "Link Click",
+      "type": "anime",
+      "path": "F:\\Nuevos\\...Link Click",
+      "dataEps": 12,
+      "diskEps": 2,
+      "diff": -10,
+      "diskSize": 310887095,
+      "diskSizeFormatted": "296.5 MB"
+    },
+    {
+      "id": "lycoris-recoil",
+      "title": "Lycoris Recoil",
+      "type": "anime",
+      "path": "F:\\Nuevos\\...Lycoris Recoil",
+      "dataEps": 13,
+      "diskEps": 4,
+      "diff": -9,
+      "diskSize": 596461833,
+      "diskSizeFormatted": "568.8 MB"
+    },
+    {
+      "id": "oshi-no-ko",
+      "title": "Oshi no Ko",
+      "type": "anime",
+      "path": "F:\\Nuevos\\...Oshi no Ko",
+      "dataEps": 11,
+      "diskEps": 6,
+      "diff": -5,
+      "diskSize": 1034129912,
+      "diskSizeFormatted": "986.2 MB"
+    },
+    {
+      "id": "dead-dead-demons-dedede",
+      "title": "DEAD DEAD DEMONS DEDEDEDE DESTRUCTION",
+      "type": "anime",
+      "path": "F:\\Nuevos\\1. Terminar\\DEAD DEAD DEMONS DEDEDEDE DESTRUCTION",
+      "dataEps": 17,
+      "diskEps": 2,
+      "diff": -15,
+      "diskSize": 391824353,
+      "diskSizeFormatted": "373.7 MB"
+    },
+    {
+      "id": "metallic-rouge",
+      "title": "Metallic Rouge",
+      "type": "anime",
+      "path": "F:\\Nuevos\\1. Terminar\\Metallic Rouge",
+      "dataEps": 13,
+      "diskEps": 1,
+      "diff": -12,
+      "diskSize": 199293006,
+      "diskSizeFormatted": "190.1 MB"
+    },
+    {
+      "id": "spy-x-family-copy",
+      "title": "Spy x Family",
+      "type": "anime",
+      "path": "F:\\Nuevos\\1. Terminar\\Spy x Family",
+      "dataEps": 25,
+      "diskEps": 6,
+      "diff": -19,
+      "diskSize": 1195659216,
+      "diskSizeFormatted": "1.11 GB"
+    },
+    {
+      "id": "86-eighty-six",
+      "title": "86 Eighty Six",
+      "type": "anime",
+      "path": "F:\\Nuevos\\86 Eighty Six",
+      "dataEps": 11,
+      "diskEps": 23,
+      "diff": 12,
+      "diskSize": 6776249093,
+      "diskSizeFormatted": "6.31 GB"
+    },
+    {
+      "id": "91-days",
+      "title": "91 Days",
+      "type": "anime",
+      "path": "F:\\Nuevos\\91 Days",
+      "dataEps": 12,
+      "diskEps": 13,
+      "diff": 1,
+      "diskSize": 1776490984,
+      "diskSizeFormatted": "1.65 GB"
+    },
+    {
+      "id": "ao-no-hako",
+      "title": "Ao no Hako",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Ao no Hako",
+      "dataEps": 24,
+      "diskEps": 25,
+      "diff": 1,
+      "diskSize": 4395374321,
+      "diskSizeFormatted": "4.09 GB"
+    },
+    {
+      "id": "break-blade",
+      "title": "Break Blade",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Break Blade",
+      "dataEps": 12,
+      "diskEps": 13,
+      "diff": 1,
+      "diskSize": 3210840444,
+      "diskSizeFormatted": "2.99 GB"
+    },
+    {
+      "id": "dan-da-dan",
+      "title": "Dan Da Dan",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Dan Da Dan",
+      "dataEps": 12,
+      "diskEps": 19,
+      "diff": 7,
+      "diskSize": 3184977910,
+      "diskSizeFormatted": "2.97 GB"
+    },
+    {
+      "id": "dance-dance-danseur",
+      "title": "Dance Dance Danseur",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Dance Dance Danseur",
+      "dataEps": 11,
+      "diskEps": 10,
+      "diff": -1,
+      "diskSize": 533591222,
+      "diskSizeFormatted": "508.9 MB"
+    },
+    {
+      "id": "dungeon-meshi",
+      "title": "Dungeon Meshi",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Dungeon Meshi",
+      "dataEps": 24,
+      "diskEps": 20,
+      "diff": -4,
+      "diskSize": 3046373373,
+      "diskSizeFormatted": "2.84 GB"
+    },
+    {
+      "id": "fumetsu-no-anata-e-new",
+      "title": "Fumetsu no Anata e",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Fumetsu no Anata e",
+      "dataEps": 20,
+      "diskEps": 62,
+      "diff": 42,
+      "diskSize": 10439951600,
+      "diskSizeFormatted": "9.72 GB"
+    },
+    {
+      "id": "gachiakuta",
+      "title": "Gachiakuta",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Gachiakuta",
+      "dataEps": 12,
+      "diskEps": 22,
+      "diff": 10,
+      "diskSize": 3546777136,
+      "diskSizeFormatted": "3.30 GB"
+    },
+    {
+      "id": "heavenly-delusion",
+      "title": "Heavenly Delusion",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Heavenly Delusion",
+      "dataEps": 13,
+      "diskEps": 12,
+      "diff": -1,
+      "diskSize": 1725570230,
+      "diskSizeFormatted": "1.61 GB"
+    },
+    {
+      "id": "horimiya",
+      "title": "Horimiya",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Horimiya",
+      "dataEps": 13,
+      "diskEps": 14,
+      "diff": 1,
+      "diskSize": 2252672266,
+      "diskSizeFormatted": "2.10 GB"
+    },
+    {
+      "id": "hyouka",
+      "title": "Hyouka",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Hyouka",
+      "dataEps": 22,
+      "diskEps": 23,
+      "diff": 1,
+      "diskSize": 3416081586,
+      "diskSizeFormatted": "3.18 GB"
+    },
+    {
+      "id": "inuyashiki",
+      "title": "Inuyashiki",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Inuyashiki",
+      "dataEps": 11,
+      "diskEps": 8,
+      "diff": -3,
+      "diskSize": 1276166868,
+      "diskSizeFormatted": "1.19 GB"
+    },
+    {
+      "id": "kimi-ni-todoke",
+      "title": "Kimi ni Todoke",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Kimi ni Todoke",
+      "dataEps": 25,
+      "diskEps": 26,
+      "diff": 1,
+      "diskSize": 1804224914,
+      "diskSizeFormatted": "1.68 GB"
+    },
+    {
+      "id": "kimi-wa-houkago-insomnia",
+      "title": "Kimi wa Houkago Insomnia",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Kimi wa Houkago Insomnia",
+      "dataEps": 13,
+      "diskEps": 11,
+      "diff": -2,
+      "diskSize": 1437165171,
+      "diskSizeFormatted": "1.34 GB"
+    },
+    {
+      "id": "kusuriya-no-hitorigoto-dup",
+      "title": "Kusuriya no Hitorigoto",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Kusuriya no Hitorigoto",
+      "dataEps": 24,
+      "diskEps": 8,
+      "diff": -16,
+      "diskSize": 989657115,
+      "diskSizeFormatted": "943.8 MB"
+    },
+    {
+      "id": "made-in-abyss",
+      "title": "Made in Abyss",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Made in Abyss",
+      "dataEps": 13,
+      "diskEps": 28,
+      "diff": 15,
+      "diskSize": 6662903968,
+      "diskSizeFormatted": "6.21 GB"
+    },
+    {
+      "id": "mashle",
+      "title": "MASHLE",
+      "type": "anime",
+      "path": "F:\\Nuevos\\MASHLE",
+      "dataEps": 12,
+      "diskEps": 15,
+      "diff": 3,
+      "diskSize": 2556723661,
+      "diskSizeFormatted": "2.38 GB"
+    },
+    {
+      "id": "mirai-nikki",
+      "title": "Mirai Nikki",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Mirai Nikki",
+      "dataEps": 26,
+      "diskEps": 24,
+      "diff": -2,
+      "diskSize": 3209913596,
+      "diskSizeFormatted": "2.99 GB"
+    },
+    {
+      "id": "mob-psycho-100",
+      "title": "Mob Psycho 100",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Mob Psycho 100",
+      "dataEps": 12,
+      "diskEps": 27,
+      "diff": 15,
+      "diskSize": 3963236511,
+      "diskSizeFormatted": "3.69 GB"
+    },
+    {
+      "id": "noragami",
+      "title": "Noragami",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Noragami",
+      "dataEps": 12,
+      "diskEps": 27,
+      "diff": 15,
+      "diskSize": 3585708840,
+      "diskSizeFormatted": "3.34 GB"
+    },
+    {
+      "id": "one-punch-man-2",
+      "title": "One-Punch Man Season 2",
+      "type": "anime",
+      "path": "F:\\Nuevos\\One Punch Man",
+      "dataEps": 12,
+      "diskEps": 0,
+      "diff": -12,
+      "diskSize": 0,
+      "diskSizeFormatted": "0 B"
+    },
+    {
+      "id": "sakamoto-days",
+      "title": "Sakamoto Days",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Sakamoto Days",
+      "dataEps": 11,
+      "diskEps": 21,
+      "diff": 10,
+      "diskSize": 4547617546,
+      "diskSizeFormatted": "4.24 GB"
+    },
+    {
+      "id": "sasaki-to-miyano",
+      "title": "Sasaki to Miyano",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Sasaki to Miyano",
+      "dataEps": 12,
+      "diskEps": 11,
+      "diff": -1,
+      "diskSize": 2075839464,
+      "diskSizeFormatted": "1.93 GB"
+    },
+    {
+      "id": "sk8-the-infinity",
+      "title": "SK8 the Infinity",
+      "type": "anime",
+      "path": "F:\\Nuevos\\SK8",
+      "dataEps": 12,
+      "diskEps": 13,
+      "diff": 1,
+      "diskSize": 2408128388,
+      "diskSizeFormatted": "2.24 GB"
+    },
+    {
+      "id": "solo-leveling",
+      "title": "Solo Leveling",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Solo Leveling",
+      "dataEps": 12,
+      "diskEps": 24,
+      "diff": 12,
+      "diskSize": 3913204654,
+      "diskSizeFormatted": "3.64 GB"
+    },
+    {
+      "id": "sousou-no-frieren",
+      "title": "Sousou no Frieren",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Sousou no Frieren",
+      "dataEps": 28,
+      "diskEps": 16,
+      "diff": -12,
+      "diskSize": 2507387459,
+      "diskSizeFormatted": "2.34 GB"
+    },
+    {
+      "id": "suki-na-ko-ga-megane-wo-wasureta",
+      "title": "Suki na ko ga Megane wo Wasureta",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Suki na ko ga Megane wo Wasureta",
+      "dataEps": 13,
+      "diskEps": 2,
+      "diff": -11,
+      "diskSize": 407730463,
+      "diskSizeFormatted": "388.8 MB"
+    },
+    {
+      "id": "takopii-no-genzai",
+      "title": "Takopii no Genzai",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Takopii no Genzai",
+      "dataEps": 12,
+      "diskEps": 6,
+      "diff": -6,
+      "diskSize": 1019610389,
+      "diskSizeFormatted": "972.4 MB"
+    },
+    {
+      "id": "violet-evergarden",
+      "title": "Violet Evergarden",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Violet Evergarden",
+      "dataEps": 13,
+      "diskEps": 15,
+      "diff": 2,
+      "diskSize": 2297446936,
+      "diskSizeFormatted": "2.14 GB"
+    },
+    {
+      "id": "watashi-no-shiawase-na-kekkon",
+      "title": "Watashi no Shiawase na Kekkon",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Watashi no Shiawase na Kekkon",
+      "dataEps": 12,
+      "diskEps": 20,
+      "diff": 8,
+      "diskSize": 3322439541,
+      "diskSizeFormatted": "3.09 GB"
+    },
+    {
+      "id": "wonder-egg-priority",
+      "title": "Wonder Egg Priority",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Wonder Egg Priority",
+      "dataEps": 12,
+      "diskEps": 13,
+      "diff": 1,
+      "diskSize": 2185098413,
+      "diskSizeFormatted": "2.04 GB"
+    },
+    {
+      "id": "your-lie-in-april",
+      "title": "Your Lie in April",
+      "type": "anime",
+      "path": "F:\\Nuevos\\Your lie in April",
+      "dataEps": 22,
+      "diskEps": 23,
+      "diff": 1,
+      "diskSize": 2514149733,
+      "diskSizeFormatted": "2.34 GB"
+    },
+    {
+      "id": "birth-of-a-beauty",
+      "title": "Birth of a Beauty",
+      "type": "kdrama",
+      "path": "E:\\Doramas\\124-Birth of a Beauty [falta 13, 14]",
+      "dataEps": 21,
+      "diskEps": 19,
+      "diff": -2,
+      "diskSize": 3814845677,
+      "diskSizeFormatted": "3.55 GB"
+    }
+  ]
+}

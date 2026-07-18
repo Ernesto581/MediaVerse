@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const ROOTS = ['F:\\', 'D:\\', 'H:\\SERIES']
+const ROOTS = ['F:\\', 'D:\\', 'H:\\SERIES', 'E:\\Doramas', 'E:\\Peliculas']
 const MEDIA_EXT = new Set(['.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.webm', '.ts'])
 
 /** @type {Map<string, number>} */

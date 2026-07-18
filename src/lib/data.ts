@@ -41,6 +41,24 @@ export function searchMedia(query: string): MediaItem[] {
   })
 }
 
+export function getTotalEpisodes(item: MediaItem): number {
+  if (item.seasons) return item.seasons.reduce((t, s) => t + s.episodes, 0)
+  return item.episodes || 0
+}
+
+export function calculateCost(item: MediaItem): number {
+  const isMovie = item.type === 'movie' || item.type === 'anime-movie'
+  if (isMovie) {
+    if (item.seasons) return item.seasons.length * 20
+    return 20
+  }
+  return getTotalEpisodes(item) * 5
+}
+
+export function formatCost(cup: number): string {
+  return cup.toLocaleString('es-ES') + ' CUP'
+}
+
 export function getCategories(): { label: string; value: string; count: number }[] {
   const cats = new Map<string, number>()
   allMedia.forEach((m) => {

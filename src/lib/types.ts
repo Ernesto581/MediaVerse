@@ -36,4 +36,5 @@ export interface MediaItem {
   sizeBytes?: number
   sizeFormatted?: string
   poster?: string
+  cost?: number
 }
