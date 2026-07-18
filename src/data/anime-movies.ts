@@ -179,7 +179,7 @@ export const animeMovies: MediaItem[] = [
     format: 'MP4',
     resolution: '',
     path: "F://Pelis//2. Makoto Shinkai//Your Name//",
-    studio: 'Makoto Shinkai',
+    poster: "2016-kimi-no-na-wa-your-name.jpg"studio: 'Makoto Shinkai',
   },
 
   // ──────────────────────────────────────────────
@@ -547,7 +547,7 @@ export const animeMovies: MediaItem[] = [
     format: 'MP4',
     resolution: '',
     path: "F://Pelis//Nerawareta Gakuen//",
-    studio: '',
+    poster: "nerawareta-gakuen.png"studio: '',
     sizeBytes: 398104806,
     sizeFormatted: formatBytes(398104806),
   },

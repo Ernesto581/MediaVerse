@@ -35,4 +35,5 @@ export interface MediaItem {
   genres?: string[]
   sizeBytes?: number
   sizeFormatted?: string
+  poster?: string
 }

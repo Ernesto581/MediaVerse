@@ -70,7 +70,7 @@ export const movies: MediaItem[] = [
     type: 'movie',
     category: 'movie-saga',
     path: "D://Harry Potter",
-    sizeBytes: 52492557022,
+    poster: "jeepers-creepers-2-2003-dual-audio.png"sizeBytes: 52492557022,
     sizeFormatted: formatBytes(52492557022),
     seasons: [
       { number: 1, episodes: 1, formats: ['MKV'], sizeBytes: 6096429012, sizeFormatted: formatBytes(6096429012), notes: "Harry Potter and the Philosopher\'s Stone (2001) - 1080p Dual Audio" },
@@ -136,7 +136,7 @@ export const movies: MediaItem[] = [
     type: 'movie',
     category: 'movie-saga',
     path: "D://Pirates of the Caribbean Saga",
-    sizeBytes: 12092823199,
+    poster: "pirates-of-the-caribbean-dead-mans-chest-2006.webp"sizeBytes: 12092823199,
     sizeFormatted: formatBytes(12092823199),
     seasons: [
       { number: 1, episodes: 1, formats: ['MP4'], sizeBytes: 2358799022, sizeFormatted: formatBytes(2358799022), notes: 'The Curse of the Black Pearl (2003)' },
@@ -243,7 +243,7 @@ export const movies: MediaItem[] = [
     type: 'movie',
     category: 'movie-saga',
     path: "D://Marvel Cinematic Universe",
-    sizeBytes: 132283109309,
+    poster: "eternals-2021-1080p-dual-audio.webp"sizeBytes: 132283109309,
     sizeFormatted: formatBytes(132283109309),
     seasons: [
       { number: 1, episodes: 1, formats: ['MKV'], sizeBytes: 5728589431, sizeFormatted: formatBytes(5728589431), notes: 'Captain America: The First Avenger (2011)' },
@@ -283,7 +283,7 @@ export const movies: MediaItem[] = [
     type: 'movie',
     category: 'movie-saga',
     path: "D://Star Wars",
-    sizeBytes: 22521383456,
+    poster: "solo-a-star-wars-story-2018-1080p.png"sizeBytes: 22521383456,
     sizeFormatted: formatBytes(22521383456),
     seasons: [
       { number: 1, episodes: 1, formats: ['MKV'], sizeBytes: 941771576, sizeFormatted: formatBytes(941771576), notes: 'Episode I: The Phantom Menace (1999)' },
@@ -372,7 +372,7 @@ export const movies: MediaItem[] = [
     type: 'movie',
     category: 'movie-saga',
     path: "D://Divergent",
-    sizeBytes: 2411301840,
+    poster: "divergent-2014.jpg"sizeBytes: 2411301840,
     sizeFormatted: formatBytes(2411301840),
     seasons: [
       { number: 1, episodes: 1, formats: ['MP4'], notes: 'Divergent (2014)' },
@@ -498,7 +498,7 @@ export const movies: MediaItem[] = [
     type: 'movie',
     category: 'movie-saga',
     path: "D://The Kissing Booth",
-    sizeBytes: 8537367492,
+    poster: "the-kissing-booth-1.jpg"sizeBytes: 8537367492,
     sizeFormatted: formatBytes(8537367492),
     seasons: [
       { number: 1, episodes: 1, formats: ['MP4'], sizeBytes: 1125913138, sizeFormatted: formatBytes(1125913138), notes: 'The Kissing Booth (2018) - 1080p' },
@@ -649,7 +649,7 @@ export const movies: MediaItem[] = [
     format: 'MKV',
     resolution: '720p',
     path: "D://Over the Moon (2020)",
-    sizeBytes: 832783524,
+    poster: "2020-over-the-moon.jpg"sizeBytes: 832783524,
     sizeFormatted: formatBytes(832783524),
   },
   {
@@ -859,7 +859,7 @@ export const movies: MediaItem[] = [
     resolution: '1080p',
     audio: 'Dual Audio',
     path: "D://Cars 3 (2017)",
-    sizeBytes: 1762259104,
+    poster: "cars-3-2017.jpg"sizeBytes: 1762259104,
     sizeFormatted: formatBytes(1762259104),
   },
   {
@@ -1072,7 +1072,7 @@ export const movies: MediaItem[] = [
     year: 2015,
     format: 'AVI',
     path: "D://Inside Out (2015)",
-    sizeBytes: 1033272165,
+    poster: "inside-out-2015.jpg"sizeBytes: 1033272165,
     sizeFormatted: formatBytes(1033272165),
   },
   {

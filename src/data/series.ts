@@ -1317,6 +1317,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//I Am Groot",
+    poster: "la-unidad.jpg",
     sizeBytes: 524748359,
     sizeFormatted: "500.4 MB"
   },
@@ -1347,8 +1348,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Inside Job",
-    sizeBytes: 1779041979,
-    sizeFormatted: "1.78 GB"
+    sizeBytes: 2303790338,
+    sizeFormatted: "2.15 GB"
   },
   {
     id: "kofi",
@@ -1541,6 +1542,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Love Death & Robots",
+    poster: "love-death-robots-4.jpg",
     sizeBytes: 3644634420,
     sizeFormatted: "3.39 GB"
   },
@@ -1571,8 +1573,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Over the Garden Wall",
-    sizeBytes: 588371210,
-    sizeFormatted: "561.1 MB"
+    sizeBytes: 4233005630,
+    sizeFormatted: "3.94 GB"
   },
   {
     id: "paradise-pd",
@@ -1932,10 +1934,10 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 16,
         formats: ["MKV"],
-        sizeBytes: 2334178262,
-        sizeFormatted: "2.17 GB",
+        sizeBytes: 2117341144,
+        sizeFormatted: "1.97 GB",
         episodesList: [
-          { name: "Episode 1.mkv", format: "MKV", sizeBytes: 342114550, sizeFormatted: "326.3 MB" },
+          { name: "Episode 1.mkv", format: "MKV", sizeBytes: 125277432, sizeFormatted: "119.5 MB" },
           { name: "Episode 2.mkv", format: "MKV", sizeBytes: 293149397, sizeFormatted: "279.6 MB" },
           { name: "Episode 3.mkv", format: "MKV", sizeBytes: 222139765, sizeFormatted: "211.8 MB" },
           { name: "Episode 4.mkv", format: "MKV", sizeBytes: 121915883, sizeFormatted: "116.3 MB" },
@@ -1955,8 +1957,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Star Wars The Bad Batch",
-    sizeBytes: 2334178262,
-    sizeFormatted: "2.33 GB"
+    sizeBytes: 2117341144,
+    sizeFormatted: "1.97 GB"
   },
   {
     id: "star-wars-visions",
@@ -2740,24 +2742,24 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 9,
         formats: ["MKV"],
-        sizeBytes: 4827655833,
-        sizeFormatted: "4.50 GB",
+        sizeBytes: 3901802125,
+        sizeFormatted: "3.63 GB",
         episodesList: [
-          { name: "S01E01.mkv", format: "MKV", sizeBytes: 515990793, sizeFormatted: "492.1 MB" },
-          { name: "S01E02.mkv", format: "MKV", sizeBytes: 505384792, sizeFormatted: "482.0 MB" },
-          { name: "S01E03.mkv", format: "MKV", sizeBytes: 515676381, sizeFormatted: "491.8 MB" },
-          { name: "S01E04.mkv", format: "MKV", sizeBytes: 522783935, sizeFormatted: "498.6 MB" },
-          { name: "S01E05.mkv", format: "MKV", sizeBytes: 521128472, sizeFormatted: "497.0 MB" },
-          { name: "S01E06.mkv", format: "MKV", sizeBytes: 523736253, sizeFormatted: "499.5 MB" },
-          { name: "S01E07.mkv", format: "MKV", sizeBytes: 455868547, sizeFormatted: "434.8 MB" },
-          { name: "S01E08.mkv", format: "MKV", sizeBytes: 536037029, sizeFormatted: "511.2 MB" },
+          { name: "S01E01.mkv", format: "MKV", sizeBytes: 531238183, sizeFormatted: "506.6 MB" },
+          { name: "S01E02.mkv", format: "MKV", sizeBytes: 172312576, sizeFormatted: "164.3 MB" },
+          { name: "S01E03.mkv", format: "MKV", sizeBytes: 111690306, sizeFormatted: "106.5 MB" },
+          { name: "S01E04.mkv", format: "MKV", sizeBytes: 548885799, sizeFormatted: "523.5 MB" },
+          { name: "S01E05.mkv", format: "MKV", sizeBytes: 588397295, sizeFormatted: "561.1 MB" },
+          { name: "S01E06.mkv", format: "MKV", sizeBytes: 530004416, sizeFormatted: "505.5 MB" },
+          { name: "S01E07.mkv", format: "MKV", sizeBytes: 527734447, sizeFormatted: "503.3 MB" },
+          { name: "S01E08.mkv", format: "MKV", sizeBytes: 160489472, sizeFormatted: "153.1 MB" },
           { name: "S01E09.mkv", format: "MKV", sizeBytes: 731049631, sizeFormatted: "697.2 MB" }
         ]
       }
     ],
     path: "$1//What If",
-    sizeBytes: 4827655833,
-    sizeFormatted: "4.50 GB"
+    sizeBytes: 3901802125,
+    sizeFormatted: "3.63 GB"
   },
   {
     id: "winx-club",
@@ -2832,98 +2834,98 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 12,
         formats: ["MPG"],
-        sizeBytes: 3292798320,
-        sizeFormatted: "3.07 GB",
+        sizeBytes: 3809984512,
+        sizeFormatted: "3.55 GB",
         notes: "Book 1: Air",
         episodesList: [
-          { name: "1_01.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_02.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_03.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_04.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_05.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_06.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_07.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_08.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_09.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_10.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_11.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "1_12.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" }
+          { name: "1_01.mpg", format: "MPG", sizeBytes: 345622528, sizeFormatted: "329.6 MB" },
+          { name: "1_02.mpg", format: "MPG", sizeBytes: 347357184, sizeFormatted: "331.3 MB" },
+          { name: "1_03.mpg", format: "MPG", sizeBytes: 345518080, sizeFormatted: "329.5 MB" },
+          { name: "1_04.mpg", format: "MPG", sizeBytes: 345071616, sizeFormatted: "329.1 MB" },
+          { name: "1_05.mpg", format: "MPG", sizeBytes: 345006080, sizeFormatted: "329.0 MB" },
+          { name: "1_06.mpg", format: "MPG", sizeBytes: 346415104, sizeFormatted: "330.4 MB" },
+          { name: "1_07.mpg", format: "MPG", sizeBytes: 347398144, sizeFormatted: "331.3 MB" },
+          { name: "1_08.mpg", format: "MPG", sizeBytes: 344066048, sizeFormatted: "328.1 MB" },
+          { name: "1_09.mpg", format: "MPG", sizeBytes: 345096192, sizeFormatted: "329.1 MB" },
+          { name: "1_10.mpg", format: "MPG", sizeBytes: 347111424, sizeFormatted: "331.0 MB" },
+          { name: "1_11.mpg", format: "MPG", sizeBytes: 347252736, sizeFormatted: "331.2 MB" },
+          { name: "1_12.mpg", format: "MPG", sizeBytes: 4069376, sizeFormatted: "3.9 MB" }
         ]
       },
       {
         number: 2,
         episodes: 14,
         formats: ["MPG"],
-        sizeBytes: 3841598040,
-        sizeFormatted: "3.58 GB",
+        sizeBytes: 4265478144,
+        sizeFormatted: "3.97 GB",
         notes: "Book 2: Spirits",
         episodesList: [
-          { name: "2_01.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_02.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_03.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_04.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_05.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_06.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_07.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_08.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_09.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_10.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_11.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_12.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_13.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "2_14.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" }
+          { name: "2_01.mpg", format: "MPG", sizeBytes: 305649664, sizeFormatted: "291.5 MB" },
+          { name: "2_02.mpg", format: "MPG", sizeBytes: 302336000, sizeFormatted: "288.3 MB" },
+          { name: "2_03.mpg", format: "MPG", sizeBytes: 302557184, sizeFormatted: "288.5 MB" },
+          { name: "2_04.mpg", format: "MPG", sizeBytes: 293464064, sizeFormatted: "279.9 MB" },
+          { name: "2_05.mpg", format: "MPG", sizeBytes: 303020032, sizeFormatted: "289.0 MB" },
+          { name: "2_06.mpg", format: "MPG", sizeBytes: 302024704, sizeFormatted: "288.0 MB" },
+          { name: "2_07.mpg", format: "MPG", sizeBytes: 306176000, sizeFormatted: "292.0 MB" },
+          { name: "2_08.mpg", format: "MPG", sizeBytes: 305866752, sizeFormatted: "291.7 MB" },
+          { name: "2_09.mpg", format: "MPG", sizeBytes: 305954816, sizeFormatted: "291.8 MB" },
+          { name: "2_10.mpg", format: "MPG", sizeBytes: 308219904, sizeFormatted: "293.9 MB" },
+          { name: "2_11.mpg", format: "MPG", sizeBytes: 307324928, sizeFormatted: "293.1 MB" },
+          { name: "2_12.mpg", format: "MPG", sizeBytes: 305827840, sizeFormatted: "291.7 MB" },
+          { name: "2_13.mpg", format: "MPG", sizeBytes: 308070400, sizeFormatted: "293.8 MB" },
+          { name: "2_14.mpg", format: "MPG", sizeBytes: 308985856, sizeFormatted: "294.7 MB" }
         ]
       },
       {
         number: 3,
         episodes: 13,
         formats: ["MPG"],
-        sizeBytes: 3567198180,
-        sizeFormatted: "3.32 GB",
+        sizeBytes: 2205071360,
+        sizeFormatted: "2.05 GB",
         notes: "Book 3: Change",
         episodesList: [
-          { name: "3_01.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_02.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_03.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_04.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_05.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_06.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_07.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_08.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_09.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_10.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_11.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_12.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "3_13.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" }
+          { name: "3_01.mpg", format: "MPG", sizeBytes: 170844160, sizeFormatted: "162.9 MB" },
+          { name: "3_02.mpg", format: "MPG", sizeBytes: 168902656, sizeFormatted: "161.1 MB" },
+          { name: "3_03.mpg", format: "MPG", sizeBytes: 164417536, sizeFormatted: "156.8 MB" },
+          { name: "3_04.mpg", format: "MPG", sizeBytes: 168740864, sizeFormatted: "160.9 MB" },
+          { name: "3_05.mpg", format: "MPG", sizeBytes: 170145792, sizeFormatted: "162.3 MB" },
+          { name: "3_06.mpg", format: "MPG", sizeBytes: 170579968, sizeFormatted: "162.7 MB" },
+          { name: "3_07.mpg", format: "MPG", sizeBytes: 170557440, sizeFormatted: "162.7 MB" },
+          { name: "3_08.mpg", format: "MPG", sizeBytes: 170416128, sizeFormatted: "162.5 MB" },
+          { name: "3_09.mpg", format: "MPG", sizeBytes: 170405888, sizeFormatted: "162.5 MB" },
+          { name: "3_10.mpg", format: "MPG", sizeBytes: 170493952, sizeFormatted: "162.6 MB" },
+          { name: "3_11.mpg", format: "MPG", sizeBytes: 169693184, sizeFormatted: "161.8 MB" },
+          { name: "3_12.mpg", format: "MPG", sizeBytes: 168560640, sizeFormatted: "160.8 MB" },
+          { name: "3_13.mpg", format: "MPG", sizeBytes: 171313152, sizeFormatted: "163.4 MB" }
         ]
       },
       {
         number: 4,
         episodes: 14,
         formats: ["MPG"],
-        sizeBytes: 3841598040,
-        sizeFormatted: "3.58 GB",
+        sizeBytes: 4262596608,
+        sizeFormatted: "3.97 GB",
         notes: "Book 4: Balance",
         episodesList: [
-          { name: "4_01.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_02.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_03.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_04.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_05.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_06.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_07.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_08.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_09.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_10.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_11.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_12.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_13.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" },
-          { name: "4_14.mpg", format: "MPG", sizeBytes: 274399860, sizeFormatted: "274.4 MB" }
+          { name: "4_01.mpg", format: "MPG", sizeBytes: 331896832, sizeFormatted: "316.5 MB" },
+          { name: "4_02.mpg", format: "MPG", sizeBytes: 330002432, sizeFormatted: "314.7 MB" },
+          { name: "4_03.mpg", format: "MPG", sizeBytes: 329889792, sizeFormatted: "314.6 MB" },
+          { name: "4_04.mpg", format: "MPG", sizeBytes: 328302592, sizeFormatted: "313.1 MB" },
+          { name: "4_05.mpg", format: "MPG", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "4_06.mpg", format: "MPG", sizeBytes: 327671808, sizeFormatted: "312.5 MB" },
+          { name: "4_07.mpg", format: "MPG", sizeBytes: 327931904, sizeFormatted: "312.7 MB" },
+          { name: "4_08.mpg", format: "MPG", sizeBytes: 329293824, sizeFormatted: "314.0 MB" },
+          { name: "4_09.mpg", format: "MPG", sizeBytes: 328564736, sizeFormatted: "313.3 MB" },
+          { name: "4_10.mpg", format: "MPG", sizeBytes: 325664768, sizeFormatted: "310.6 MB" },
+          { name: "4_11.mpg", format: "MPG", sizeBytes: 328402944, sizeFormatted: "313.2 MB" },
+          { name: "4_12.mpg", format: "MPG", sizeBytes: 321712128, sizeFormatted: "306.8 MB" },
+          { name: "4_13.mpg", format: "MPG", sizeBytes: 319057920, sizeFormatted: "304.3 MB" },
+          { name: "4_14.mpg", format: "MPG", sizeBytes: 4069376, sizeFormatted: "3.9 MB" }
         ]
       }
     ],
     path: "$1//[Serie] Avatar (Legend of Korra)",
-    sizeBytes: 14543192580,
+    sizeBytes: 14543130624,
     sizeFormatted: "13.54 GB"
   },
   {
@@ -2954,6 +2956,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//[Serie] Duncanville",
+    poster: "serie-duncanville-temp-1-caps-11-dual-audio.png",
     sizeBytes: 1226180263,
     sizeFormatted: "1.14 GB"
   },
@@ -3036,8 +3039,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//[Serie] MIRACULOUS",
-    sizeBytes: 10402958368,
-    sizeFormatted: "9.69 GB"
+    sizeBytes: 11629138631,
+    sizeFormatted: "10.83 GB"
   },
   {
     id: "trollhunters-tales-of-arcadia",
@@ -3049,17 +3052,17 @@ export const series: MediaItem[] = [
         number: 2,
         episodes: 13,
         formats: ["AVI"],
-        sizeBytes: 2555052632,
-        sizeFormatted: "2.38 GB",
+        sizeBytes: 2890609613,
+        sizeFormatted: "2.69 GB",
         episodesList: [
           { name: "S02E01.avi", format: "AVI", sizeBytes: 230306059, sizeFormatted: "219.6 MB" },
-          { name: "S02E02.avi", format: "AVI", sizeBytes: 230100268, sizeFormatted: "219.4 MB" },
-          { name: "S02E03.avi", format: "AVI", sizeBytes: 234308685, sizeFormatted: "223.5 MB" },
-          { name: "S02E04.avi", format: "AVI", sizeBytes: 230705549, sizeFormatted: "220.0 MB" },
-          { name: "S02E05.avi", format: "AVI", sizeBytes: 226732011, sizeFormatted: "216.2 MB" },
-          { name: "S02E06.avi", format: "AVI", sizeBytes: 231236421, sizeFormatted: "220.5 MB" },
-          { name: "S02E07.avi", format: "AVI", sizeBytes: 238526015, sizeFormatted: "227.5 MB" },
-          { name: "S02E08.avi", format: "AVI", sizeBytes: 292982248, sizeFormatted: "279.4 MB" },
+          { name: "S02E02.avi", format: "AVI", sizeBytes: 123684534, sizeFormatted: "118.0 MB" },
+          { name: "S02E03.avi", format: "AVI", sizeBytes: 128722968, sizeFormatted: "122.8 MB" },
+          { name: "S02E04.avi", format: "AVI", sizeBytes: 128676408, sizeFormatted: "122.7 MB" },
+          { name: "S02E05.avi", format: "AVI", sizeBytes: 128330420, sizeFormatted: "122.4 MB" },
+          { name: "S02E06.avi", format: "AVI", sizeBytes: 738326894, sizeFormatted: "704.1 MB" },
+          { name: "S02E07.avi", format: "AVI", sizeBytes: 643679074, sizeFormatted: "613.9 MB" },
+          { name: "S02E08.avi", format: "AVI", sizeBytes: 128727880, sizeFormatted: "122.8 MB" },
           { name: "S02E09.avi", format: "AVI", sizeBytes: 127671840, sizeFormatted: "121.8 MB" },
           { name: "S02E10.avi", format: "AVI", sizeBytes: 127783624, sizeFormatted: "121.9 MB" },
           { name: "S02E11.avi", format: "AVI", sizeBytes: 128627066, sizeFormatted: "122.7 MB" },
@@ -3071,17 +3074,17 @@ export const series: MediaItem[] = [
         number: 3,
         episodes: 13,
         formats: ["AVI"],
-        sizeBytes: 1671943942,
-        sizeFormatted: "1.56 GB",
+        sizeBytes: 12338423917,
+        sizeFormatted: "11.49 GB",
         episodesList: [
-          { name: "S03E01.avi", format: "AVI", sizeBytes: 128899400, sizeFormatted: "122.9 MB" },
+          { name: "S03E01.avi", format: "AVI", sizeBytes: 2488238265, sizeFormatted: "2.32 GB" },
           { name: "S03E02.avi", format: "AVI", sizeBytes: 128873634, sizeFormatted: "122.9 MB" },
-          { name: "S03E03.avi", format: "AVI", sizeBytes: 128302566, sizeFormatted: "122.4 MB" },
-          { name: "S03E04.avi", format: "AVI", sizeBytes: 128678372, sizeFormatted: "122.7 MB" },
-          { name: "S03E05.avi", format: "AVI", sizeBytes: 128802180, sizeFormatted: "122.8 MB" },
-          { name: "S03E06.avi", format: "AVI", sizeBytes: 128905360, sizeFormatted: "122.9 MB" },
-          { name: "S03E07.avi", format: "AVI", sizeBytes: 127815944, sizeFormatted: "121.9 MB" },
-          { name: "S03E08.avi", format: "AVI", sizeBytes: 127981100, sizeFormatted: "122.1 MB" },
+          { name: "S03E03.avi", format: "AVI", sizeBytes: 3142042568, sizeFormatted: "2.93 GB" },
+          { name: "S03E04.avi", format: "AVI", sizeBytes: 2143012353, sizeFormatted: "2.00 GB" },
+          { name: "S03E05.avi", format: "AVI", sizeBytes: 924448043, sizeFormatted: "881.6 MB" },
+          { name: "S03E06.avi", format: "AVI", sizeBytes: 902672735, sizeFormatted: "860.9 MB" },
+          { name: "S03E07.avi", format: "AVI", sizeBytes: 1005080730, sizeFormatted: "958.5 MB" },
+          { name: "S03E08.avi", format: "AVI", sizeBytes: 960370203, sizeFormatted: "915.9 MB" },
           { name: "S03E09.avi", format: "AVI", sizeBytes: 128871924, sizeFormatted: "122.9 MB" },
           { name: "S03E10.avi", format: "AVI", sizeBytes: 127245496, sizeFormatted: "121.4 MB" },
           { name: "S03E11.avi", format: "AVI", sizeBytes: 127837608, sizeFormatted: "121.9 MB" },
@@ -3091,8 +3094,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//[Serie] Trollhunters",
-    sizeBytes: 4226996574,
-    sizeFormatted: "3.94 GB"
+    sizeBytes: 15229033530,
+    sizeFormatted: "14.18 GB"
   },
   {
     id: "wizards-tales-of-arcadia",
@@ -3104,25 +3107,25 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 10,
         formats: ["MPG"],
-        sizeBytes: 5267105292,
-        sizeFormatted: "4.91 GB",
+        sizeBytes: 4079279757,
+        sizeFormatted: "3.80 GB",
         episodesList: [
-          { name: "S01E01.mpg", format: "MPG", sizeBytes: 515990793, sizeFormatted: "492.1 MB" },
-          { name: "S01E02.mpg", format: "MPG", sizeBytes: 505384792, sizeFormatted: "482.0 MB" },
-          { name: "S01E03.mpg", format: "MPG", sizeBytes: 515676381, sizeFormatted: "491.8 MB" },
-          { name: "S01E04.mpg", format: "MPG", sizeBytes: 522783935, sizeFormatted: "498.6 MB" },
-          { name: "S01E05.mpg", format: "MPG", sizeBytes: 521128472, sizeFormatted: "497.0 MB" },
-          { name: "S01E06.mpg", format: "MPG", sizeBytes: 523736253, sizeFormatted: "499.5 MB" },
-          { name: "S01E07.mpg", format: "MPG", sizeBytes: 455868547, sizeFormatted: "434.8 MB" },
-          { name: "S01E08.mpg", format: "MPG", sizeBytes: 536037029, sizeFormatted: "511.2 MB" },
+          { name: "S01E01.mpg", format: "MPG", sizeBytes: 531238183, sizeFormatted: "506.6 MB" },
+          { name: "S01E02.mpg", format: "MPG", sizeBytes: 172312576, sizeFormatted: "164.3 MB" },
+          { name: "S01E03.mpg", format: "MPG", sizeBytes: 111690306, sizeFormatted: "106.5 MB" },
+          { name: "S01E04.mpg", format: "MPG", sizeBytes: 548885799, sizeFormatted: "523.5 MB" },
+          { name: "S01E05.mpg", format: "MPG", sizeBytes: 588397295, sizeFormatted: "561.1 MB" },
+          { name: "S01E06.mpg", format: "MPG", sizeBytes: 530004416, sizeFormatted: "505.5 MB" },
+          { name: "S01E07.mpg", format: "MPG", sizeBytes: 527734447, sizeFormatted: "503.3 MB" },
+          { name: "S01E08.mpg", format: "MPG", sizeBytes: 160489472, sizeFormatted: "153.1 MB" },
           { name: "S01E09.mpg", format: "MPG", sizeBytes: 731049631, sizeFormatted: "697.2 MB" },
-          { name: "S01E10.mpg", format: "MPG", sizeBytes: 439449459, sizeFormatted: "419.1 MB" }
+          { name: "S01E10.mpg", format: "MPG", sizeBytes: 177477632, sizeFormatted: "169.3 MB" }
         ]
       }
     ],
     path: "$1//[Serie] Wizards",
-    sizeBytes: 5267105292,
-    sizeFormatted: "4.91 GB"
+    sizeBytes: 4079279757,
+    sizeFormatted: "3.80 GB"
   },
   // ============================================================
   // LIVE-ACTION SERIES
@@ -3296,6 +3299,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//1899",
+    poster: "1899.jpg",
     sizeBytes: 1632404939,
     sizeFormatted: "1.63 GB"
   },
@@ -3323,6 +3327,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//30-Hawkeye (Serie)(2021)",
+    poster: "30-hawkeye-serie-2021.webp",
     sizeBytes: 3265467516,
     sizeFormatted: "3.04 GB"
   },
@@ -3350,6 +3355,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//34-Ms Marvel (Serie)(2022)",
+    poster: "ms-marvel-temp-1-cap-01-mp4-438-28-mb.png",
     sizeBytes: 3356303532,
     sizeFormatted: "3.13 GB"
   },
@@ -3365,22 +3371,23 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 9,
         formats: ["MKV"],
-        sizeBytes: 1218255496,
-        sizeFormatted: "1.13 GB",
+        sizeBytes: 3047756168,
+        sizeFormatted: "2.84 GB",
         episodesList: [
-          { name: "1.mkv", format: "MKV", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.mkv", format: "MKV", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.mkv", format: "MKV", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.mkv", format: "MKV", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.mkv", format: "MKV", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.mkv", format: "MKV", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.mkv", format: "MKV", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.mkv", format: "MKV", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.mkv", format: "MKV", sizeBytes: 68588713, sizeFormatted: "65.4 MB" }
+          { name: "1.mkv", format: "MKV", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.mkv", format: "MKV", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.mkv", format: "MKV", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.mkv", format: "MKV", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.mkv", format: "MKV", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.mkv", format: "MKV", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.mkv", format: "MKV", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.mkv", format: "MKV", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.mkv", format: "MKV", sizeBytes: 51876447, sizeFormatted: "49.5 MB" }
         ]
       }
     ],
     path: "$1//36-She-Hulk Attorney at Law (Serie)(2022)",
+    poster: "36-she-hulk-attorney-at-law-serie-2022.jpg",
     sizeBytes: 1218255496,
     sizeFormatted: "1.13 GB"
   },
@@ -3411,8 +3418,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Agencia Lockwood Temporada 1 (2023) HD 720p Latino 5.1 Dual",
-    sizeBytes: 4381752024,
-    sizeFormatted: "4.08 GB"
+    sizeBytes: 15683684179,
+    sizeFormatted: "14.61 GB"
   },
   {
     id: "aida",
@@ -3470,22 +3477,22 @@ export const series: MediaItem[] = [
         number: 3,
         episodes: 14,
         formats: ["MPG","MP4"],
-        sizeBytes: 8000611508,
-        sizeFormatted: "7.45 GB",
+        sizeBytes: 6324856318,
+        sizeFormatted: "5.89 GB",
         episodesList: [
           { name: "3x01.mpg", format: "MPG", sizeBytes: 807079692, sizeFormatted: "769.7 MB" },
           { name: "3x02.mpg", format: "MP4", sizeBytes: 1005282168, sizeFormatted: "958.7 MB" },
           { name: "3x03.mpg", format: "MPG", sizeBytes: 287079582, sizeFormatted: "273.8 MB" },
           { name: "3x04.mpg", format: "MP4", sizeBytes: 630897092, sizeFormatted: "601.7 MB" },
           { name: "3x05.mpg", format: "MPG", sizeBytes: 418687600, sizeFormatted: "399.3 MB" },
-          { name: "3x06.mpg", format: "MP4", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
+          { name: "3x06.mpg", format: "MP4", sizeBytes: 237708016, sizeFormatted: "226.7 MB" },
           { name: "3x07.mpg", format: "MPG", sizeBytes: 826224354, sizeFormatted: "787.9 MB" },
-          { name: "3x08.mpg", format: "MP4", sizeBytes: 487902502, sizeFormatted: "465.3 MB" },
-          { name: "3x09.mpg", format: "MPG", sizeBytes: 475458114, sizeFormatted: "453.4 MB" },
-          { name: "3x10.mpg", format: "MP4", sizeBytes: 587502548, sizeFormatted: "560.3 MB" },
-          { name: "3x11.mpg", format: "MPG", sizeBytes: 479006314, sizeFormatted: "456.8 MB" },
-          { name: "3x12.mpg", format: "MP4", sizeBytes: 499700204, sizeFormatted: "476.6 MB" },
-          { name: "3x13.mpg", format: "MPG", sizeBytes: 589067218, sizeFormatted: "561.8 MB" },
+          { name: "3x08.mpg", format: "MP4", sizeBytes: 224314804, sizeFormatted: "213.9 MB" },
+          { name: "3x09.mpg", format: "MPG", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "3x10.mpg", format: "MP4", sizeBytes: 298590212, sizeFormatted: "284.8 MB" },
+          { name: "3x11.mpg", format: "MPG", sizeBytes: 323086336, sizeFormatted: "308.1 MB" },
+          { name: "3x12.mpg", format: "MP4", sizeBytes: 222918080, sizeFormatted: "212.6 MB" },
+          { name: "3x13.mpg", format: "MPG", sizeBytes: 314988544, sizeFormatted: "300.4 MB" },
           { name: "3x14.mpg", format: "MP4", sizeBytes: 503733838, sizeFormatted: "480.4 MB" }
         ]
       },
@@ -3519,17 +3526,17 @@ export const series: MediaItem[] = [
         number: 5,
         episodes: 24,
         formats: ["AVI"],
-        sizeBytes: 2651197213,
-        sizeFormatted: "2.47 GB",
+        sizeBytes: 3541806387,
+        sizeFormatted: "3.30 GB",
         episodesList: [
           { name: "5x01.avi", format: "AVI", sizeBytes: 51653042, sizeFormatted: "49.3 MB" },
           { name: "5x02.avi", format: "AVI", sizeBytes: 51355336, sizeFormatted: "49.0 MB" },
           { name: "5x03.avi", format: "AVI", sizeBytes: 51767382, sizeFormatted: "49.4 MB" },
-          { name: "5x04.avi", format: "AVI", sizeBytes: 51938534, sizeFormatted: "49.5 MB" },
+          { name: "5x04.avi", format: "AVI", sizeBytes: 347170816, sizeFormatted: "331.1 MB" },
           { name: "5x05.avi", format: "AVI", sizeBytes: 52033477, sizeFormatted: "49.6 MB" },
           { name: "5x06.avi", format: "AVI", sizeBytes: 51908537, sizeFormatted: "49.5 MB" },
-          { name: "5x07.avi", format: "AVI", sizeBytes: 51869662, sizeFormatted: "49.5 MB" },
-          { name: "5x08.avi", format: "AVI", sizeBytes: 51823910, sizeFormatted: "49.4 MB" },
+          { name: "5x07.avi", format: "AVI", sizeBytes: 349157376, sizeFormatted: "333.0 MB" },
+          { name: "5x08.avi", format: "AVI", sizeBytes: 349913088, sizeFormatted: "333.7 MB" },
           { name: "5x09.avi", format: "AVI", sizeBytes: 51917319, sizeFormatted: "49.5 MB" },
           { name: "5x10.avi", format: "AVI", sizeBytes: 52099424, sizeFormatted: "49.7 MB" },
           { name: "5x11.avi", format: "AVI", sizeBytes: 52075749, sizeFormatted: "49.7 MB" },
@@ -3552,22 +3559,22 @@ export const series: MediaItem[] = [
         number: 6,
         episodes: 27,
         formats: ["AVI"],
-        sizeBytes: 10880737587,
-        sizeFormatted: "10.13 GB",
+        sizeBytes: 11282692862,
+        sizeFormatted: "10.51 GB",
         episodesList: [
-          { name: "6x01.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x02.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x03.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x04.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x05.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x06.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x07.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x08.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x09.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x10.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x11.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x12.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
-          { name: "6x13.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
+          { name: "6x01.avi", format: "AVI", sizeBytes: 435326976, sizeFormatted: "415.2 MB" },
+          { name: "6x02.avi", format: "AVI", sizeBytes: 440741888, sizeFormatted: "420.3 MB" },
+          { name: "6x03.avi", format: "AVI", sizeBytes: 440055808, sizeFormatted: "419.7 MB" },
+          { name: "6x04.avi", format: "AVI", sizeBytes: 437673984, sizeFormatted: "417.4 MB" },
+          { name: "6x05.avi", format: "AVI", sizeBytes: 422227968, sizeFormatted: "402.7 MB" },
+          { name: "6x06.avi", format: "AVI", sizeBytes: 440231936, sizeFormatted: "419.8 MB" },
+          { name: "6x07.avi", format: "AVI", sizeBytes: 439707648, sizeFormatted: "419.3 MB" },
+          { name: "6x08.avi", format: "AVI", sizeBytes: 434477056, sizeFormatted: "414.3 MB" },
+          { name: "6x09.avi", format: "AVI", sizeBytes: 431306752, sizeFormatted: "411.3 MB" },
+          { name: "6x10.avi", format: "AVI", sizeBytes: 430034944, sizeFormatted: "410.1 MB" },
+          { name: "6x11.avi", format: "AVI", sizeBytes: 430790656, sizeFormatted: "410.8 MB" },
+          { name: "6x12.avi", format: "AVI", sizeBytes: 427655168, sizeFormatted: "407.8 MB" },
+          { name: "6x13.avi", format: "AVI", sizeBytes: 430598144, sizeFormatted: "410.7 MB" },
           { name: "6x14.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
           { name: "6x15.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
           { name: "6x16.avi", format: "AVI", sizeBytes: 402990281, sizeFormatted: "403.0 MB" },
@@ -3588,8 +3595,8 @@ export const series: MediaItem[] = [
         number: 7,
         episodes: 14,
         formats: ["AVI"],
-        sizeBytes: 5070549738,
-        sizeFormatted: "4.72 GB",
+        sizeBytes: 5219570664,
+        sizeFormatted: "4.86 GB",
         episodesList: [
           { name: "7x01.avi", format: "AVI", sizeBytes: 408531632, sizeFormatted: "389.6 MB" },
           { name: "7x02.avi", format: "AVI", sizeBytes: 355066358, sizeFormatted: "338.6 MB" },
@@ -3597,8 +3604,8 @@ export const series: MediaItem[] = [
           { name: "7x04.avi", format: "AVI", sizeBytes: 358259702, sizeFormatted: "341.7 MB" },
           { name: "7x05.avi", format: "AVI", sizeBytes: 353126252, sizeFormatted: "336.8 MB" },
           { name: "7x06.avi", format: "AVI", sizeBytes: 362166050, sizeFormatted: "345.4 MB" },
-          { name: "7x07.avi", format: "AVI", sizeBytes: 360110862, sizeFormatted: "343.4 MB" },
-          { name: "7x08.avi", format: "AVI", sizeBytes: 361108468, sizeFormatted: "344.4 MB" },
+          { name: "7x07.avi", format: "AVI", sizeBytes: 430391296, sizeFormatted: "410.5 MB" },
+          { name: "7x08.avi", format: "AVI", sizeBytes: 439848960, sizeFormatted: "419.5 MB" },
           { name: "7x09.avi", format: "AVI", sizeBytes: 354599140, sizeFormatted: "338.2 MB" },
           { name: "7x10.avi", format: "AVI", sizeBytes: 357067216, sizeFormatted: "340.5 MB" },
           { name: "7x11.avi", format: "AVI", sizeBytes: 362212188, sizeFormatted: "345.4 MB" },
@@ -3611,25 +3618,25 @@ export const series: MediaItem[] = [
         number: 8,
         episodes: 16,
         formats: ["AVI","MPG"],
-        sizeBytes: 6447844512,
-        sizeFormatted: "6.01 GB",
+        sizeBytes: 10211994908,
+        sizeFormatted: "9.51 GB",
         episodesList: [
-          { name: "8x01.avi", format: "AVI", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x02.avi", format: "MPG", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x03.avi", format: "AVI", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x04.avi", format: "MPG", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x05.avi", format: "AVI", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x06.avi", format: "MPG", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x07.avi", format: "AVI", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x08.avi", format: "MPG", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x09.avi", format: "AVI", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x10.avi", format: "MPG", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x11.avi", format: "AVI", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x12.avi", format: "MPG", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x13.avi", format: "AVI", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x14.avi", format: "MPG", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x15.avi", format: "AVI", sizeBytes: 402990282, sizeFormatted: "403.0 MB" },
-          { name: "8x16.avi", format: "MPG", sizeBytes: 402990282, sizeFormatted: "403.0 MB" }
+          { name: "8x01.avi", format: "AVI", sizeBytes: 621350912, sizeFormatted: "592.6 MB" },
+          { name: "8x02.avi", format: "MPG", sizeBytes: 441511196, sizeFormatted: "421.1 MB" },
+          { name: "8x03.avi", format: "AVI", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "8x04.avi", format: "MPG", sizeBytes: 621576192, sizeFormatted: "592.8 MB" },
+          { name: "8x05.avi", format: "AVI", sizeBytes: 729978880, sizeFormatted: "696.2 MB" },
+          { name: "8x06.avi", format: "MPG", sizeBytes: 584718336, sizeFormatted: "557.6 MB" },
+          { name: "8x07.avi", format: "AVI", sizeBytes: 602832896, sizeFormatted: "574.9 MB" },
+          { name: "8x08.avi", format: "MPG", sizeBytes: 707586048, sizeFormatted: "674.8 MB" },
+          { name: "8x09.avi", format: "AVI", sizeBytes: 686813184, sizeFormatted: "655.0 MB" },
+          { name: "8x10.avi", format: "MPG", sizeBytes: 633579520, sizeFormatted: "604.2 MB" },
+          { name: "8x11.avi", format: "AVI", sizeBytes: 730564608, sizeFormatted: "696.7 MB" },
+          { name: "8x12.avi", format: "MPG", sizeBytes: 631212032, sizeFormatted: "602.0 MB" },
+          { name: "8x13.avi", format: "AVI", sizeBytes: 705347584, sizeFormatted: "672.7 MB" },
+          { name: "8x14.avi", format: "MPG", sizeBytes: 557281280, sizeFormatted: "531.5 MB" },
+          { name: "8x15.avi", format: "AVI", sizeBytes: 721645568, sizeFormatted: "688.2 MB" },
+          { name: "8x16.avi", format: "MPG", sizeBytes: 560707584, sizeFormatted: "534.7 MB" }
         ]
       },
       {
@@ -3749,8 +3756,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Aida",
-    sizeBytes: 54321308157,
-    sizeFormatted: "50.59 GB"
+    sizeBytes: 57851288738,
+    sizeFormatted: "53.88 GB"
   },
   {
     id: "alice-in-borderland",
@@ -4108,6 +4115,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Anne with an E",
+    poster: "anne-with-an-e-s01.jpg",
     sizeBytes: 6229660952,
     sizeFormatted: "5.80 GB"
   },
@@ -4137,8 +4145,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Avatar the Last Airbender S01",
-    sizeBytes: 2917233976,
-    sizeFormatted: "2.92 GB"
+    sizeBytes: 9146894928,
+    sizeFormatted: "8.52 GB"
   },
   {
     id: "baby",
@@ -4193,6 +4201,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Baby",
+    poster: "the-boss-baby-el-bebe-jefazo-lat-2017.jpg",
     sizeBytes: 5078403252,
     sizeFormatted: "4.73 GB"
   },
@@ -4221,8 +4230,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Bajo Sospecha",
-    sizeBytes: 4160454544,
-    sizeFormatted: "3.87 GB"
+    sizeBytes: 9238857796,
+    sizeFormatted: "8.60 GB"
   },
   {
     id: "better-call-saul",
@@ -4582,6 +4591,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Bridgerton",
+    poster: "bridgerton-1.jpg",
     sizeBytes: 7115562032,
     sizeFormatted: "6.63 GB"
   },
@@ -4610,8 +4620,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Carnival Row",
-    sizeBytes: 2010216531,
-    sizeFormatted: "2.01 GB"
+    sizeBytes: 9125778563,
+    sizeFormatted: "8.50 GB"
   },
   {
     id: "chernobyl",
@@ -4816,6 +4826,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Daredevil",
+    poster: "daredevil-x-1.jpg",
     sizeBytes: 12224969757,
     sizeFormatted: "11.39 GB"
   },
@@ -4845,6 +4856,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Dark",
+    poster: "9-thor-the-dark-world-2013.jpg",
     sizeBytes: 4646605593,
     sizeFormatted: "4.65 GB"
   },
@@ -4871,8 +4883,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Deadhouse Dark",
-    sizeBytes: 2044534626,
-    sizeFormatted: "1.90 GB"
+    sizeBytes: 18916109976,
+    sizeFormatted: "17.62 GB"
   },
   {
     id: "dr-house",
@@ -4884,218 +4896,218 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 22,
         formats: ["AVI","WMV"],
-        sizeBytes: 2834250080,
-        sizeFormatted: "2.64 GB",
+        sizeBytes: 5923489127,
+        sizeFormatted: "5.52 GB",
         episodesList: [
-          { name: "1.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.avi", format: "WMV", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.avi", format: "AVI", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.avi", format: "WMV", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.avi", format: "AVI", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.avi", format: "WMV", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.avi", format: "AVI", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.avi", format: "WMV", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.avi", format: "AVI", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.avi", format: "WMV", sizeBytes: 73184191, sizeFormatted: "69.8 MB" },
-          { name: "11.avi", format: "AVI", sizeBytes: 55535779, sizeFormatted: "53.0 MB" },
-          { name: "12.avi", format: "WMV", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "13.avi", format: "AVI", sizeBytes: 84686206, sizeFormatted: "80.8 MB" },
-          { name: "14.avi", format: "WMV", sizeBytes: 153409554, sizeFormatted: "146.3 MB" },
-          { name: "15.avi", format: "AVI", sizeBytes: 119875894, sizeFormatted: "114.3 MB" },
-          { name: "16.avi", format: "WMV", sizeBytes: 208843205, sizeFormatted: "199.2 MB" },
-          { name: "17.avi", format: "AVI", sizeBytes: 166074922, sizeFormatted: "158.4 MB" },
-          { name: "18.avi", format: "WMV", sizeBytes: 141504907, sizeFormatted: "134.9 MB" },
-          { name: "19.avi", format: "AVI", sizeBytes: 110039854, sizeFormatted: "104.9 MB" },
-          { name: "20.avi", format: "WMV", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "21.avi", format: "AVI", sizeBytes: 157514476, sizeFormatted: "150.2 MB" },
-          { name: "22.avi", format: "WMV", sizeBytes: 157568373, sizeFormatted: "150.3 MB" }
+          { name: "1.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.avi", format: "WMV", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.avi", format: "AVI", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.avi", format: "WMV", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.avi", format: "AVI", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.avi", format: "WMV", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.avi", format: "AVI", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.avi", format: "WMV", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.avi", format: "AVI", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.avi", format: "WMV", sizeBytes: 51921488, sizeFormatted: "49.5 MB" },
+          { name: "11.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "12.avi", format: "WMV", sizeBytes: 103853427, sizeFormatted: "99.0 MB" },
+          { name: "13.avi", format: "AVI", sizeBytes: 537428587, sizeFormatted: "512.5 MB" },
+          { name: "14.avi", format: "WMV", sizeBytes: 70164555, sizeFormatted: "66.9 MB" },
+          { name: "15.avi", format: "AVI", sizeBytes: 143109942, sizeFormatted: "136.5 MB" },
+          { name: "16.avi", format: "WMV", sizeBytes: 204724224, sizeFormatted: "195.2 MB" },
+          { name: "17.avi", format: "AVI", sizeBytes: 54182044, sizeFormatted: "51.7 MB" },
+          { name: "18.avi", format: "WMV", sizeBytes: 143047306, sizeFormatted: "136.4 MB" },
+          { name: "19.avi", format: "AVI", sizeBytes: 157308835, sizeFormatted: "150.0 MB" },
+          { name: "20.avi", format: "WMV", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "21.avi", format: "AVI", sizeBytes: 366344282, sizeFormatted: "349.4 MB" },
+          { name: "22.avi", format: "WMV", sizeBytes: 371572120, sizeFormatted: "354.4 MB" }
         ]
       },
       {
         number: 2,
         episodes: 24,
         formats: ["AVI"],
-        sizeBytes: 3149192992,
-        sizeFormatted: "2.93 GB",
+        sizeBytes: 6447812844,
+        sizeFormatted: "6.00 GB",
         episodesList: [
-          { name: "1.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.avi", format: "AVI", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.avi", format: "AVI", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.avi", format: "AVI", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.avi", format: "AVI", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.avi", format: "AVI", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.avi", format: "AVI", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.avi", format: "AVI", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.avi", format: "AVI", sizeBytes: 73184191, sizeFormatted: "69.8 MB" },
-          { name: "11.avi", format: "AVI", sizeBytes: 55535779, sizeFormatted: "53.0 MB" },
-          { name: "12.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "13.avi", format: "AVI", sizeBytes: 84686206, sizeFormatted: "80.8 MB" },
-          { name: "14.avi", format: "AVI", sizeBytes: 153409554, sizeFormatted: "146.3 MB" },
-          { name: "15.avi", format: "AVI", sizeBytes: 119875894, sizeFormatted: "114.3 MB" },
-          { name: "16.avi", format: "AVI", sizeBytes: 208843205, sizeFormatted: "199.2 MB" },
-          { name: "17.avi", format: "AVI", sizeBytes: 166074922, sizeFormatted: "158.4 MB" },
-          { name: "18.avi", format: "AVI", sizeBytes: 141504907, sizeFormatted: "134.9 MB" },
-          { name: "19.avi", format: "AVI", sizeBytes: 110039854, sizeFormatted: "104.9 MB" },
-          { name: "20.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "21.avi", format: "AVI", sizeBytes: 157514476, sizeFormatted: "150.2 MB" },
-          { name: "22.avi", format: "AVI", sizeBytes: 157568373, sizeFormatted: "150.3 MB" },
+          { name: "1.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.avi", format: "AVI", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.avi", format: "AVI", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.avi", format: "AVI", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.avi", format: "AVI", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.avi", format: "AVI", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.avi", format: "AVI", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.avi", format: "AVI", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.avi", format: "AVI", sizeBytes: 51921488, sizeFormatted: "49.5 MB" },
+          { name: "11.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "12.avi", format: "AVI", sizeBytes: 103853427, sizeFormatted: "99.0 MB" },
+          { name: "13.avi", format: "AVI", sizeBytes: 537428587, sizeFormatted: "512.5 MB" },
+          { name: "14.avi", format: "AVI", sizeBytes: 70164555, sizeFormatted: "66.9 MB" },
+          { name: "15.avi", format: "AVI", sizeBytes: 143109942, sizeFormatted: "136.5 MB" },
+          { name: "16.avi", format: "AVI", sizeBytes: 204724224, sizeFormatted: "195.2 MB" },
+          { name: "17.avi", format: "AVI", sizeBytes: 54182044, sizeFormatted: "51.7 MB" },
+          { name: "18.avi", format: "AVI", sizeBytes: 143047306, sizeFormatted: "136.4 MB" },
+          { name: "19.avi", format: "AVI", sizeBytes: 157308835, sizeFormatted: "150.0 MB" },
+          { name: "20.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "21.avi", format: "AVI", sizeBytes: 366344282, sizeFormatted: "349.4 MB" },
+          { name: "22.avi", format: "AVI", sizeBytes: 371572120, sizeFormatted: "354.4 MB" },
           { name: "23.avi", format: "AVI", sizeBytes: 157513197, sizeFormatted: "150.2 MB" },
-          { name: "24.avi", format: "AVI", sizeBytes: 157429715, sizeFormatted: "150.1 MB" }
+          { name: "24.avi", format: "AVI", sizeBytes: 366810520, sizeFormatted: "349.8 MB" }
         ]
       },
       {
         number: 3,
         episodes: 24,
         formats: ["AVI"],
-        sizeBytes: 3149192992,
-        sizeFormatted: "2.93 GB",
+        sizeBytes: 6447812844,
+        sizeFormatted: "6.00 GB",
         episodesList: [
-          { name: "1.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.avi", format: "AVI", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.avi", format: "AVI", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.avi", format: "AVI", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.avi", format: "AVI", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.avi", format: "AVI", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.avi", format: "AVI", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.avi", format: "AVI", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.avi", format: "AVI", sizeBytes: 73184191, sizeFormatted: "69.8 MB" },
-          { name: "11.avi", format: "AVI", sizeBytes: 55535779, sizeFormatted: "53.0 MB" },
-          { name: "12.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "13.avi", format: "AVI", sizeBytes: 84686206, sizeFormatted: "80.8 MB" },
-          { name: "14.avi", format: "AVI", sizeBytes: 153409554, sizeFormatted: "146.3 MB" },
-          { name: "15.avi", format: "AVI", sizeBytes: 119875894, sizeFormatted: "114.3 MB" },
-          { name: "16.avi", format: "AVI", sizeBytes: 208843205, sizeFormatted: "199.2 MB" },
-          { name: "17.avi", format: "AVI", sizeBytes: 166074922, sizeFormatted: "158.4 MB" },
-          { name: "18.avi", format: "AVI", sizeBytes: 141504907, sizeFormatted: "134.9 MB" },
-          { name: "19.avi", format: "AVI", sizeBytes: 110039854, sizeFormatted: "104.9 MB" },
-          { name: "20.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "21.avi", format: "AVI", sizeBytes: 157514476, sizeFormatted: "150.2 MB" },
-          { name: "22.avi", format: "AVI", sizeBytes: 157568373, sizeFormatted: "150.3 MB" },
+          { name: "1.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.avi", format: "AVI", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.avi", format: "AVI", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.avi", format: "AVI", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.avi", format: "AVI", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.avi", format: "AVI", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.avi", format: "AVI", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.avi", format: "AVI", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.avi", format: "AVI", sizeBytes: 51921488, sizeFormatted: "49.5 MB" },
+          { name: "11.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "12.avi", format: "AVI", sizeBytes: 103853427, sizeFormatted: "99.0 MB" },
+          { name: "13.avi", format: "AVI", sizeBytes: 537428587, sizeFormatted: "512.5 MB" },
+          { name: "14.avi", format: "AVI", sizeBytes: 70164555, sizeFormatted: "66.9 MB" },
+          { name: "15.avi", format: "AVI", sizeBytes: 143109942, sizeFormatted: "136.5 MB" },
+          { name: "16.avi", format: "AVI", sizeBytes: 204724224, sizeFormatted: "195.2 MB" },
+          { name: "17.avi", format: "AVI", sizeBytes: 54182044, sizeFormatted: "51.7 MB" },
+          { name: "18.avi", format: "AVI", sizeBytes: 143047306, sizeFormatted: "136.4 MB" },
+          { name: "19.avi", format: "AVI", sizeBytes: 157308835, sizeFormatted: "150.0 MB" },
+          { name: "20.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "21.avi", format: "AVI", sizeBytes: 366344282, sizeFormatted: "349.4 MB" },
+          { name: "22.avi", format: "AVI", sizeBytes: 371572120, sizeFormatted: "354.4 MB" },
           { name: "23.avi", format: "AVI", sizeBytes: 157513197, sizeFormatted: "150.2 MB" },
-          { name: "24.avi", format: "AVI", sizeBytes: 157429715, sizeFormatted: "150.1 MB" }
+          { name: "24.avi", format: "AVI", sizeBytes: 366810520, sizeFormatted: "349.8 MB" }
         ]
       },
       {
         number: 4,
         episodes: 16,
         formats: ["AVI"],
-        sizeBytes: 1997691898,
-        sizeFormatted: "1.86 GB",
+        sizeBytes: 4775250351,
+        sizeFormatted: "4.45 GB",
         episodesList: [
-          { name: "1.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.avi", format: "AVI", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.avi", format: "AVI", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.avi", format: "AVI", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.avi", format: "AVI", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.avi", format: "AVI", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.avi", format: "AVI", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.avi", format: "AVI", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.avi", format: "AVI", sizeBytes: 73184191, sizeFormatted: "69.8 MB" },
-          { name: "11.avi", format: "AVI", sizeBytes: 55535779, sizeFormatted: "53.0 MB" },
-          { name: "12.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "13.avi", format: "AVI", sizeBytes: 84686206, sizeFormatted: "80.8 MB" },
-          { name: "14.avi", format: "AVI", sizeBytes: 153409554, sizeFormatted: "146.3 MB" },
-          { name: "15.avi", format: "AVI", sizeBytes: 119875894, sizeFormatted: "114.3 MB" },
-          { name: "16.avi", format: "AVI", sizeBytes: 208843205, sizeFormatted: "199.2 MB" }
+          { name: "1.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.avi", format: "AVI", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.avi", format: "AVI", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.avi", format: "AVI", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.avi", format: "AVI", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.avi", format: "AVI", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.avi", format: "AVI", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.avi", format: "AVI", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.avi", format: "AVI", sizeBytes: 51921488, sizeFormatted: "49.5 MB" },
+          { name: "11.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "12.avi", format: "AVI", sizeBytes: 103853427, sizeFormatted: "99.0 MB" },
+          { name: "13.avi", format: "AVI", sizeBytes: 537428587, sizeFormatted: "512.5 MB" },
+          { name: "14.avi", format: "AVI", sizeBytes: 70164555, sizeFormatted: "66.9 MB" },
+          { name: "15.avi", format: "AVI", sizeBytes: 143109942, sizeFormatted: "136.5 MB" },
+          { name: "16.avi", format: "AVI", sizeBytes: 204724224, sizeFormatted: "195.2 MB" }
         ]
       },
       {
         number: 5,
         episodes: 24,
         formats: ["AVI"],
-        sizeBytes: 3149192992,
-        sizeFormatted: "2.93 GB",
+        sizeBytes: 6447812844,
+        sizeFormatted: "6.00 GB",
         episodesList: [
-          { name: "1.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.avi", format: "AVI", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.avi", format: "AVI", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.avi", format: "AVI", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.avi", format: "AVI", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.avi", format: "AVI", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.avi", format: "AVI", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.avi", format: "AVI", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.avi", format: "AVI", sizeBytes: 73184191, sizeFormatted: "69.8 MB" },
-          { name: "11.avi", format: "AVI", sizeBytes: 55535779, sizeFormatted: "53.0 MB" },
-          { name: "12.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "13.avi", format: "AVI", sizeBytes: 84686206, sizeFormatted: "80.8 MB" },
-          { name: "14.avi", format: "AVI", sizeBytes: 153409554, sizeFormatted: "146.3 MB" },
-          { name: "15.avi", format: "AVI", sizeBytes: 119875894, sizeFormatted: "114.3 MB" },
-          { name: "16.avi", format: "AVI", sizeBytes: 208843205, sizeFormatted: "199.2 MB" },
-          { name: "17.avi", format: "AVI", sizeBytes: 166074922, sizeFormatted: "158.4 MB" },
-          { name: "18.avi", format: "AVI", sizeBytes: 141504907, sizeFormatted: "134.9 MB" },
-          { name: "19.avi", format: "AVI", sizeBytes: 110039854, sizeFormatted: "104.9 MB" },
-          { name: "20.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "21.avi", format: "AVI", sizeBytes: 157514476, sizeFormatted: "150.2 MB" },
-          { name: "22.avi", format: "AVI", sizeBytes: 157568373, sizeFormatted: "150.3 MB" },
+          { name: "1.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.avi", format: "AVI", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.avi", format: "AVI", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.avi", format: "AVI", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.avi", format: "AVI", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.avi", format: "AVI", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.avi", format: "AVI", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.avi", format: "AVI", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.avi", format: "AVI", sizeBytes: 51921488, sizeFormatted: "49.5 MB" },
+          { name: "11.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "12.avi", format: "AVI", sizeBytes: 103853427, sizeFormatted: "99.0 MB" },
+          { name: "13.avi", format: "AVI", sizeBytes: 537428587, sizeFormatted: "512.5 MB" },
+          { name: "14.avi", format: "AVI", sizeBytes: 70164555, sizeFormatted: "66.9 MB" },
+          { name: "15.avi", format: "AVI", sizeBytes: 143109942, sizeFormatted: "136.5 MB" },
+          { name: "16.avi", format: "AVI", sizeBytes: 204724224, sizeFormatted: "195.2 MB" },
+          { name: "17.avi", format: "AVI", sizeBytes: 54182044, sizeFormatted: "51.7 MB" },
+          { name: "18.avi", format: "AVI", sizeBytes: 143047306, sizeFormatted: "136.4 MB" },
+          { name: "19.avi", format: "AVI", sizeBytes: 157308835, sizeFormatted: "150.0 MB" },
+          { name: "20.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "21.avi", format: "AVI", sizeBytes: 366344282, sizeFormatted: "349.4 MB" },
+          { name: "22.avi", format: "AVI", sizeBytes: 371572120, sizeFormatted: "354.4 MB" },
           { name: "23.avi", format: "AVI", sizeBytes: 157513197, sizeFormatted: "150.2 MB" },
-          { name: "24.avi", format: "AVI", sizeBytes: 157429715, sizeFormatted: "150.1 MB" }
+          { name: "24.avi", format: "AVI", sizeBytes: 366810520, sizeFormatted: "349.8 MB" }
         ]
       },
       {
         number: 6,
         episodes: 21,
         formats: ["AVI"],
-        sizeBytes: 2676681707,
-        sizeFormatted: "2.49 GB",
+        sizeBytes: 5551917007,
+        sizeFormatted: "5.17 GB",
         episodesList: [
-          { name: "1.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.avi", format: "AVI", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.avi", format: "AVI", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.avi", format: "AVI", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.avi", format: "AVI", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.avi", format: "AVI", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.avi", format: "AVI", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.avi", format: "AVI", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.avi", format: "AVI", sizeBytes: 73184191, sizeFormatted: "69.8 MB" },
-          { name: "11.avi", format: "AVI", sizeBytes: 55535779, sizeFormatted: "53.0 MB" },
-          { name: "12.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "13.avi", format: "AVI", sizeBytes: 84686206, sizeFormatted: "80.8 MB" },
-          { name: "14.avi", format: "AVI", sizeBytes: 153409554, sizeFormatted: "146.3 MB" },
-          { name: "15.avi", format: "AVI", sizeBytes: 119875894, sizeFormatted: "114.3 MB" },
-          { name: "16.avi", format: "AVI", sizeBytes: 208843205, sizeFormatted: "199.2 MB" },
-          { name: "17.avi", format: "AVI", sizeBytes: 166074922, sizeFormatted: "158.4 MB" },
-          { name: "18.avi", format: "AVI", sizeBytes: 141504907, sizeFormatted: "134.9 MB" },
-          { name: "19.avi", format: "AVI", sizeBytes: 110039854, sizeFormatted: "104.9 MB" },
-          { name: "20.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "21.avi", format: "AVI", sizeBytes: 157514476, sizeFormatted: "150.2 MB" }
+          { name: "1.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.avi", format: "AVI", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.avi", format: "AVI", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.avi", format: "AVI", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.avi", format: "AVI", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.avi", format: "AVI", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.avi", format: "AVI", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.avi", format: "AVI", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.avi", format: "AVI", sizeBytes: 51921488, sizeFormatted: "49.5 MB" },
+          { name: "11.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "12.avi", format: "AVI", sizeBytes: 103853427, sizeFormatted: "99.0 MB" },
+          { name: "13.avi", format: "AVI", sizeBytes: 537428587, sizeFormatted: "512.5 MB" },
+          { name: "14.avi", format: "AVI", sizeBytes: 70164555, sizeFormatted: "66.9 MB" },
+          { name: "15.avi", format: "AVI", sizeBytes: 143109942, sizeFormatted: "136.5 MB" },
+          { name: "16.avi", format: "AVI", sizeBytes: 204724224, sizeFormatted: "195.2 MB" },
+          { name: "17.avi", format: "AVI", sizeBytes: 54182044, sizeFormatted: "51.7 MB" },
+          { name: "18.avi", format: "AVI", sizeBytes: 143047306, sizeFormatted: "136.4 MB" },
+          { name: "19.avi", format: "AVI", sizeBytes: 157308835, sizeFormatted: "150.0 MB" },
+          { name: "20.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "21.avi", format: "AVI", sizeBytes: 366344282, sizeFormatted: "349.4 MB" }
         ]
       },
       {
         number: 7,
         episodes: 27,
         formats: ["AVI"],
-        sizeBytes: 3799547505,
-        sizeFormatted: "3.54 GB",
+        sizeBytes: 7098167357,
+        sizeFormatted: "6.61 GB",
         episodesList: [
-          { name: "1.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.avi", format: "AVI", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.avi", format: "AVI", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.avi", format: "AVI", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.avi", format: "AVI", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.avi", format: "AVI", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.avi", format: "AVI", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.avi", format: "AVI", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.avi", format: "AVI", sizeBytes: 73184191, sizeFormatted: "69.8 MB" },
-          { name: "11.avi", format: "AVI", sizeBytes: 55535779, sizeFormatted: "53.0 MB" },
-          { name: "12.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "13.avi", format: "AVI", sizeBytes: 84686206, sizeFormatted: "80.8 MB" },
-          { name: "14.avi", format: "AVI", sizeBytes: 153409554, sizeFormatted: "146.3 MB" },
-          { name: "15.avi", format: "AVI", sizeBytes: 119875894, sizeFormatted: "114.3 MB" },
-          { name: "16.avi", format: "AVI", sizeBytes: 208843205, sizeFormatted: "199.2 MB" },
-          { name: "17.avi", format: "AVI", sizeBytes: 166074922, sizeFormatted: "158.4 MB" },
-          { name: "18.avi", format: "AVI", sizeBytes: 141504907, sizeFormatted: "134.9 MB" },
-          { name: "19.avi", format: "AVI", sizeBytes: 110039854, sizeFormatted: "104.9 MB" },
-          { name: "20.avi", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "21.avi", format: "AVI", sizeBytes: 157514476, sizeFormatted: "150.2 MB" },
-          { name: "22.avi", format: "AVI", sizeBytes: 157568373, sizeFormatted: "150.3 MB" },
+          { name: "1.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.avi", format: "AVI", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.avi", format: "AVI", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.avi", format: "AVI", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.avi", format: "AVI", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.avi", format: "AVI", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.avi", format: "AVI", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.avi", format: "AVI", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.avi", format: "AVI", sizeBytes: 51921488, sizeFormatted: "49.5 MB" },
+          { name: "11.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "12.avi", format: "AVI", sizeBytes: 103853427, sizeFormatted: "99.0 MB" },
+          { name: "13.avi", format: "AVI", sizeBytes: 537428587, sizeFormatted: "512.5 MB" },
+          { name: "14.avi", format: "AVI", sizeBytes: 70164555, sizeFormatted: "66.9 MB" },
+          { name: "15.avi", format: "AVI", sizeBytes: 143109942, sizeFormatted: "136.5 MB" },
+          { name: "16.avi", format: "AVI", sizeBytes: 204724224, sizeFormatted: "195.2 MB" },
+          { name: "17.avi", format: "AVI", sizeBytes: 54182044, sizeFormatted: "51.7 MB" },
+          { name: "18.avi", format: "AVI", sizeBytes: 143047306, sizeFormatted: "136.4 MB" },
+          { name: "19.avi", format: "AVI", sizeBytes: 157308835, sizeFormatted: "150.0 MB" },
+          { name: "20.avi", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "21.avi", format: "AVI", sizeBytes: 366344282, sizeFormatted: "349.4 MB" },
+          { name: "22.avi", format: "AVI", sizeBytes: 371572120, sizeFormatted: "354.4 MB" },
           { name: "23.avi", format: "AVI", sizeBytes: 157513197, sizeFormatted: "150.2 MB" },
-          { name: "24.avi", format: "AVI", sizeBytes: 157429715, sizeFormatted: "150.1 MB" },
+          { name: "24.avi", format: "AVI", sizeBytes: 366810520, sizeFormatted: "349.8 MB" },
           { name: "25.avi", format: "AVI", sizeBytes: 144476747, sizeFormatted: "137.8 MB" },
           { name: "26.avi", format: "AVI", sizeBytes: 143198457, sizeFormatted: "136.6 MB" },
           { name: "27.avi", format: "AVI", sizeBytes: 362679309, sizeFormatted: "362.7 MB" }
@@ -5105,38 +5117,38 @@ export const series: MediaItem[] = [
         number: 8,
         episodes: 23,
         formats: ["AVI","MP4","MKV"],
-        sizeBytes: 2991763277,
-        sizeFormatted: "2.79 GB",
+        sizeBytes: 6081002324,
+        sizeFormatted: "5.66 GB",
         episodesList: [
-          { name: "1.avi", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.avi", format: "MP4", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.avi", format: "MKV", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.avi", format: "AVI", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.avi", format: "MP4", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.avi", format: "MKV", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.avi", format: "AVI", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.avi", format: "MP4", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.avi", format: "MKV", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.avi", format: "AVI", sizeBytes: 73184191, sizeFormatted: "69.8 MB" },
-          { name: "11.avi", format: "MP4", sizeBytes: 55535779, sizeFormatted: "53.0 MB" },
-          { name: "12.avi", format: "MKV", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "13.avi", format: "AVI", sizeBytes: 84686206, sizeFormatted: "80.8 MB" },
-          { name: "14.avi", format: "MP4", sizeBytes: 153409554, sizeFormatted: "146.3 MB" },
-          { name: "15.avi", format: "MKV", sizeBytes: 119875894, sizeFormatted: "114.3 MB" },
-          { name: "16.avi", format: "AVI", sizeBytes: 208843205, sizeFormatted: "199.2 MB" },
-          { name: "17.avi", format: "MP4", sizeBytes: 166074922, sizeFormatted: "158.4 MB" },
-          { name: "18.avi", format: "MKV", sizeBytes: 141504907, sizeFormatted: "134.9 MB" },
-          { name: "19.avi", format: "AVI", sizeBytes: 110039854, sizeFormatted: "104.9 MB" },
-          { name: "20.avi", format: "MP4", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "21.avi", format: "MKV", sizeBytes: 157514476, sizeFormatted: "150.2 MB" },
-          { name: "22.avi", format: "AVI", sizeBytes: 157568373, sizeFormatted: "150.3 MB" },
+          { name: "1.avi", format: "AVI", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.avi", format: "MP4", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.avi", format: "MKV", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.avi", format: "AVI", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.avi", format: "MP4", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.avi", format: "MKV", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.avi", format: "AVI", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.avi", format: "MP4", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.avi", format: "MKV", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.avi", format: "AVI", sizeBytes: 51921488, sizeFormatted: "49.5 MB" },
+          { name: "11.avi", format: "MP4", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "12.avi", format: "MKV", sizeBytes: 103853427, sizeFormatted: "99.0 MB" },
+          { name: "13.avi", format: "AVI", sizeBytes: 537428587, sizeFormatted: "512.5 MB" },
+          { name: "14.avi", format: "MP4", sizeBytes: 70164555, sizeFormatted: "66.9 MB" },
+          { name: "15.avi", format: "MKV", sizeBytes: 143109942, sizeFormatted: "136.5 MB" },
+          { name: "16.avi", format: "AVI", sizeBytes: 204724224, sizeFormatted: "195.2 MB" },
+          { name: "17.avi", format: "MP4", sizeBytes: 54182044, sizeFormatted: "51.7 MB" },
+          { name: "18.avi", format: "MKV", sizeBytes: 143047306, sizeFormatted: "136.4 MB" },
+          { name: "19.avi", format: "AVI", sizeBytes: 157308835, sizeFormatted: "150.0 MB" },
+          { name: "20.avi", format: "MP4", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "21.avi", format: "MKV", sizeBytes: 366344282, sizeFormatted: "349.4 MB" },
+          { name: "22.avi", format: "AVI", sizeBytes: 371572120, sizeFormatted: "354.4 MB" },
           { name: "23.avi", format: "MP4", sizeBytes: 157513197, sizeFormatted: "150.2 MB" }
         ]
       }
     ],
     path: "$1//Dr. House",
-    sizeBytes: 23747513443,
-    sizeFormatted: "22.12 GB"
+    sizeBytes: 48773264698,
+    sizeFormatted: "45.42 GB"
   },
   {
     id: "dracula-2020",
@@ -5384,6 +5396,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//El internado",
+    poster: "el-internado-las-cumbres-x-2.jpg",
     sizeBytes: 25009140530,
     sizeFormatted: "23.29 GB"
   },
@@ -5444,6 +5457,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//El INTERNADO LAS CUMBRES",
+    poster: "el-internado-las-cumbres-x-2.jpg",
     sizeBytes: 8863894886,
     sizeFormatted: "8.26 GB"
   },
@@ -5489,8 +5503,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//El Juego de las Llaves",
-    sizeBytes: 5333777920,
-    sizeFormatted: "4.97 GB"
+    sizeBytes: 39206813336,
+    sizeFormatted: "36.51 GB"
   },
   {
     id: "elite",
@@ -5645,6 +5659,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Euphoria",
+    poster: "euphoria-temp-2-caps-08-720p-dual-audio.webp",
     sizeBytes: 13636808832,
     sizeFormatted: "12.70 GB"
   },
@@ -5667,8 +5682,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Falcon y el soldado de invierno",
-    sizeBytes: 2636710448,
-    sizeFormatted: "2.64 GB"
+    sizeBytes: 16273519280,
+    sizeFormatted: "15.16 GB"
   },
   {
     id: "fallout",
@@ -6059,6 +6074,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Friends",
+    poster: "friends-the-reunion.jpg",
     sizeBytes: 18702299272,
     sizeFormatted: "17.42 GB"
   },
@@ -6147,8 +6163,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//From",
-    sizeBytes: 13672508101,
-    sizeFormatted: "12.73 GB"
+    sizeBytes: 32374807373,
+    sizeFormatted: "30.15 GB"
   },
   {
     id: "game-of-thrones",
@@ -6835,6 +6851,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Iron Fist",
+    poster: "10-iron-fist-2.jpg",
     sizeBytes: 7327269927,
     sizeFormatted: "6.82 GB"
   },
@@ -6912,6 +6929,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Jessica Jones",
+    poster: "2-jessica-jones-1.jpg",
     sizeBytes: 15021230840,
     sizeFormatted: "13.99 GB"
   },
@@ -6941,8 +6959,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Kaleidoscope",
-    sizeBytes: 2453806401,
-    sizeFormatted: "2.29 GB"
+    sizeBytes: 24802307168,
+    sizeFormatted: "23.10 GB"
   },
   {
     id: "la-casa-de-papel",
@@ -7085,23 +7103,23 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 8,
         formats: ["MKV"],
-        sizeBytes: 4096606202,
-        sizeFormatted: "3.82 GB",
+        sizeBytes: 3170752494,
+        sizeFormatted: "2.95 GB",
         episodesList: [
-          { name: "S01E01.mkv", format: "MKV", sizeBytes: 515990793, sizeFormatted: "492.1 MB" },
-          { name: "S01E02.mkv", format: "MKV", sizeBytes: 505384792, sizeFormatted: "482.0 MB" },
-          { name: "S01E03.mkv", format: "MKV", sizeBytes: 515676381, sizeFormatted: "491.8 MB" },
-          { name: "S01E04.mkv", format: "MKV", sizeBytes: 522783935, sizeFormatted: "498.6 MB" },
-          { name: "S01E05.mkv", format: "MKV", sizeBytes: 521128472, sizeFormatted: "497.0 MB" },
-          { name: "S01E06.mkv", format: "MKV", sizeBytes: 523736253, sizeFormatted: "499.5 MB" },
-          { name: "S01E07.mkv", format: "MKV", sizeBytes: 455868547, sizeFormatted: "434.8 MB" },
-          { name: "S01E08.mkv", format: "MKV", sizeBytes: 536037029, sizeFormatted: "511.2 MB" }
+          { name: "S01E01.mkv", format: "MKV", sizeBytes: 531238183, sizeFormatted: "506.6 MB" },
+          { name: "S01E02.mkv", format: "MKV", sizeBytes: 172312576, sizeFormatted: "164.3 MB" },
+          { name: "S01E03.mkv", format: "MKV", sizeBytes: 111690306, sizeFormatted: "106.5 MB" },
+          { name: "S01E04.mkv", format: "MKV", sizeBytes: 548885799, sizeFormatted: "523.5 MB" },
+          { name: "S01E05.mkv", format: "MKV", sizeBytes: 588397295, sizeFormatted: "561.1 MB" },
+          { name: "S01E06.mkv", format: "MKV", sizeBytes: 530004416, sizeFormatted: "505.5 MB" },
+          { name: "S01E07.mkv", format: "MKV", sizeBytes: 527734447, sizeFormatted: "503.3 MB" },
+          { name: "S01E08.mkv", format: "MKV", sizeBytes: 160489472, sizeFormatted: "153.1 MB" }
         ]
       }
     ],
     path: "$1//La Guardia",
-    sizeBytes: 4096606202,
-    sizeFormatted: "3.82 GB"
+    sizeBytes: 3170752494,
+    sizeFormatted: "2.95 GB"
   },
   {
     id: "la-unidad",
@@ -7141,6 +7159,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//La Unidad",
+    poster: "la-unidad.jpg",
     sizeBytes: 6353051532,
     sizeFormatted: "5.92 GB"
   },
@@ -7240,8 +7259,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Las Chicas del cable",
-    sizeBytes: 14174909750,
-    sizeFormatted: "13.20 GB"
+    sizeBytes: 20527961282,
+    sizeFormatted: "19.12 GB"
   },
   {
     id: "legacies",
@@ -7353,6 +7372,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Legacies",
+    poster: "legacies-x-1.jpg",
     sizeBytes: 16105285287,
     sizeFormatted: "15.00 GB"
   },
@@ -7379,8 +7399,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Loki",
-    sizeBytes: 2938747944,
-    sizeFormatted: "2.94 GB"
+    sizeBytes: 19044033231,
+    sizeFormatted: "17.74 GB"
   },
   {
     id: "the-100",
@@ -7529,14 +7549,14 @@ export const series: MediaItem[] = [
         number: 7,
         episodes: 10,
         formats: ["MPG","MP4","MKV"],
-        sizeBytes: 3804298143,
-        sizeFormatted: "3.54 GB",
+        sizeBytes: 3986300653,
+        sizeFormatted: "3.71 GB",
         episodesList: [
           { name: "The 100 7x01.mpg", format: "MPG", sizeBytes: 438628042, sizeFormatted: "418.3 MB" },
           { name: "The 100 7x02.mpg", format: "MP4", sizeBytes: 303792869, sizeFormatted: "289.7 MB" },
-          { name: "The 100 7x03.mpg", format: "MKV", sizeBytes: 382734654, sizeFormatted: "382.7 MB" },
-          { name: "The 100 7x04.mpg", format: "MPG", sizeBytes: 382734654, sizeFormatted: "382.7 MB" },
-          { name: "The 100 7x05.mpg", format: "MP4", sizeBytes: 382734654, sizeFormatted: "382.7 MB" },
+          { name: "The 100 7x03.mpg", format: "MKV", sizeBytes: 447393240, sizeFormatted: "426.7 MB" },
+          { name: "The 100 7x04.mpg", format: "MPG", sizeBytes: 439810028, sizeFormatted: "419.4 MB" },
+          { name: "The 100 7x05.mpg", format: "MP4", sizeBytes: 443003204, sizeFormatted: "422.5 MB" },
           { name: "The 100 7x06.mpg", format: "MKV", sizeBytes: 382734654, sizeFormatted: "382.7 MB" },
           { name: "The 100 7x07.mpg", format: "MPG", sizeBytes: 382734654, sizeFormatted: "382.7 MB" },
           { name: "The 100 7x08.mpg", format: "MP4", sizeBytes: 382734654, sizeFormatted: "382.7 MB" },
@@ -7546,8 +7566,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Los 100",
-    sizeBytes: 35707960130,
-    sizeFormatted: "33.26 GB"
+    sizeBytes: 35889962640,
+    sizeFormatted: "33.43 GB"
   },
   {
     id: "lqsa",
@@ -7878,6 +7898,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Luke Cage",
+    poster: "4-luke-cage-1.jpg",
     sizeBytes: 10043556147,
     sizeFormatted: "9.35 GB"
   },
@@ -7910,8 +7931,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Luna el Misterio en Calenda",
-    sizeBytes: 9063731476,
-    sizeFormatted: "9.06 GB"
+    sizeBytes: 19107287623,
+    sizeFormatted: "17.80 GB"
   },
   {
     id: "lupin",
@@ -8031,32 +8052,32 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 17,
         formats: ["MKV"],
-        sizeBytes: 7954357228,
-        sizeFormatted: "7.41 GB",
+        sizeBytes: 6458830279,
+        sizeFormatted: "6.02 GB",
         episodesList: [
-          { name: "S01E01.mkv", format: "MKV", sizeBytes: 515990793, sizeFormatted: "492.1 MB" },
-          { name: "S01E02.mkv", format: "MKV", sizeBytes: 505384792, sizeFormatted: "482.0 MB" },
-          { name: "S01E03.mkv", format: "MKV", sizeBytes: 515676381, sizeFormatted: "491.8 MB" },
-          { name: "S01E04.mkv", format: "MKV", sizeBytes: 522783935, sizeFormatted: "498.6 MB" },
-          { name: "S01E05.mkv", format: "MKV", sizeBytes: 521128472, sizeFormatted: "497.0 MB" },
-          { name: "S01E06.mkv", format: "MKV", sizeBytes: 523736253, sizeFormatted: "499.5 MB" },
-          { name: "S01E07.mkv", format: "MKV", sizeBytes: 455868547, sizeFormatted: "434.8 MB" },
-          { name: "S01E08.mkv", format: "MKV", sizeBytes: 536037029, sizeFormatted: "511.2 MB" },
+          { name: "S01E01.mkv", format: "MKV", sizeBytes: 531238183, sizeFormatted: "506.6 MB" },
+          { name: "S01E02.mkv", format: "MKV", sizeBytes: 172312576, sizeFormatted: "164.3 MB" },
+          { name: "S01E03.mkv", format: "MKV", sizeBytes: 111690306, sizeFormatted: "106.5 MB" },
+          { name: "S01E04.mkv", format: "MKV", sizeBytes: 548885799, sizeFormatted: "523.5 MB" },
+          { name: "S01E05.mkv", format: "MKV", sizeBytes: 588397295, sizeFormatted: "561.1 MB" },
+          { name: "S01E06.mkv", format: "MKV", sizeBytes: 530004416, sizeFormatted: "505.5 MB" },
+          { name: "S01E07.mkv", format: "MKV", sizeBytes: 527734447, sizeFormatted: "503.3 MB" },
+          { name: "S01E08.mkv", format: "MKV", sizeBytes: 160489472, sizeFormatted: "153.1 MB" },
           { name: "S01E09.mkv", format: "MKV", sizeBytes: 731049631, sizeFormatted: "697.2 MB" },
-          { name: "S01E10.mkv", format: "MKV", sizeBytes: 439449459, sizeFormatted: "419.1 MB" },
-          { name: "S01E11.mkv", format: "MKV", sizeBytes: 376240697, sizeFormatted: "358.8 MB" },
-          { name: "S01E12.mkv", format: "MKV", sizeBytes: 376101667, sizeFormatted: "358.7 MB" },
-          { name: "S01E13.mkv", format: "MKV", sizeBytes: 376153920, sizeFormatted: "358.7 MB" },
-          { name: "S01E14.mkv", format: "MKV", sizeBytes: 375744086, sizeFormatted: "358.3 MB" },
-          { name: "S01E15.mkv", format: "MKV", sizeBytes: 375239686, sizeFormatted: "357.9 MB" },
-          { name: "S01E16.mkv", format: "MKV", sizeBytes: 375704660, sizeFormatted: "358.3 MB" },
-          { name: "S01E17.mkv", format: "MKV", sizeBytes: 432067220, sizeFormatted: "412.1 MB" }
+          { name: "S01E10.mkv", format: "MKV", sizeBytes: 177477632, sizeFormatted: "169.3 MB" },
+          { name: "S01E11.mkv", format: "MKV", sizeBytes: 111689368, sizeFormatted: "106.5 MB" },
+          { name: "S01E12.mkv", format: "MKV", sizeBytes: 377412225, sizeFormatted: "359.9 MB" },
+          { name: "S01E13.mkv", format: "MKV", sizeBytes: 378480966, sizeFormatted: "360.9 MB" },
+          { name: "S01E14.mkv", format: "MKV", sizeBytes: 378148952, sizeFormatted: "360.6 MB" },
+          { name: "S01E15.mkv", format: "MKV", sizeBytes: 378780123, sizeFormatted: "361.2 MB" },
+          { name: "S01E16.mkv", format: "MKV", sizeBytes: 376717693, sizeFormatted: "359.3 MB" },
+          { name: "S01E17.mkv", format: "MKV", sizeBytes: 378321195, sizeFormatted: "360.8 MB" }
         ]
       }
     ],
     path: "$1//Nancy-Drew",
-    sizeBytes: 7954357228,
-    sizeFormatted: "7.41 GB"
+    sizeBytes: 6458830279,
+    sizeFormatted: "6.02 GB"
   },
   {
     id: "narcos-mexico",
@@ -8123,6 +8144,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Obi Wan Kenobi",
+    poster: "obi-wan-kenobi-temp-1-latino-dual-yavay-2022.jpg",
     sizeBytes: 2445909732,
     sizeFormatted: "2.28 GB"
   },
@@ -8152,8 +8174,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//One Piece",
-    sizeBytes: 2304192340,
-    sizeFormatted: "2.30 GB"
+    sizeBytes: 4750102072,
+    sizeFormatted: "4.42 GB"
   },
   {
     id: "only-murders-in-the-building",
@@ -8192,19 +8214,19 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 10,
         formats: ["MKV"],
-        sizeBytes: 1291439687,
-        sizeFormatted: "1.20 GB",
+        sizeBytes: 3099677656,
+        sizeFormatted: "2.89 GB",
         episodesList: [
-          { name: "1.mkv", format: "MKV", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.mkv", format: "MKV", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.mkv", format: "MKV", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.mkv", format: "MKV", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.mkv", format: "MKV", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.mkv", format: "MKV", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.mkv", format: "MKV", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.mkv", format: "MKV", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.mkv", format: "MKV", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.mkv", format: "MKV", sizeBytes: 73184191, sizeFormatted: "69.8 MB" }
+          { name: "1.mkv", format: "MKV", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.mkv", format: "MKV", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.mkv", format: "MKV", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.mkv", format: "MKV", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.mkv", format: "MKV", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.mkv", format: "MKV", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.mkv", format: "MKV", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.mkv", format: "MKV", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.mkv", format: "MKV", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.mkv", format: "MKV", sizeBytes: 51921488, sizeFormatted: "49.5 MB" }
         ]
       },
       {
@@ -8228,8 +8250,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Outer Banks",
-    sizeBytes: 5039189117,
-    sizeFormatted: "4.69 GB"
+    sizeBytes: 6847427086,
+    sizeFormatted: "6.38 GB"
   },
   {
     id: "ozark",
@@ -8750,6 +8772,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Ragnarok",
+    poster: "20-thor-ragnarok-2017.png",
     sizeBytes: 7117885145,
     sizeFormatted: "6.63 GB"
   },
@@ -8780,8 +8803,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Resident Alien",
-    sizeBytes: 4327285479,
-    sizeFormatted: "4.33 GB"
+    sizeBytes: 11445170624,
+    sizeFormatted: "10.66 GB"
   },
   {
     id: "sex-education",
@@ -9046,21 +9069,21 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 12,
         formats: ["MPG"],
-        sizeBytes: 4975666416,
-        sizeFormatted: "4.63 GB",
+        sizeBytes: 4877069708,
+        sizeFormatted: "4.54 GB",
         episodesList: [
-          { name: "Teen Wolf 1x01.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x02.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x03.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x04.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x05.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x06.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x07.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x08.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x09.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x10.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x11.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 1x12.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" }
+          { name: "Teen Wolf 1x01.mpg", format: "MPG", sizeBytes: 406483868, sizeFormatted: "387.7 MB" },
+          { name: "Teen Wolf 1x02.mpg", format: "MPG", sizeBytes: 400699432, sizeFormatted: "382.1 MB" },
+          { name: "Teen Wolf 1x03.mpg", format: "MPG", sizeBytes: 413407064, sizeFormatted: "394.3 MB" },
+          { name: "Teen Wolf 1x04.mpg", format: "MPG", sizeBytes: 392109928, sizeFormatted: "373.9 MB" },
+          { name: "Teen Wolf 1x05.mpg", format: "MPG", sizeBytes: 393027908, sizeFormatted: "374.8 MB" },
+          { name: "Teen Wolf 1x06.mpg", format: "MPG", sizeBytes: 412595988, sizeFormatted: "393.5 MB" },
+          { name: "Teen Wolf 1x07.mpg", format: "MPG", sizeBytes: 399091224, sizeFormatted: "380.6 MB" },
+          { name: "Teen Wolf 1x08.mpg", format: "MPG", sizeBytes: 395588956, sizeFormatted: "377.3 MB" },
+          { name: "Teen Wolf 1x09.mpg", format: "MPG", sizeBytes: 411901112, sizeFormatted: "392.8 MB" },
+          { name: "Teen Wolf 1x10.mpg", format: "MPG", sizeBytes: 413785876, sizeFormatted: "394.6 MB" },
+          { name: "Teen Wolf 1x11.mpg", format: "MPG", sizeBytes: 415842616, sizeFormatted: "396.6 MB" },
+          { name: "Teen Wolf 1x12.mpg", format: "MPG", sizeBytes: 422535736, sizeFormatted: "403.0 MB" }
         ]
       },
       {
@@ -9088,8 +9111,8 @@ export const series: MediaItem[] = [
         number: 3,
         episodes: 24,
         formats: ["MPG","AVI"],
-        sizeBytes: 9951332832,
-        sizeFormatted: "9.27 GB",
+        sizeBytes: 9919689080,
+        sizeFormatted: "9.24 GB",
         episodesList: [
           { name: "Teen Wolf 3x01.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
           { name: "Teen Wolf 3x02.mpg", format: "AVI", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
@@ -9113,8 +9136,8 @@ export const series: MediaItem[] = [
           { name: "Teen Wolf 3x20.mpg", format: "AVI", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
           { name: "Teen Wolf 3x21.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
           { name: "Teen Wolf 3x22.mpg", format: "AVI", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 3x23.mpg", format: "MPG", sizeBytes: 414638868, sizeFormatted: "414.6 MB" },
-          { name: "Teen Wolf 3x24.mpg", format: "AVI", sizeBytes: 414638868, sizeFormatted: "414.6 MB" }
+          { name: "Teen Wolf 3x23.mpg", format: "MPG", sizeBytes: 398338248, sizeFormatted: "379.9 MB" },
+          { name: "Teen Wolf 3x24.mpg", format: "AVI", sizeBytes: 399295736, sizeFormatted: "380.8 MB" }
         ]
       },
       {
@@ -9183,8 +9206,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Teen Wolf",
-    sizeBytes: 34870096928,
-    sizeFormatted: "32.48 GB"
+    sizeBytes: 34739856468,
+    sizeFormatted: "32.35 GB"
   },
   {
     id: "the-big-bang-theory",
@@ -9318,10 +9341,10 @@ export const series: MediaItem[] = [
         number: 5,
         episodes: 24,
         formats: ["AVI","MP4","MKV"],
-        sizeBytes: 4184308538,
+        sizeBytes: 4183736196,
         sizeFormatted: "3.90 GB",
         episodesList: [
-          { name: "The.Big.Bang.Theory.S05E01.avi", format: "AVI", sizeBytes: 183493568, sizeFormatted: "175.0 MB" },
+          { name: "The.Big.Bang.Theory.S05E01.avi", format: "AVI", sizeBytes: 182921226, sizeFormatted: "174.4 MB" },
           { name: "The.Big.Bang.Theory.S05E02.avi", format: "MP4", sizeBytes: 183296712, sizeFormatted: "174.8 MB" },
           { name: "The.Big.Bang.Theory.S05E03.avi", format: "MKV", sizeBytes: 183510862, sizeFormatted: "175.0 MB" },
           { name: "The.Big.Bang.Theory.S05E04.avi", format: "AVI", sizeBytes: 183518708, sizeFormatted: "175.0 MB" },
@@ -9574,7 +9597,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//The Big Bang Theory",
-    sizeBytes: 48858729719,
+    sizeBytes: 48858157377,
     sizeFormatted: "45.50 GB"
   },
   {
@@ -9654,6 +9677,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//The Boys",
+    poster: "1-to-all-the-boys-i-ve-loved-before-a-todos-los-chicos-de-los-que-me-enamor-2018.jpg",
     sizeBytes: 14493231681,
     sizeFormatted: "13.50 GB"
   },
@@ -9751,8 +9775,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//The Crown",
-    sizeBytes: 20033641263,
-    sizeFormatted: "18.66 GB"
+    sizeBytes: 34526872944,
+    sizeFormatted: "32.16 GB"
   },
   {
     id: "the-defenders",
@@ -9779,6 +9803,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//The Defenders",
+    poster: "6-the-defenders.jpg",
     sizeBytes: 2586700803,
     sizeFormatted: "2.41 GB"
   },
@@ -9824,8 +9849,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//The End of the Fucking World",
-    sizeBytes: 3528528502,
-    sizeFormatted: "3.29 GB"
+    sizeBytes: 6115229305,
+    sizeFormatted: "5.70 GB"
   },
   {
     id: "the-eternaut",
@@ -10145,6 +10170,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//The Punisher",
+    poster: "7-the-punisher-1.jpg",
     sizeBytes: 8499859618,
     sizeFormatted: "7.92 GB"
   },
@@ -10158,24 +10184,25 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 10,
         formats: ["MKV"],
-        sizeBytes: 5267105292,
-        sizeFormatted: "4.91 GB",
+        sizeBytes: 4079279757,
+        sizeFormatted: "3.80 GB",
         notes: "1080p Dual Audio",
         episodesList: [
-          { name: "S01E01.mkv", format: "MKV", sizeBytes: 515990793, sizeFormatted: "492.1 MB" },
-          { name: "S01E02.mkv", format: "MKV", sizeBytes: 505384792, sizeFormatted: "482.0 MB" },
-          { name: "S01E03.mkv", format: "MKV", sizeBytes: 515676381, sizeFormatted: "491.8 MB" },
-          { name: "S01E04.mkv", format: "MKV", sizeBytes: 522783935, sizeFormatted: "498.6 MB" },
-          { name: "S01E05.mkv", format: "MKV", sizeBytes: 521128472, sizeFormatted: "497.0 MB" },
-          { name: "S01E06.mkv", format: "MKV", sizeBytes: 523736253, sizeFormatted: "499.5 MB" },
-          { name: "S01E07.mkv", format: "MKV", sizeBytes: 455868547, sizeFormatted: "434.8 MB" },
-          { name: "S01E08.mkv", format: "MKV", sizeBytes: 536037029, sizeFormatted: "511.2 MB" },
+          { name: "S01E01.mkv", format: "MKV", sizeBytes: 531238183, sizeFormatted: "506.6 MB" },
+          { name: "S01E02.mkv", format: "MKV", sizeBytes: 172312576, sizeFormatted: "164.3 MB" },
+          { name: "S01E03.mkv", format: "MKV", sizeBytes: 111690306, sizeFormatted: "106.5 MB" },
+          { name: "S01E04.mkv", format: "MKV", sizeBytes: 548885799, sizeFormatted: "523.5 MB" },
+          { name: "S01E05.mkv", format: "MKV", sizeBytes: 588397295, sizeFormatted: "561.1 MB" },
+          { name: "S01E06.mkv", format: "MKV", sizeBytes: 530004416, sizeFormatted: "505.5 MB" },
+          { name: "S01E07.mkv", format: "MKV", sizeBytes: 527734447, sizeFormatted: "503.3 MB" },
+          { name: "S01E08.mkv", format: "MKV", sizeBytes: 160489472, sizeFormatted: "153.1 MB" },
           { name: "S01E09.mkv", format: "MKV", sizeBytes: 731049631, sizeFormatted: "697.2 MB" },
-          { name: "S01E10.mkv", format: "MKV", sizeBytes: 439449459, sizeFormatted: "419.1 MB" }
+          { name: "S01E10.mkv", format: "MKV", sizeBytes: 177477632, sizeFormatted: "169.3 MB" }
         ]
       }
     ],
     path: "$1//The Sandman",
+    poster: "the-sandman-temporada-1-cap-10-1080p-dual-audio-4-45-gb.webp",
     sizeBytes: 5267105292,
     sizeFormatted: "4.91 GB"
   },
@@ -10429,8 +10456,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//The Vampire Diares",
-    sizeBytes: 55500857071,
-    sizeFormatted: "51.69 GB"
+    sizeBytes: 68079996446,
+    sizeFormatted: "63.40 GB"
   },
   {
     id: "fate-the-winx-saga",
@@ -10518,6 +10545,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//The Witcher",
+    poster: "the-witcher-season-2.jpg",
     sizeBytes: 15630211650,
     sizeFormatted: "14.56 GB"
   },
@@ -10531,10 +10559,10 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 9,
         formats: ["MP4","AVI"],
-        sizeBytes: 2614361683,
-        sizeFormatted: "2.43 GB",
+        sizeBytes: 2614601670,
+        sizeFormatted: "2.44 GB",
         episodesList: [
-          { name: "1x1.mp4", format: "MP4", sizeBytes: 52577354, sizeFormatted: "50.1 MB" },
+          { name: "1x1.mp4", format: "MP4", sizeBytes: 52817341, sizeFormatted: "50.4 MB" },
           { name: "1x2.mp4", format: "AVI", sizeBytes: 223049011, sizeFormatted: "212.7 MB" },
           { name: "1x3.mp4", format: "MP4", sizeBytes: 182189187, sizeFormatted: "173.7 MB" },
           { name: "1x4.mp4", format: "AVI", sizeBytes: 414966926, sizeFormatted: "395.7 MB" },
@@ -10549,10 +10577,10 @@ export const series: MediaItem[] = [
         number: 2,
         episodes: 10,
         formats: ["MP4","MKV","AVI"],
-        sizeBytes: 5458498520,
+        sizeBytes: 5457921365,
         sizeFormatted: "5.08 GB",
         episodesList: [
-          { name: "2x1.mp4", format: "MP4", sizeBytes: 52905045, sizeFormatted: "50.5 MB" },
+          { name: "2x1.mp4", format: "MP4", sizeBytes: 52327890, sizeFormatted: "49.9 MB" },
           { name: "2x2.mp4", format: "MKV", sizeBytes: 52347181, sizeFormatted: "49.9 MB" },
           { name: "2x3.mp4", format: "AVI", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
           { name: "2x4.mp4", format: "MP4", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
@@ -10568,29 +10596,29 @@ export const series: MediaItem[] = [
         number: 3,
         episodes: 10,
         formats: ["MP4","MKV"],
-        sizeBytes: 6768872170,
-        sizeFormatted: "6.30 GB",
+        sizeBytes: 3023927328,
+        sizeFormatted: "2.82 GB",
         episodesList: [
-          { name: "3x1.mp4", format: "MP4", sizeBytes: 587502548, sizeFormatted: "560.3 MB" },
-          { name: "3x2.mp4", format: "MKV", sizeBytes: 293525825, sizeFormatted: "279.9 MB" },
-          { name: "3x3.mp4", format: "MP4", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "3x4.mp4", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "3x5.mp4", format: "MP4", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "3x6.mp4", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "3x7.mp4", format: "MP4", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "3x8.mp4", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "3x9.mp4", format: "MP4", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "3x10.mp4", format: "MKV", sizeBytes: 587502548, sizeFormatted: "560.3 MB" }
+          { name: "3x1.mp4", format: "MP4", sizeBytes: 298590212, sizeFormatted: "284.8 MB" },
+          { name: "3x2.mp4", format: "MKV", sizeBytes: 298231812, sizeFormatted: "284.4 MB" },
+          { name: "3x3.mp4", format: "MP4", sizeBytes: 296536068, sizeFormatted: "282.8 MB" },
+          { name: "3x4.mp4", format: "MKV", sizeBytes: 321773568, sizeFormatted: "306.9 MB" },
+          { name: "3x5.mp4", format: "MP4", sizeBytes: 299102212, sizeFormatted: "285.2 MB" },
+          { name: "3x6.mp4", format: "MKV", sizeBytes: 296060932, sizeFormatted: "282.3 MB" },
+          { name: "3x7.mp4", format: "MP4", sizeBytes: 296194052, sizeFormatted: "282.5 MB" },
+          { name: "3x8.mp4", format: "MKV", sizeBytes: 320692224, sizeFormatted: "305.8 MB" },
+          { name: "3x9.mp4", format: "MP4", sizeBytes: 298156036, sizeFormatted: "284.3 MB" },
+          { name: "3x10.mp4", format: "MKV", sizeBytes: 298590212, sizeFormatted: "284.8 MB" }
         ]
       },
       {
         number: 4,
         episodes: 20,
         formats: ["MKV","MP4","AVI"],
-        sizeBytes: 5971391771,
-        sizeFormatted: "5.56 GB",
+        sizeBytes: 5962980758,
+        sizeFormatted: "5.55 GB",
         episodesList: [
-          { name: "4x1.mkv", format: "MKV", sizeBytes: 52408592, sizeFormatted: "50.0 MB" },
+          { name: "4x1.mkv", format: "MKV", sizeBytes: 43997579, sizeFormatted: "42.0 MB" },
           { name: "4x2.mkv", format: "MP4", sizeBytes: 52500556, sizeFormatted: "50.1 MB" },
           { name: "4x3.mkv", format: "AVI", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
           { name: "4x4.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
@@ -10616,10 +10644,10 @@ export const series: MediaItem[] = [
         number: 5,
         episodes: 19,
         formats: ["MP4","MKV"],
-        sizeBytes: 5925409559,
+        sizeBytes: 5925456700,
         sizeFormatted: "5.52 GB",
         episodesList: [
-          { name: "5x1.mp4", format: "MP4", sizeBytes: 52099424, sizeFormatted: "49.7 MB" },
+          { name: "5x1.mp4", format: "MP4", sizeBytes: 52146565, sizeFormatted: "49.7 MB" },
           { name: "5x2.mp4", format: "MKV", sizeBytes: 52120067, sizeFormatted: "49.7 MB" },
           { name: "5x3.mp4", format: "MP4", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
           { name: "5x4.mp4", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
@@ -10644,10 +10672,10 @@ export const series: MediaItem[] = [
         number: 6,
         episodes: 20,
         formats: ["MKV"],
-        sizeBytes: 15143832140,
-        sizeFormatted: "14.10 GB",
+        sizeBytes: 13506987961,
+        sizeFormatted: "12.58 GB",
         episodesList: [
-          { name: "6x1.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
+          { name: "6x1.mkv", format: "MKV", sizeBytes: 430034944, sizeFormatted: "410.1 MB" },
           { name: "6x2.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
           { name: "6x3.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
           { name: "6x4.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
@@ -10656,10 +10684,10 @@ export const series: MediaItem[] = [
           { name: "6x7.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
           { name: "6x8.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
           { name: "6x9.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "6x10.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "6x11.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "6x12.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
-          { name: "6x13.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
+          { name: "6x10.mkv", format: "MKV", sizeBytes: 430034944, sizeFormatted: "410.1 MB" },
+          { name: "6x11.mkv", format: "MKV", sizeBytes: 430790656, sizeFormatted: "410.8 MB" },
+          { name: "6x12.mkv", format: "MKV", sizeBytes: 427655168, sizeFormatted: "407.8 MB" },
+          { name: "6x13.mkv", format: "MKV", sizeBytes: 430598144, sizeFormatted: "410.7 MB" },
           { name: "6x14.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
           { name: "6x15.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
           { name: "6x16.mkv", format: "MKV", sizeBytes: 757191607, sizeFormatted: "757.2 MB" },
@@ -10671,8 +10699,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//VIKINGOS",
-    sizeBytes: 41882365843,
-    sizeFormatted: "39.01 GB"
+    sizeBytes: 52122087432,
+    sizeFormatted: "48.54 GB"
   },
   {
     id: "wandavision",
@@ -10713,24 +10741,24 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 9,
         formats: ["MKV"],
-        sizeBytes: 4827655833,
-        sizeFormatted: "4.50 GB",
+        sizeBytes: 3901802125,
+        sizeFormatted: "3.63 GB",
         episodesList: [
-          { name: "S01E01.mkv", format: "MKV", sizeBytes: 515990793, sizeFormatted: "492.1 MB" },
-          { name: "S01E02.mkv", format: "MKV", sizeBytes: 505384792, sizeFormatted: "482.0 MB" },
-          { name: "S01E03.mkv", format: "MKV", sizeBytes: 515676381, sizeFormatted: "491.8 MB" },
-          { name: "S01E04.mkv", format: "MKV", sizeBytes: 522783935, sizeFormatted: "498.6 MB" },
-          { name: "S01E05.mkv", format: "MKV", sizeBytes: 521128472, sizeFormatted: "497.0 MB" },
-          { name: "S01E06.mkv", format: "MKV", sizeBytes: 523736253, sizeFormatted: "499.5 MB" },
-          { name: "S01E07.mkv", format: "MKV", sizeBytes: 455868547, sizeFormatted: "434.8 MB" },
-          { name: "S01E08.mkv", format: "MKV", sizeBytes: 536037029, sizeFormatted: "511.2 MB" },
+          { name: "S01E01.mkv", format: "MKV", sizeBytes: 531238183, sizeFormatted: "506.6 MB" },
+          { name: "S01E02.mkv", format: "MKV", sizeBytes: 172312576, sizeFormatted: "164.3 MB" },
+          { name: "S01E03.mkv", format: "MKV", sizeBytes: 111690306, sizeFormatted: "106.5 MB" },
+          { name: "S01E04.mkv", format: "MKV", sizeBytes: 548885799, sizeFormatted: "523.5 MB" },
+          { name: "S01E05.mkv", format: "MKV", sizeBytes: 588397295, sizeFormatted: "561.1 MB" },
+          { name: "S01E06.mkv", format: "MKV", sizeBytes: 530004416, sizeFormatted: "505.5 MB" },
+          { name: "S01E07.mkv", format: "MKV", sizeBytes: 527734447, sizeFormatted: "503.3 MB" },
+          { name: "S01E08.mkv", format: "MKV", sizeBytes: 160489472, sizeFormatted: "153.1 MB" },
           { name: "S01E09.mkv", format: "MKV", sizeBytes: 731049631, sizeFormatted: "697.2 MB" }
         ]
       }
     ],
     path: "$1//Watchmen",
-    sizeBytes: 4827655833,
-    sizeFormatted: "4.50 GB"
+    sizeBytes: 3901802125,
+    sizeFormatted: "3.63 GB"
   },
   {
     id: "wayne",
@@ -10742,10 +10770,10 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 10,
         formats: ["MP4"],
-        sizeBytes: 3525024092,
+        sizeBytes: 3518418015,
         sizeFormatted: "3.28 GB",
         episodesList: [
-          { name: "Wayne - 1x01.mp4", format: "MP4", sizeBytes: 373048906, sizeFormatted: "355.8 MB" },
+          { name: "Wayne - 1x01.mp4", format: "MP4", sizeBytes: 366442829, sizeFormatted: "349.5 MB" },
           { name: "Wayne - 1x02.mp4", format: "MP4", sizeBytes: 347161999, sizeFormatted: "331.1 MB" },
           { name: "Wayne - 1x03.mp4", format: "MP4", sizeBytes: 363521518, sizeFormatted: "346.7 MB" },
           { name: "Wayne - 1x04.mp4", format: "MP4", sizeBytes: 320887269, sizeFormatted: "306.0 MB" },
@@ -10759,7 +10787,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Wayne",
-    sizeBytes: 3525024092,
+    sizeBytes: 3518418015,
     sizeFormatted: "3.28 GB"
   },
   {
@@ -11575,6 +11603,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Sherlock",
+    poster: "sherlock-gnomes.jpg",
     sizeBytes: 4382570664,
     sizeFormatted: "4.08 GB"
   },
@@ -11720,8 +11749,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//The Walking Dead",
-    sizeBytes: 41401879094,
-    sizeFormatted: "38.56 GB"
+    sizeBytes: 45784449758,
+    sizeFormatted: "42.64 GB"
   },
   {
     id: "vikings-valhalla",
@@ -11964,6 +11993,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Legacies",
+    poster: "legacies-x-1.jpg",
     sizeBytes: 12462593747,
     sizeFormatted: "11.61 GB"
   },
@@ -12003,8 +12033,8 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Hotel Del Luna S01 Korea",
-    sizeBytes: 6481908738,
-    sizeFormatted: "6.48 GB"
+    sizeBytes: 18944502485,
+    sizeFormatted: "17.64 GB"
   },
   // ============================================================
   // LIVE-ACTION SERIES
@@ -12019,23 +12049,23 @@ export const series: MediaItem[] = [
         number: 1,
         episodes: 14,
         formats: ["MPG","AVI"],
-        sizeBytes: 1668972799,
-        sizeFormatted: "1.55 GB",
+        sizeBytes: 4427416185,
+        sizeFormatted: "4.12 GB",
         episodesList: [
-          { name: "1.mpg", format: "MPG", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "2.mpg", format: "AVI", sizeBytes: 103855650, sizeFormatted: "99.0 MB" },
-          { name: "3.mpg", format: "MPG", sizeBytes: 177131343, sizeFormatted: "168.9 MB" },
-          { name: "4.mpg", format: "AVI", sizeBytes: 180416836, sizeFormatted: "172.1 MB" },
-          { name: "5.mpg", format: "MPG", sizeBytes: 178297808, sizeFormatted: "170.0 MB" },
-          { name: "6.mpg", format: "AVI", sizeBytes: 179807105, sizeFormatted: "171.5 MB" },
-          { name: "7.mpg", format: "MPG", sizeBytes: 177437395, sizeFormatted: "169.2 MB" },
-          { name: "8.mpg", format: "AVI", sizeBytes: 68819073, sizeFormatted: "65.6 MB" },
-          { name: "9.mpg", format: "MPG", sizeBytes: 68588713, sizeFormatted: "65.4 MB" },
-          { name: "10.mpg", format: "AVI", sizeBytes: 73184191, sizeFormatted: "69.8 MB" },
-          { name: "11.mpg", format: "MPG", sizeBytes: 55535779, sizeFormatted: "53.0 MB" },
-          { name: "12.mpg", format: "AVI", sizeBytes: 83901573, sizeFormatted: "80.0 MB" },
-          { name: "13.mpg", format: "MPG", sizeBytes: 84686206, sizeFormatted: "80.8 MB" },
-          { name: "14.mpg", format: "AVI", sizeBytes: 153409554, sizeFormatted: "146.3 MB" }
+          { name: "1.mpg", format: "MPG", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "2.mpg", format: "AVI", sizeBytes: 55784189, sizeFormatted: "53.2 MB" },
+          { name: "3.mpg", format: "MPG", sizeBytes: 224266000, sizeFormatted: "213.9 MB" },
+          { name: "4.mpg", format: "AVI", sizeBytes: 330135552, sizeFormatted: "314.8 MB" },
+          { name: "5.mpg", format: "MPG", sizeBytes: 366112978, sizeFormatted: "349.2 MB" },
+          { name: "6.mpg", format: "AVI", sizeBytes: 366028800, sizeFormatted: "349.1 MB" },
+          { name: "7.mpg", format: "MPG", sizeBytes: 361971154, sizeFormatted: "345.2 MB" },
+          { name: "8.mpg", format: "AVI", sizeBytes: 675289088, sizeFormatted: "644.0 MB" },
+          { name: "9.mpg", format: "MPG", sizeBytes: 51876447, sizeFormatted: "49.5 MB" },
+          { name: "10.mpg", format: "AVI", sizeBytes: 51921488, sizeFormatted: "49.5 MB" },
+          { name: "11.mpg", format: "MPG", sizeBytes: 616291960, sizeFormatted: "587.7 MB" },
+          { name: "12.mpg", format: "AVI", sizeBytes: 103853427, sizeFormatted: "99.0 MB" },
+          { name: "13.mpg", format: "MPG", sizeBytes: 537428587, sizeFormatted: "512.5 MB" },
+          { name: "14.mpg", format: "AVI", sizeBytes: 70164555, sizeFormatted: "66.9 MB" }
         ]
       },
       {
@@ -12106,7 +12136,7 @@ export const series: MediaItem[] = [
       }
     ],
     path: "$1//Velvet 1",
-    sizeBytes: 23063796640,
-    sizeFormatted: "21.48 GB"
+    sizeBytes: 25822240026,
+    sizeFormatted: "24.05 GB"
   },
 ]
