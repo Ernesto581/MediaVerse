@@ -11497,7 +11497,7 @@ export const series: MediaItem[] = [
     id: "see",
     title: "See",
     type: "series",
-    category: "incomplete",
+    category: "live-series",
     seasons: [
       {
         number: 1,
@@ -11518,23 +11518,27 @@ export const series: MediaItem[] = [
       },
       {
         number: 2,
-        episodes: 4,
+        episodes: 8,
         formats: ["MKV"],
-        sizeBytes: 2338050544,
-        sizeFormatted: "2.18 GB",
+        sizeBytes: 4676101088,
+        sizeFormatted: "4.35 GB",
         episodesList: [
           { name: "SEE.S02E01.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
           { name: "SEE.S02E02.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
           { name: "SEE.S02E03.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
-          { name: "SEE.S02E04.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" }
+          { name: "SEE.S02E04.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
+          { name: "SEE.S02E05.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
+          { name: "SEE.S02E06.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
+          { name: "SEE.S02E07.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
+          { name: "SEE.S02E08.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" }
         ]
       },
       {
         number: 3,
-        episodes: 7,
+        episodes: 8,
         formats: ["MKV"],
-        sizeBytes: 4239866502,
-        sizeFormatted: "3.95 GB",
+        sizeBytes: 4676101088,
+        sizeFormatted: "4.35 GB",
         episodesList: [
           { name: "SEE.S03E01.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
           { name: "SEE.S03E02.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
@@ -11542,13 +11546,14 @@ export const series: MediaItem[] = [
           { name: "SEE.S03E04.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 584512636, sizeFormatted: "584.5 MB" },
           { name: "SEE.S03E05.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 555985237, sizeFormatted: "530.2 MB" },
           { name: "SEE.S03E06.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 714145117, sizeFormatted: "681.1 MB" },
-          { name: "SEE.S03E07.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 617616729, sizeFormatted: "589.0 MB" }
+          { name: "SEE.S03E07.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 617616729, sizeFormatted: "589.0 MB" },
+          { name: "SEE.S03E08.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv", format: "MKV", sizeBytes: 617616729, sizeFormatted: "589.0 MB" }
         ]
       }
     ],
     path: "$1//See",
-    sizeBytes: 11254018134,
-    sizeFormatted: "10.48 GB"
+    sizeBytes: 14028025464,
+    sizeFormatted: "13.07 GB"
   },
   {
     id: "sherlock",
@@ -11998,43 +12003,140 @@ export const series: MediaItem[] = [
     sizeFormatted: "11.61 GB"
   },
   // ============================================================
-  // STANDALONE
+  // K-DRAMAS
   // ============================================================
   {
-    id: "hotel-del-luna",
-    title: "Hotel Del Luna",
-    type: "kdrama",
-    category: "kdrama",
-    seasons: [
-      {
-        number: 1,
-        episodes: 16,
-        formats: ["AVI"],
-        sizeBytes: 6481908738,
-        sizeFormatted: "6.04 GB",
-        episodesList: [
-          { name: "Hotel Del Luna S01E01.avi", format: "AVI", sizeBytes: 383130170, sizeFormatted: "365.4 MB" },
-          { name: "Hotel Del Luna S01E02.avi", format: "AVI", sizeBytes: 394930854, sizeFormatted: "376.6 MB" },
-          { name: "Hotel Del Luna S01E03.avi", format: "AVI", sizeBytes: 383661690, sizeFormatted: "365.9 MB" },
-          { name: "Hotel Del Luna S01E04.avi", format: "AVI", sizeBytes: 386154724, sizeFormatted: "368.3 MB" },
-          { name: "Hotel Del Luna S01E05.avi", format: "AVI", sizeBytes: 402481832, sizeFormatted: "383.8 MB" },
-          { name: "Hotel Del Luna S01E06.avi", format: "AVI", sizeBytes: 257437748, sizeFormatted: "245.5 MB" },
-          { name: "Hotel Del Luna S01E07.avi", format: "AVI", sizeBytes: 393625450, sizeFormatted: "375.4 MB" },
-          { name: "Hotel Del Luna S01E08.avi", format: "AVI", sizeBytes: 418623310, sizeFormatted: "399.2 MB" },
-          { name: "Hotel Del Luna S01E09.avi", format: "AVI", sizeBytes: 378950364, sizeFormatted: "361.4 MB" },
-          { name: "Hotel Del Luna S01E10.avi", format: "AVI", sizeBytes: 406746378, sizeFormatted: "387.9 MB" },
-          { name: "Hotel Del Luna S01E11.avi", format: "AVI", sizeBytes: 409985172, sizeFormatted: "391.0 MB" },
-          { name: "Hotel Del Luna S01E12.avi", format: "AVI", sizeBytes: 450104922, sizeFormatted: "429.3 MB" },
-          { name: "Hotel Del Luna S01E13.avi", format: "AVI", sizeBytes: 425836920, sizeFormatted: "406.1 MB" },
-          { name: "Hotel Del Luna S01E14.avi", format: "AVI", sizeBytes: 480306924, sizeFormatted: "458.1 MB" },
-          { name: "Hotel Del Luna S01E15.avi", format: "AVI", sizeBytes: 433552694, sizeFormatted: "413.5 MB" },
-          { name: "Hotel Del Luna S01E16.avi", format: "AVI", sizeBytes: 476379586, sizeFormatted: "454.3 MB" }
-        ]
-      }
-    ],
-    path: "$1//Hotel Del Luna S01 Korea",
-    sizeBytes: 18944502485,
-    sizeFormatted: "17.64 GB"
+    id: 'vincenzo-2021',
+    title: 'Vincenzo',
+    type: 'kdrama',
+    category: 'kdrama',
+    year: 2021,
+    path: 'E://Doramas//!!!!!Vincenzo [2021]',
+    seasons: [{ number: 1, episodes: 20, formats: ['MP4'] }],
+    notes: 'Song Joong-ki, Jeon Yeo-been'
+  },
+  {
+    id: 'birth-of-a-beauty',
+    title: 'Birth of a Beauty',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//124-Birth of a Beauty [falta 13, 14]',
+    seasons: [{ number: 1, episodes: 21, formats: ['FLV','MP4'] }],
+    notes: 'Faltan capitulos 13 y 14'
+  },
+  {
+    id: 'cinderella-and-four-knights',
+    title: 'Cinderella and Four Knights',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//18-Cinderella and Four Knights Temp 1 [Cap-01dorama]',
+    seasons: [{ number: 1, episodes: 15, formats: ['MKV'] }]
+  },
+  {
+    id: 'a-business-proposal',
+    title: 'A Business Proposal',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//A Business Proposal',
+    seasons: [{ number: 1, episodes: 12, formats: ['MKV','MP4'] }]
+  },
+  {
+    id: 'alquimia-de-almas',
+    title: 'Alquimia de Almas',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//Alquimia de Almas [Temporada 1] [Cap.20][Dual Audio]',
+    seasons: [{ number: 1, episodes: 20, formats: ['MKV'] }],
+    notes: 'Dual Audio'
+  },
+  {
+    id: 'doona',
+    title: 'Doona',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//Doona',
+    seasons: [{ number: 1, episodes: 9, formats: ['MP4'] }]
+  },
+  {
+    id: 'goblin-kdrama',
+    title: 'Goblin',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//Goblin (Temporada 01) [16 Cap.] FDT',
+    seasons: [{ number: 1, episodes: 17, formats: ['AVI','MP4'] }],
+    notes: 'Gong Yoo, Kim Go-eun'
+  },
+  {
+    id: 'healer',
+    title: 'Healer',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//Healer',
+    seasons: [{ number: 1, episodes: 20, formats: ['FLV','MKV','MP4'] }]
+  },
+  {
+    id: 'hello-monster',
+    title: 'Hello Monster',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//HELLO MONSTER OK',
+    seasons: [{ number: 1, episodes: 16, formats: ['MKV','MP4'] }]
+  },
+  {
+    id: 'i-am-not-robot',
+    title: 'I Am Not Robot',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//I AM NOT ROBOT OK',
+    seasons: [{ number: 1, episodes: 32, formats: ['MKV'] }]
+  },
+  {
+    id: 'its-ok-its-love',
+    title: "It's Ok, It's Love",
+    type: 'kdrama',
+    category: 'kdrama',
+    path: "E://Doramas//IT'S OK, IT'S LOVE OK",
+    seasons: [{ number: 1, episodes: 16, formats: ['MP4'] }]
+  },
+  {
+    id: 'jugglers',
+    title: 'Jugglers',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//JUGGLERS OK1',
+    seasons: [{ number: 1, episodes: 16, formats: ['MKV'] }]
+  },
+  {
+    id: 'love-020',
+    title: 'Love 020',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//Love 020 (30)',
+    seasons: [{ number: 1, episodes: 26, formats: ['MKV'] }]
+  },
+  {
+    id: 'terius-behind-me',
+    title: 'Terius Behind Me',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//Terius behind me',
+    seasons: [{ number: 1, episodes: 16, formats: ['MP4'] }]
+  },
+  {
+    id: 'weightlifting-fairy',
+    title: 'Weightlifting Fairy',
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//Weightlifting Fairy',
+    seasons: [{ number: 1, episodes: 16, formats: ['MKV'] }]
+  },
+  {
+    id: 'whats-wrong-with-secretary-kim',
+    title: "What's Wrong With Secretary Kim",
+    type: 'kdrama',
+    category: 'kdrama',
+    path: 'E://Doramas//Whats Wrong With Secretary Kim',
+    seasons: [{ number: 1, episodes: 16, formats: ['MP4'] }]
   },
   // ============================================================
   // LIVE-ACTION SERIES

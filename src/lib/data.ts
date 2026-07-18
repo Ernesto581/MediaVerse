@@ -21,13 +21,24 @@ export function getMediaByType(type: string): MediaItem[] {
 
 export function searchMedia(query: string): MediaItem[] {
   const q = query.toLowerCase()
-  return allMedia.filter(
-    (m) =>
-      m.title.toLowerCase().includes(q) ||
-      m.category.toLowerCase().includes(q) ||
-      (m.studio && m.studio.toLowerCase().includes(q)) ||
-      (m.genres && m.genres.some((g) => g.toLowerCase().includes(q)))
-  )
+  return allMedia.filter((m) => {
+    if (m.title.toLowerCase().includes(q)) return true
+    if (m.category.toLowerCase().includes(q)) return true
+    if (m.studio && m.studio.toLowerCase().includes(q)) return true
+    if (m.genres && m.genres.some((g) => g.toLowerCase().includes(q))) return true
+    if (m.notes && m.notes.toLowerCase().includes(q)) return true
+    if (m.seasons) {
+      for (const s of m.seasons) {
+        if (s.notes && s.notes.toLowerCase().includes(q)) return true
+        if (s.episodesList) {
+          for (const ep of s.episodesList) {
+            if (ep.name.toLowerCase().includes(q)) return true
+          }
+        }
+      }
+    }
+    return false
+  })
 }
 
 export function getCategories(): { label: string; value: string; count: number }[] {
