@@ -1,11 +1,11 @@
 'use client'
 
 import { useSelection } from '@/context/SelectionContext'
-import { X, HardDrive, Trash2, ChevronUp, ChevronDown } from 'lucide-react'
+import { X, HardDrive, Trash2, ChevronUp, ChevronDown, DollarSign } from 'lucide-react'
 import { useState, useCallback } from 'react'
 
 export default function SelectionDrawer() {
-  const { selected, totalFormatted, remove, clear } = useSelection()
+  const { selected, totalFormatted, totalCostFormatted, remove, clear } = useSelection()
   const [expanded, setExpanded] = useState(false)
   const toggleExpand = useCallback(() => setExpanded((p) => !p), [])
 
@@ -30,6 +30,10 @@ export default function SelectionDrawer() {
               </span>
               <span className="text-sm font-bold text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded-md">
                 {totalFormatted}
+              </span>
+              <span className="text-sm font-bold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-md flex items-center gap-1">
+                <DollarSign className="h-3.5 w-3.5" />
+                {totalCostFormatted}
               </span>
             </div>
 

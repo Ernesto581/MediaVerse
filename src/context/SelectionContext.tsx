@@ -2,6 +2,7 @@
 
 import { createContext, useContext, useState, useCallback, useMemo } from 'react'
 import { MediaItem } from '@/lib/types'
+import { calculateCost, formatCost } from '@/lib/data'
 
 function getItemBytes(item: MediaItem): number {
   return item.sizeBytes
@@ -13,6 +14,8 @@ interface SelectionContextType {
   selected: MediaItem[]
   totalBytes: number
   totalFormatted: string
+  totalCost: number
+  totalCostFormatted: string
   isSelected: (id: string) => boolean
   toggle: (item: MediaItem) => void
   remove: (id: string) => void
@@ -60,8 +63,14 @@ export function SelectionProvider({ children }: { children: React.ReactNode }) {
 
   const totalFormatted = useMemo(() => formatGB(totalBytes), [totalBytes])
 
+  const totalCost = useMemo(() => {
+    return selected.reduce((sum, item) => sum + calculateCost(item), 0)
+  }, [selected])
+
+  const totalCostFormatted = useMemo(() => formatCost(totalCost), [totalCost])
+
   return (
-    <SelectionContext.Provider value={{ selected, totalBytes, totalFormatted, isSelected, toggle, remove, clear }}>
+    <SelectionContext.Provider value={{ selected, totalBytes, totalFormatted, totalCost, totalCostFormatted, isSelected, toggle, remove, clear }}>
       {children}
     </SelectionContext.Provider>
   )
