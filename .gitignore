@@ -8,3 +8,13 @@ out/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Build cache
+tsconfig.tsbuildinfo
+
+# Script outputs and backups
+scripts/backup-*/
+scripts/*.json
+
+# Posters (se copian desde los discos, no se versionan)
+public/posters/
