@@ -99,8 +99,11 @@ function HomeContent() {
               </span>
             </div>
           </div>
-          <p className="text-sm text-gray-400/70 text-center mb-3 -mt-1">
+          <p className="text-sm text-gray-400/70 text-center mb-1 -mt-1">
             Más de <span className="text-indigo-400 font-semibold">4 TB</span> en tus series y películas favoritas
+          </p>
+          <p className="text-xs text-gray-500/70 text-center mb-3">
+            Felix Huergo #133 / Obdulio Morales y Nelson Vilariño
           </p>
           <SearchBar onSearch={handleSearch} />
           <div className="mt-4">
