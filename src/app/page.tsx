@@ -103,7 +103,7 @@ function HomeContent() {
             Más de <span className="text-indigo-400 font-semibold">4 TB</span> en tus series y películas favoritas
           </p>
           <p className="text-xs text-gray-500/70 text-center mb-3">
-            Felix Huergo #133 / Obdulio Morales y Nelson Vilariño
+            📍Felix Huergo #133 / Obdulio Morales y Nelson Vilariño
           </p>
           <SearchBar onSearch={handleSearch} />
           <div className="mt-4">
