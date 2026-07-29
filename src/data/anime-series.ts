@@ -607,8 +607,8 @@ export const animeSeries: MediaItem[] = [
     type: 'anime',
     category: 'anime-series',
     path: 'F://Boku no hero',
-    sizeBytes: 30644365210,
-    sizeFormatted: '28.54 GB',
+    sizeBytes: 33349759006,
+    sizeFormatted: '31.06 GB',
     seasons: [
     {
       number: 1,
@@ -828,6 +828,39 @@ export const animeSeries: MediaItem[] = [
         { name: 'Boku no Hero Academia 7x19.mp4', format: 'mp4', sizeBytes: 167721967, sizeFormatted: '160.0 MB' },
         { name: 'Boku no Hero Academia 7x20.mp4', format: 'mp4', sizeBytes: 259815677, sizeFormatted: '247.8 MB' },
         { name: 'Boku no Hero Academia 7x21.mp4', format: 'mp4', sizeBytes: 193620113, sizeFormatted: '184.7 MB' },
+      ],
+    },
+    {
+      number: 8,
+      episodes: 1,
+      formats: ['MP4'],
+      notes: 'Película: Futari no Hero (2018)',
+      sizeBytes: 710768706,
+      sizeFormatted: '677.8 MB',
+      episodesList: [
+        { name: 'Boku no Hero Academia the Movie- Futari no Hero Episodio 1 - AnimeFLV.mp4', format: 'mp4', sizeBytes: 710768706, sizeFormatted: '677.8 MB' },
+      ],
+    },
+    {
+      number: 9,
+      episodes: 1,
+      formats: ['MP4'],
+      notes: 'Película: Heroes Rising (2019)',
+      sizeBytes: 1048834620,
+      sizeFormatted: '1000.2 MB',
+      episodesList: [
+        { name: 'Boku no Hero Academia the Movie 2- Heroes-Rising Sub Español - AnimeFLV.mp4', format: 'mp4', sizeBytes: 1048834620, sizeFormatted: '1000.2 MB' },
+      ],
+    },
+    {
+      number: 10,
+      episodes: 1,
+      formats: ['MP4'],
+      notes: 'Película: World Heroes\' Mission (2021)',
+      sizeBytes: 945790470,
+      sizeFormatted: '902.0 MB',
+      episodesList: [
+        { name: 'Boku no Hero Academia the Movie 3- World Heroes\' Mission Sub Español - AnimeFLV.mp4', format: 'mp4', sizeBytes: 945790470, sizeFormatted: '902.0 MB' },
       ],
     },
     ],
