@@ -48,8 +48,8 @@ export default function MediaDetail({ item, onClose }: MediaDetailProps) {
 
   const hasEpisodeFiles = item.seasons?.some((s) => s.episodesList && s.episodesList.length > 0)
 
-  const toggleSeason = (num: number) => {
-    setExpandedSeason(expandedSeason === num ? null : num)
+  const toggleSeason = (idx: number) => {
+    setExpandedSeason(expandedSeason === idx ? null : idx)
   }
 
   return (
@@ -174,21 +174,25 @@ export default function MediaDetail({ item, onClose }: MediaDetailProps) {
                 Temporadas
               </h3>
               <div className="space-y-2">
-                {item.seasons.map((season: Season) => (
-                  <div key={season.number}>
+                {item.seasons.map((season: Season, idx: number) => (
+                  <div key={idx}>
                     <button
-                      onClick={() => toggleSeason(season.number)}
+                      onClick={() => toggleSeason(idx)}
                       className="w-full flex items-center justify-between p-3 rounded-xl bg-gray-800/40 hover:bg-gray-800/60 transition-colors"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-300 text-sm font-bold">
-                          {season.number}
+                        <span className={`flex items-center justify-center w-8 h-8 rounded-lg text-sm font-bold ${season.number === 0 ? 'bg-amber-500/20 text-amber-300' : 'bg-indigo-500/20 text-indigo-300'}`}>
+                          {season.number === 0 ? <Play className="h-4 w-4" /> : season.number}
                         </span>
                         <div>
-                          <span className="text-sm text-white">
-                            Temporada {season.number}
-                          </span>
-                          {season.notes && (
+                          {season.number === 0 ? (
+                            <span className="text-sm text-white">{season.notes || 'Película'}</span>
+                          ) : (
+                            <span className="text-sm text-white">
+                              Temporada {season.number}
+                            </span>
+                          )}
+                          {season.number !== 0 && season.notes && (
                             <span className="block text-xs text-gray-500">{season.notes}</span>
                           )}
                         </div>
@@ -208,7 +212,7 @@ export default function MediaDetail({ item, onClose }: MediaDetailProps) {
                         {season.sizeBytes && (
                           <span className="text-xs text-gray-600 hidden sm:inline">{formatBytes(season.sizeBytes)}</span>
                         )}
-                        {expandedSeason === season.number ? (
+                        {expandedSeason === idx ? (
                           <ChevronDown className="h-4 w-4 text-gray-500 shrink-0" />
                         ) : (
                           <ChevronRight className="h-4 w-4 text-gray-500 shrink-0" />
@@ -216,7 +220,7 @@ export default function MediaDetail({ item, onClose }: MediaDetailProps) {
                       </div>
                     </button>
 
-                    {expandedSeason === season.number && (
+                    {expandedSeason === idx && (
                       <div className="mt-1 ml-11 border-l-2 border-gray-800 pl-4 py-2 space-y-1">
                         {season.episodesList && season.episodesList.length > 0 ? (
                           season.episodesList.map((ep: EpisodeFile, idx: number) => (

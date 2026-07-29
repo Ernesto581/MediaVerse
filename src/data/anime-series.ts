@@ -831,10 +831,10 @@ export const animeSeries: MediaItem[] = [
       ],
     },
     {
-      number: 8,
+      number: 0,
       episodes: 1,
       formats: ['MP4'],
-      notes: 'Película: Futari no Hero (2018)',
+      notes: 'Futari no Hero (2018)',
       sizeBytes: 710768706,
       sizeFormatted: '677.8 MB',
       episodesList: [
@@ -842,10 +842,10 @@ export const animeSeries: MediaItem[] = [
       ],
     },
     {
-      number: 9,
+      number: 0,
       episodes: 1,
       formats: ['MP4'],
-      notes: 'Película: Heroes Rising (2019)',
+      notes: 'Heroes Rising (2019)',
       sizeBytes: 1048834620,
       sizeFormatted: '1000.2 MB',
       episodesList: [
@@ -853,10 +853,10 @@ export const animeSeries: MediaItem[] = [
       ],
     },
     {
-      number: 10,
+      number: 0,
       episodes: 1,
       formats: ['MP4'],
-      notes: 'Película: World Heroes\' Mission (2021)',
+      notes: 'World Heroes\' Mission (2021)',
       sizeBytes: 945790470,
       sizeFormatted: '902.0 MB',
       episodesList: [
