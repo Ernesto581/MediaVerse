@@ -1,4 +1,4 @@
-export type MediaType = 'anime' | 'anime-movie' | 'movie' | 'series' | 'animated-series' | 'kdrama'
+export type MediaType = 'anime' | 'anime-movie' | 'movie' | 'animated-movie' | 'series' | 'animated-series' | 'kdrama'
 
 export interface EpisodeFile {
   name: string

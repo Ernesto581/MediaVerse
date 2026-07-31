@@ -14,6 +14,7 @@ const typeFilters = [
   { value: 'anime', label: 'Anime' },
   { value: 'anime-movie', label: 'Películas Anime' },
   { value: 'movie', label: 'Películas' },
+  { value: 'animated-movie', label: 'Películas Animadas' },
   { value: 'series', label: 'Series' },
   { value: 'animated-series', label: 'Series Animadas' },
   { value: 'kdrama', label: 'K-Dramas' },

@@ -13,6 +13,7 @@ const typeLabels: Record<string, string> = {
   'anime': 'Anime',
   'anime-movie': 'Película Anime',
   'movie': 'Película',
+  'animated-movie': 'Película Animada',
   'series': 'Serie',
   'animated-series': 'Serie Animada',
   'kdrama': 'K-Drama',
@@ -26,7 +27,7 @@ function formatBytes(bytes?: number): string {
 }
 
 function isMovieType(item: MediaItem): boolean {
-  return item.type === 'movie' || item.type === 'anime-movie'
+  return item.type === 'movie' || item.type === 'anime-movie' || item.type === 'animated-movie'
 }
 
 export default function MediaDetail({ item, onClose }: MediaDetailProps) {

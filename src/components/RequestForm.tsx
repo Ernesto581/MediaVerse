@@ -14,6 +14,7 @@ const typeLabels: Record<string, string> = {
   'anime': 'Anime',
   'movie': 'Película',
   'anime-movie': 'Película Anime',
+  'animated-movie': 'Película Animada',
 }
 
 export default function RequestForm({ query }: RequestFormProps) {

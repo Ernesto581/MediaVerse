@@ -12,6 +12,7 @@ const typeConfig: Record<string, { label: string; icon: typeof Tv; color: string
   'anime': { label: 'Anime', icon: Tv, color: 'text-pink-400' },
   'anime-movie': { label: 'Películas Anime', icon: Clapperboard, color: 'text-purple-400' },
   'movie': { label: 'Películas', icon: Film, color: 'text-blue-400' },
+  'animated-movie': { label: 'Películas Animadas', icon: Clapperboard, color: 'text-orange-400' },
   'series': { label: 'Series', icon: Play, color: 'text-emerald-400' },
   'animated-series': { label: 'S. Animadas', icon: Tv, color: 'text-orange-400' },
   'kdrama': { label: 'K-Dramas', icon: Play, color: 'text-rose-400' },

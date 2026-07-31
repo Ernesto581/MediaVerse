@@ -14,6 +14,7 @@ const typeIcons: Record<string, typeof Film> = {
   'anime': Tv,
   'anime-movie': Clapperboard,
   'movie': Film,
+  'animated-movie': Clapperboard,
   'series': Tv,
   'animated-series': Tv,
   'kdrama': Tv,
@@ -23,6 +24,7 @@ const typeColors: Record<string, string> = {
   'anime': 'from-pink-500/20 to-rose-500/20 border-pink-500/30',
   'anime-movie': 'from-purple-500/20 to-violet-500/20 border-purple-500/30',
   'movie': 'from-blue-500/20 to-cyan-500/20 border-blue-500/30',
+  'animated-movie': 'from-orange-500/20 to-amber-500/20 border-orange-500/30',
   'series': 'from-emerald-500/20 to-teal-500/20 border-emerald-500/30',
   'animated-series': 'from-orange-500/20 to-amber-500/20 border-orange-500/30',
   'kdrama': 'from-rose-500/20 to-red-500/20 border-rose-500/30',
@@ -32,6 +34,7 @@ const typeLabels: Record<string, string> = {
   'anime': 'Anime',
   'anime-movie': 'Película Anime',
   'movie': 'Película',
+  'animated-movie': 'Película Animada',
   'series': 'Serie',
   'animated-series': 'Serie Animada',
   'kdrama': 'K-Drama',
@@ -45,7 +48,7 @@ function formatBytes(bytes?: number): string {
 }
 
 function isMovieType(item: MediaItem): boolean {
-  return item.type === 'movie' || item.type === 'anime-movie'
+  return item.type === 'movie' || item.type === 'anime-movie' || item.type === 'animated-movie'
 }
 
 export default function MediaCard({ item, onClick, compact }: MediaCardProps) {
